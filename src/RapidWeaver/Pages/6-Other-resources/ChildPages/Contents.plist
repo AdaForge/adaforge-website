@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict/>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>01-Learn</string>
+				<string>02-Communities</string>
+				<string>03-Forums-0026Chat</string>
+				<string>04-Ada-Resources</string>
+				<string>05-Public-Repos</string>
+				<string>06-FOSS-Licenses</string>
+				<string>07-AdaForge-GPR</string>
+				<string>08-Advocacy</string>
+				<string>09-Popularize</string>
+				<string>10-Benchmarking</string>
+				<string>11-Code-Contest</string>
+				<string>12-About-US</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Pages</string>
+</dict>
+</plist>

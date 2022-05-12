@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>ChangedStatuses</key>
+				<dict>
+					<key>default</key>
+					<true/>
+					<key>file:///Volumes/Users/william/Sites/AdaForge/</key>
+					<true/>
+					<key>file:///Volumes/william.io/Home.io/Developer/Web%20Sites/Adaforge/export/</key>
+					<true/>
+					<key>sftp:/sftp.sd5.gpaas.net/vhosts/test.adaforge.org/htdocs</key>
+					<true/>
+					<key>sftp:/sftp.sd5.gpaas.net/vhosts/www.adaforge.org/htdocs</key>
+					<false/>
+				</dict>
+				<key>ColourStyles</key>
+				<dict>
+					<key>Endeavor</key>
+					<dict>
+						<key>%colour_bt%</key>
+						<string>#8000FE</string>
+						<key>%colour_c_links%</key>
+						<string>#0000FF</string>
+						<key>%colour_c_links_h%</key>
+						<string>#0080FF</string>
+						<key>%colour_nav_text%</key>
+						<string>#FB02FE</string>
+						<key>%colour_title%</key>
+						<string>#FB02FE</string>
+					</dict>
+					<key>Endeavor2</key>
+					<dict>
+						<key>%colour_bt%</key>
+						<string>#8000FE</string>
+						<key>%colour_c_links%</key>
+						<string>#FB02FE</string>
+						<key>%colour_nav_text%</key>
+						<string>#FB02FE</string>
+						<key>%colour_side_text%</key>
+						<string>#0000FE</string>
+						<key>%colour_sidebar%</key>
+						<string>#FB0106</string>
+						<key>%colour_title%</key>
+						<string>#21FE06</string>
+					</dict>
+					<key>Freelancer Pro</key>
+					<dict/>
+					<key>Reason</key>
+					<dict/>
+					<key>Split</key>
+					<dict/>
+				</dict>
+				<key>CreditRapidWeaver</key>
+				<true/>
+				<key>CustomCSS</key>
+				<string>#feature {background-image: url("%resource(/Banner/Ada-5-3D-Coins-2022-SourceCode.jpg)%")}
+
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+</string>
+				<key>CustomCopyrightUsed</key>
+				<false/>
+				<key>CustomHeader</key>
+				<string>&lt;link rel="stylesheet" type="text/css" media="all" href="%resource(FreeMind/freemind2html.css)%" /&gt;</string>
+				<key>CustomJavaScript</key>
+				<string>function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '%resource(FreeMind/show.png)%';
+}
+else {
+div_el.style.display='block';
+img_el.src = '%resource(FreeMind/hide.png)%';
+};
+};
+</string>
+				<key>CustomSiteTitleUsed</key>
+				<false/>
+				<key>CustomSloganUsed</key>
+				<false/>
+				<key>DefaultLinkTarget</key>
+				<string></string>
+				<key>FilenameExtension</key>
+				<string>html</string>
+				<key>FolderName</key>
+				<string>SystemNetwork</string>
+				<key>HasCustomThemeStyle</key>
+				<false/>
+				<key>Hidden</key>
+				<true/>
+				<key>ImageFormat</key>
+				<string>Original</string>
+				<key>ImageQuality</key>
+				<string>High</string>
+				<key>IndexFilename</key>
+				<string>index.html</string>
+				<key>MetaDescription</key>
+				<string>Ada Open Source Code and Tools - Software for a complex world - Ada code sources for Network Libraries</string>
+				<key>OutputXMLDeclaration</key>
+				<false/>
+				<key>PluginExtension</key>
+				<string>html</string>
+				<key>PluginHasPerformedMigrationToSharedData</key>
+				<true/>
+				<key>RobotsShouldFollowLinks</key>
+				<true/>
+				<key>RobotsShouldIndexPage</key>
+				<true/>
+				<key>ShouldEnableRobotTags</key>
+				<true/>
+				<key>ShouldEnableSocialTags</key>
+				<true/>
+				<key>SidebarEnabled</key>
+				<integer>1</integer>
+				<key>SidebarTitle</key>
+				<string></string>
+				<key>TextEncoding</key>
+				<string>utf-8</string>
+				<key>ThemeStyles</key>
+				<dict>
+					<key>Business</key>
+					<array>
+						<string>Sidebar.Right</string>
+						<string>Styles.Blue</string>
+						<string>Width.Default Width (780px)</string>
+					</array>
+					<key>Endeavor</key>
+					<array>
+						<string>Banner Text Fonts.Fjalla</string>
+						<string>Banner Text Line Length.20%</string>
+						<string>Banner Text Size.52px</string>
+						<string>Content Fonts.Questrial</string>
+						<string>Content Size.16px</string>
+						<string>Header Fonts.Questrial</string>
+						<string>Navigation Fonts.Fjalla</string>
+						<string>Navigation Size.16px</string>
+						<string>Sidebar Placement.None</string>
+						<string>Sidebar Title Fonts.Questrial</string>
+						<string>Slideshow Display.Off</string>
+						<string>Slideshow Transition.Slide</string>
+						<string>Theme Version #.1.0.4</string>
+						<string>Theme Version #.1.0.9</string>
+						<string>Theme Version #.1.1.1</string>
+						<string>Title Fonts.Fjalla</string>
+						<string>Title Size.32px</string>
+						<string>Title/Navigation/ Color/Opacity.Dark Opacity 60%</string>
+						<string>Toggle.Extra Content #6 On</string>
+						<string>Toggle.Extra Content #9 On</string>
+					</array>
+					<key>Endeavor2</key>
+					<array>
+						<string>Banner Text Fonts.Dakota</string>
+						<string>Banner Text Line Length.20%</string>
+						<string>Banner Text Size.46px</string>
+						<string>Content Fonts.Questrial</string>
+						<string>Content Size.16px</string>
+						<string>Header Fonts.Questrial</string>
+						<string>Navigation Fonts.Fjalla</string>
+						<string>Navigation Size.16px</string>
+						<string>Sidebar Placement.Right</string>
+						<string>Sidebar Title Fonts.Questrial</string>
+						<string>Slideshow Display.Off</string>
+						<string>Slideshow Transition.Slide</string>
+						<string>Theme Version #.2.1.1</string>
+						<string>Title Fonts.Fjalla</string>
+						<string>Title Size.32px</string>
+						<string>Title/Navigation/ Color/Opacity.Light 60%</string>
+						<string>Toggle.Enable Responsive Content Images</string>
+						<string>Toggle.Extra Content #5 On</string>
+						<string>Toggle.Extra Content #6 On</string>
+						<string>Toggle.Extra Content #9 On</string>
+					</array>
+				</dict>
+				<key>Variables</key>
+				<dict/>
+				<key>openGraphDescription</key>
+				<string>Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …</string>
+				<key>openGraphImageResourceIdentifier</key>
+				<string>F33900C8-7875-4687-BD56-82E787222D20</string>
+				<key>openGraphTitle</key>
+				<string>Ada Forge Software resources</string>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page Attributes</string>
+</dict>
+</plist>

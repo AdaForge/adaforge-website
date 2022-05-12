@@ -1,0 +1,593 @@
+<!doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1" />
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/resources/Scripts/StatCounter.js"></script>
+
+<div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10688383/0/3a95e712/1/"
+alt="web analytics"></a></div>
+<!-- End of StatCounter Code for Default Guide -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="(c) William Franck" />
+		<meta name="description" content="AdaForge is the home of the brave Ada developer programming in the Ada language source code and searching free quality Open Source software libraries" />
+		<meta name="keywords" content="ada programming language source code software library libraries osx linux freebsd real-time free quality opensource open-source adaforge" />
+		<meta name="description" content="Ada Open Source Code and Tools - Software for a complex world - Ada code sources OS Libraries" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.adaforge.org/resources/large.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.adaforge.org/resources/medium.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_large.png" sizes="64x64" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_medium.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.adaforge.org/resources/Ada_1983-2022_3D_Coin-152.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_small.png" sizes="16x16" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AdaForge2022">
+	<meta name="twitter:creator" content="@AdaForge2022">
+	<meta name="twitter:title" content="Ada Forge Software resources">
+	<meta name="twitter:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta name="twitter:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta name="twitter:url" content="https://www.adaforge.org/Libraries/SystemLibs/SystemOS/index.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Ada Forge - Home">
+	<meta property="og:title" content="Ada Forge Software resources">
+	<meta property="og:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta property="og:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta property="og:url" content="https://www.adaforge.org/Libraries/SystemLibs/SystemOS/index.html"> <title>Developers Forge for Open Source Ada Code and Tools - OS Libraries</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/colourtag.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/flexslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ec5on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ec6on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ec9on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/rimage.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ssoff.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/sslide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/sidenone.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/olight60.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontfjalla.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/title32.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontdakotaspan.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/bts46.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/bt20.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontfjallanav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/nav16.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontquestrialside.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontquestrialheader.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontquestrialcontent.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/font16.css" />
+		 <style type="text/css" media="all">#feature {background-image: url("../../../resources/Banner/Ada-5-3D-Coins-2022-SourceCode.jpg")}
+
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+</style>
+    <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/html5shiv.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/javascript.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/function.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery.flexslider.js"></script>
+    <script>
+			 function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '../../../resources/FreeMind/show.png';
+}
+else {
+div_el.style.display='block';
+img_el.src = '../../../resources/FreeMind/hide.png';
+};
+};
+ 
+		</script> 		<link rel='stylesheet' type='text/css' media='all' href='../../../rw_common/plugins/stacks/stacks.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page26.css' />
+        
+        
+        
+        
+		
+        <meta name="formatter" content="Stacks v4.2.4 (6029)" >
+		<meta class="stacks4 stack version" id="info.extracontent.extracontent" name="ExtraContent" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.responsive" name="Resp 2 Column" content="1.6.6">
+		
+ <link rel="stylesheet" type="text/css" media="all" href="../../../resources/FreeMind/freemind2html.css" />
+<link rel="stylesheet" type="text/css" href="../../../rw_common/assets/message.css" />
+<link rel="stylesheet" type="text/css" href="../../../rw_common/assets/global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hwrap">
+            <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div id="headwrap">
+			
+					<div id="titlelogo">
+							<a href="https://www.adaforge.org/">				
+							<div id="logo"></div>	
+							<h1>Ada Forge - Home</h1></a>
+							<h2>Software for a complex world</h2>
+					</div>
+						
+						
+						<div id="mwrap">
+							<div id="lt"></div>
+							<div id="lm"></div>
+							<div id="lb"></div>
+						</div>
+						
+						
+						<div id="nwrap">
+							<div id="menuBtn"></div>
+							<nav><ul class="navigation"><li><a href="../../../News/" rel="">News</a></li><li  id="currentAncestor"><a href="../../../Libraries/" rel="" class="currentAncestor">Libraries</a><ul class="navigation"><li><a href="../../../Libraries/AppDomains/" rel="">App Domains</a></li><li><a href="../../../Libraries/ServiceLibs/" rel="">Service Libs</a></li><li  id="currentAncestor"><a href="../../../Libraries/SystemLibs/" rel="" class="currentAncestor">System Libs</a></li><li><a href="../../../Libraries/Hardware-Kernels/" rel="">Hardware & Kernels</a></li></ul></li><li><a href="../../../DevTools/" rel="">Dev Tools</a><ul class="navigation"><li><a href="../../../DevTools/DevToolsDesign/" rel="">Design</a></li><li><a href="../../../DevTools/DevToolsSources/" rel="">Sources</a></li><li><a href="../../../DevTools/DevToolsBuild/" rel="">Build</a></li><li><a href="../../../DevTools/DevToolsTest/" rel="">Test</a></li><li><a href="../../../DevTools/DevToolsDevOps/" rel="">DevOps</a></li><li><a href="../../../DevTools/Translators/" rel="">Translate</a></li></ul></li><li><a href="../../../Thematics/" rel="">Thematics</a></li><li><a href="../../../OtherResources/" rel="">Other resources</a><ul class="navigation"><li><a href="../../../OtherResources/Learn/" rel="">Learn</a></li><li><a href="../../../OtherResources/Communities/" rel="">Communities</a></li><li><a href="../../../OtherResources/Forums-Chats/" rel="">Forums &Chat</a></li><li><a href="../../../OtherResources/OtherAdaResources/" rel="">Ada Resources</a></li><li><a href="../../../OtherResources/PublicRepos/" rel="">Public Repos</a></li><li><a href="../../../OtherResources/OSI-Licenses/" rel="">FOSS Licenses</a></li><li><a href="../../../OtherResources/ProjectStructure/" rel="">AdaForge GPR</a></li><li><a href="../../../OtherResources/Advocacy/" rel="">Advocacy</a></li><li><a href="../../../OtherResources/Popularize/" rel="">Popularize</a></li><li><a href="../../../OtherResources/BenchMarking/" rel="">Benchmarking</a></li><li><a href="../../../OtherResources/CodeContests/" rel="">Code Contest</a></li><li><a href="../../../OtherResources/AboutUs/" rel="">About US</a></li></ul></li><li><a href="../../../Goodies/" rel="">Goodies</a><ul class="navigation"><li><a href="../../../Goodies/AdaGoldCoin/" rel="">Ada Gold Coin</a></li><li><a href="../../../Goodies/LadyAda/" rel="">Lady Ada</a></li><li><a href="../../../Goodies/Ada_Logo/" rel="">Ada Language Logo</a></li></ul></li><li><a href="../../../contact-form/" rel="">Contact</a></li></ul></nav>						
+						</div>
+				</div>
+			</header>
+            <div class="banner video_banner">
+                <div id="feature">
+                    <div id="extraContainer11">
+                        <div class="videoWrapper">
+                        </div>
+                    </div>
+                    <div id="extraContainer1">
+                    </div>
+                    <div class="banner-text">
+                    </div>
+                    <div id="extraContainer9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="container">
+            <div id="extraContainer7">
+            </div>
+            <div id="extraContainer8">
+            </div>
+            <section>
+								
+								<div id="padding">
+<div id='stacks_out_587' class='stacks_top'><div id='stacks_in_587' class=''><div id="myExtraContent9"><div id='stacks_out_614' class='stacks_out'><div id='stacks_in_614' class='stacks_in html_stack'>OS Systems Libs</div></div></div><div id='stacks_out_690' class='stacks_out'><div id='stacks_in_690' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_690"> <div id='stacks_out_691' class='stacks_out'><div id='stacks_in_691' class='stacks_in text_stack'>Libraries are prefixed by a logo relative to the given <em><a href="../../../OtherResources/OSI-Licenses/" title="OSI Licenses">OpenSource License</a></em>.<br /><strong>ALR</strong>: Component available through the <a href="https://alire.ada.dev" target="_blank" title="Ada LIbrary REpository">ALIRE</a> crates (component) manager and repository.</div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_690"> <div id='stacks_out_694' class='stacks_out'><div id='stacks_in_694' class='stacks_in text_stack'><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the arrow <span style="font:12px .AppleSystemUIFont; ">➚</span> to go to the section beneath with some more details.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the earth symbol <span style="font:12px AppleColorEmoji; ">🌎</span> to go to the mentioned site.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Hover on, or Click on the little page symbol <span style="font:12px AppleColorEmoji; ">📄</span> to read a short description.<br /></div></div></div></div>
+
+</div></div><div id='stacks_out_674' class='stacks_out'><div id='stacks_in_674' class='stacks_in html_stack'>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 2382 3516" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="2382" height="3516" xlink:href="../../../resources/SoftwareCategories/Sub/SystemOS.png"></image>
+<a xlink:href="#OSX" xlink:title="#OSX"><rect x="808" y="200" width="45" height="45"/></a>
+<a xlink:href="#iOS" xlink:title="#iOS"><rect x="804" y="372" width="45" height="45"/></a>
+<a xlink:href="#Java-VM" xlink:title="#Java-VM"><rect x="822" y="567" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/jadam/" target="_blank" xlink:title="https://sourceforge.net/projects/jadam/"><rect x="1554" y="604" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/AF3DEA9A-C77A-4AF0-9EC4-90DE537BCD5E/note.html" xlink:title="Jadam is an effort to code a Java Virtual Machine using the Ada 2005 language."><rect x="1522" y="604" width="45" height="45"/></a>
+<a xlink:href="#DotNet-CLR" xlink:title="#DotNet-CLR"><rect x="832" y="762" width="45" height="45"/></a>
+<a xlink:href="#Unix" xlink:title="#Unix"><rect x="806" y="981" width="45" height="45"/></a>
+<a xlink:href="https://github.com/AdaCore/florist" target="_blank" xlink:title="https://github.com/AdaCore/florist"><rect x="1452" y="1042" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2BD47AF1-A508-49EC-B702-92D7967E8350/note.html" xlink:title="Florist is an open-source implementaton of IEEE Standard 1003.5b-1996, the POSIX Ada binding, including real-time extensions and a test suite.&#10;&#10;Florist was produced by students and faculty of the Florida State University Department of Computer Science, under contract to the US Department of Defense, Defense Information Systems Agency, as a product of the POSIX Ada Real-Time (PART1) Project. When the contract was completed, in 1999, we turned maintenance of Florist over to Ada Core Technologies, Inc."><rect x="1420" y="1042" width="45" height="45"/></a>
+<a xlink:href="#Linux" xlink:title="#Linux"><rect x="808" y="1223" width="45" height="45"/></a>
+<a xlink:href="https://github.com/AlexanderC2/ParallelSim" target="_blank" xlink:title="https://github.com/AlexanderC2/ParallelSim"><rect x="1660" y="1260" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/1664707A-29D7-4164-A35E-75EA7373E36E/note.html" xlink:title="Distributed Simulation of Transport Networks"><rect x="1628" y="1260" width="45" height="45"/></a>
+<a xlink:href="#BSD" xlink:title="#BSD"><rect x="808" y="1418" width="45" height="45"/></a>
+<a xlink:href="#Windows" xlink:title="#Windows"><rect x="820" y="1734" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/adagide" target="_blank" xlink:title="https://sourceforge.net/projects/adagide"><rect x="1698" y="1650" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/4BB7EB0B-65D1-4610-8F14-26E65E0DAD6A/note.html" xlink:title="daGIDE: GNAT Integrated Development Environment for Windows."><rect x="1666" y="1650" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/gnavi/" target="_blank" xlink:title="https://sourceforge.net/projects/gnavi/"><rect x="1698" y="1892" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9204D96F-85FD-47AD-A2FE-8BDE2B53AC49/note.html" xlink:title="The GNAVI project provides GWindows, a Rapid Application Development framework for Graphical User Interfaces on MS Windows.&#10;The durable Open Source answer to Delphi and Visual Basic."><rect x="1666" y="1892" width="45" height="45"/></a>
+<a xlink:href="#Inter-language" xlink:title="#Inter-language"><rect x="526" y="2476" width="45" height="45"/></a>
+<a xlink:href="#Julia" xlink:title="#Julia"><rect x="1024" y="2130" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1672" y="2143" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/04CFD3F5-2967-4FB5-944F-6F0326DA588A/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1640" y="2143" width="45" height="45"/></a>
+<a xlink:href="#LUA" xlink:title="#LUA"><rect x="1024" y="2302" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/ada_lua" target="_blank" xlink:title="https://alire.ada.dev/crates/ada_lua"><rect x="1668" y="2315" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/BFA3A095-4F0C-4B5A-912B-64C7E275A0BC/note.html" xlink:title="An Ada binding for lua &mdash;  [&quot;lua&quot;, &quot;binding&quot;, &quot;script&quot;]"><rect x="1636" y="2315" width="45" height="45"/></a>
+<a xlink:href="#Python" xlink:title="#Python"><rect x="1032" y="2558" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_python" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_python"><rect x="1736" y="2486" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/77305A66-752D-4ED2-A3E4-E1C5708BDE4A/note.html" xlink:title="GNAT Components Collection - python2 binding &mdash;  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;python&quot;, &quot;python2&quot;]"><rect x="1704" y="2486" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_python3" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_python3"><rect x="1736" y="2656" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/07440466-07C7-4492-B6FE-71491119093E/note.html" xlink:title="GNAT Components Collection - python3 binding &mdash;  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;python&quot;, &quot;python3&quot;]"><rect x="1704" y="2656" width="45" height="45"/></a>
+<a xlink:href="#Jupyter" xlink:title="#Jupyter"><rect x="1034" y="2814" width="45" height="45"/></a>
+<a xlink:href="https://en.wikipedia.org/wiki/Project_Jupyter" target="_blank" xlink:title="https://en.wikipedia.org/wiki/Project_Jupyter"><rect x="1410" y="2808" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/jupyter_kernel" target="_blank" xlink:title="https://alire.ada.dev/crates/jupyter_kernel"><rect x="1900" y="2827" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3D045804-8BE4-4ABA-9416-1ED1D5BE0846/note.html" xlink:title="Jupyter Kernel for Ada &mdash;  [&quot;jupyter&quot;, &quot;notebook&quot;, &quot;kernel&quot;]"><rect x="1868" y="2827" width="45" height="45"/></a>
+<a xlink:href="#IPC" xlink:title="#IPC"><rect x="540" y="3241" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1490" y="3080" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/34F95BAF-8CF1-4570-A8CB-E05FF5FAD002/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1458" y="3080" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/spawn" target="_blank" xlink:title="https://alire.ada.dev/crates/spawn"><rect x="1490" y="3250" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/04880743-8B47-4C9E-90B5-8097BC0CE9B1/note.html" xlink:title="A simple library to spawn processes and communicate with them. &mdash;  [&quot;process&quot;, &quot;launch&quot;, &quot;pipe&quot;]"><rect x="1458" y="3250" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/spawn_glib" target="_blank" xlink:title="https://alire.ada.dev/crates/spawn_glib"><rect x="1490" y="3420" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/SystemOS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/014A3F37-C8A5-482F-9D86-197B730BF83F/note.html" xlink:title="A simple library to spawn processes and communicate with them. &mdash;  [&quot;process&quot;, &quot;launch&quot;, &quot;pipe&quot;, &quot;glib&quot;]"><rect x="1458" y="3420" width="45" height="45"/></a>
+</svg>
+</div>
+</div>
+
+<br/>
+
+<div id="outlineDiv">
+<hr><h1 id="SYSTEMS">SYSTEMS</h1>
+<hr><h2 id="OS">OS</h2>
+<h3 id="OSX">OSX</h3>
+<h3 id="iOS">iOS</h3>
+<h3 id="Java-VM">Java VM</h3>
+<ul>
+<li>JVM
+<ul>
+<li>
+<p>Jadam<br />
+Link: <a href="https://sourceforge.net/projects/jadam/" target="_blank">sourceforge.net/projects/jadam/</a><br />
+LastCheck: 24 janv. 2013<br />
+Author: ciceronne<br />
+Copyright: Corey Minyard<br />
+Repository: SourceForge</p>
+<p>Jadam is an effort to code a Java Virtual Machine using the Ada 2005 language.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="DotNet-CLR">DotNet CLR</h3>
+<h3 id="Unix">Unix</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Posix for GNAT (Gnat-Florist)<br />
+Link: <a href="https://github.com/AdaCore/florist" target="_blank">github.com/AdaCore/florist</a><br />
+LastCheck: 20 janv. 2022<br />
+Author: jcreem,karlnyberg,krischik,rombobeorn<br />
+Copyright: Lockheed Martin Corporation<br />
+Repository: SourceForge</p>
+<p>Florist is an open-source implementaton of IEEE Standard 1003.5b-1996, the POSIX Ada binding, including real-time extensions and a test suite.</p>
+<p>Florist was produced by students and faculty of the Florida State University Department of Computer Science, under contract to the US Department of Defense, Defense Information Systems Agency, as a product of the POSIX Ada Real-Time (PART<a href="https://www.cs.fsu.edu/%7Ebaker/part.html" target="_blank">3</a>) Project. When the contract was completed, in 1999, we turned maintenance of Florist over to Ada Core Technologies, Inc.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Linux">Linux</h3>
+<ul>
+<li>Dynamic Libraries
+<ul>
+<li>
+<p>ParallelSim<br />
+Link: <a href="https://github.com/AlexanderC2/ParallelSim" target="_blank">github.com/AlexanderC2/ParallelSim</a><br />
+LastCheck: 15 juin 2013<br />
+Author: JulianSchutsch<br />
+Copyright: Julian Schutsch<br />
+Repository: GitHub</p>
+<p>Distributed Simulation of Transport Networks</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="BSD">BSD</h3>
+<h3 id="Windows">Windows</h3>
+<ul>
+<li>ActiveX-COM
+<ul>
+<li>
+<p>AdaGIDE<br />
+Link: <a href="https://sourceforge.net/projects/adagide" target="_blank">sourceforge.net/projects/adagide</a><br />
+LastCheck: 5 août 2010<br />
+Author: carlislemc<br />
+Copyright: David Botton<br />
+Repository: SourceForge</p>
+<p>daGIDE: GNAT Integrated Development Environment for Windows.</p>
+</li>
+<li>
+<p>GNAVI-GWindows<br />
+Link: <a href="https://sourceforge.net/projects/gnavi/" target="_blank">sourceforge.net/projects/gnavi/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dbotton,gdemont,zertovitch<br />
+Copyright: Regents of the University of California<br />
+Repository: SourceForge</p>
+<p>The GNAVI project provides GWindows, a Rapid Application Development framework for Graphical User Interfaces on MS Windows.<br />
+The durable Open Source answer to Delphi and Visual Basic.</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Inter-language">Inter-language</h2>
+<h3 id="Julia">Julia</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="LUA">LUA</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Ada_lua<br />
+Link: <a href="https://alire.ada.dev/crates/ada_lua" target="_blank">alire.ada.dev/crates/ada_lua</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Nikokrock,Fabien-Chouteau</p>
+<p>An Ada binding for lua —  [&quot;lua&quot;, &quot;binding&quot;, &quot;script&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Python">Python</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Gnatcoll_python<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_python" target="_blank">alire.ada.dev/crates/gnatcoll_python</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - python2 binding —  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;python&quot;, &quot;python2&quot;]</p>
+</li>
+<li>
+<p>Gnatcoll_python3<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_python3" target="_blank">alire.ada.dev/crates/gnatcoll_python3</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - python3 binding —  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;python&quot;, &quot;python3&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Jupyter">Jupyter</h3>
+<ul>
+<li>
+<p>Project Jupyter<br />
+Link: <a href="https://en.wikipedia.org/wiki/Project_Jupyter" target="_blank">en.wikipedia.org/wiki/Project_Jupyter</a></p>
+<ul>
+<li>
+<p>Jupyter_kernel<br />
+Link: <a href="https://alire.ada.dev/crates/jupyter_kernel" target="_blank">alire.ada.dev/crates/jupyter_kernel</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: reznikmm</p>
+<p>Jupyter Kernel for Ada —  [&quot;jupyter&quot;, &quot;notebook&quot;, &quot;kernel&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="IPC">IPC</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+<li>
+<p>Spawn<br />
+Link: <a href="https://alire.ada.dev/crates/spawn" target="_blank">alire.ada.dev/crates/spawn</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>A simple library to spawn processes and communicate with them. —  [&quot;process&quot;, &quot;launch&quot;, &quot;pipe&quot;]</p>
+</li>
+<li>
+<p>Spawn_glib<br />
+Link: <a href="https://alire.ada.dev/crates/spawn_glib" target="_blank">alire.ada.dev/crates/spawn_glib</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>A simple library to spawn processes and communicate with them. —  [&quot;process&quot;, &quot;launch&quot;, &quot;pipe&quot;, &quot;glib&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+</div></div><div id="myExtraContent6"><div id='stacks_out_677' class='stacks_out'><div id='stacks_in_677' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_677"> <div id='stacks_out_678' class='stacks_out'><div id='stacks_in_678' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../sitemap/" title="Site Map">Site Map</a></p></div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_677"> <div id='stacks_out_681' class='stacks_out'><div id='stacks_in_681' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../OtherResources/AboutUs/" title="About US">About Us</a></p></div></div></div></div>
+
+</div></div></div></div></div>
+</div>
+								
+							</section>
+            <div id="asidewrap">
+                <aside>
+								<div id="sidecontent">
+									<div id="sideTitle"></div>	
+										
+									
+								</div>	
+							</aside>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="ecwrap">
+            </div>
+            <div id="ec2wrap">
+                <div id="extraContainer2">
+                </div>
+            </div>
+            <div id="ec3wrap">
+                <div id="extraContainer3">
+                </div>
+            </div>
+            <div id="ec4wrap">
+                <div id="extraContainer4">
+                </div>
+            </div>
+            <div id="ec5wrap">
+                <div id="extraContainer5">
+                </div>
+            </div>
+            <div id="ec6wrap">
+                <div id="extraContainer6">
+                </div>
+            </div>
+            <div id="extraContainer10">
+            </div>
+        </div>
+        <footer>		
+			<div id="footer">&copy; 2015-2022 William J. FRANCK <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":co";var _rwObsfuscatedHref3 = "nta";var _rwObsfuscatedHref4 = "ct@";var _rwObsfuscatedHref5 = "ada";var _rwObsfuscatedHref6 = "for";var _rwObsfuscatedHref7 = "ge.";var _rwObsfuscatedHref8 = "org";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById("rw_email_contact").href = _rwObsfuscatedHref;</script></div>		
+				<div id="socialicons">
+				<div id="socialicons1"></div>
+			</div>		
+		</footer>
+    </div>
+    <a href="#" class="scrollup">Scroll</a> 
+<script src="../../../rw_common/assets/global.js"></script>
+<div id="rapidweaver_privacy_message">
+    <p><span style="font:13px .AppleSystemUIFont; color:#000000;">GDPR compliant</span></p>
+    <button id="rapidweaver_privacy_message_dismiss_button">OK</button>
+</div>
+
+<script src="../../../rw_common/assets/message.js"></script>
+</body>
+</html>

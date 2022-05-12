@@ -1,0 +1,634 @@
+<!doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1" />
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/resources/Scripts/StatCounter.js"></script>
+
+<div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10688383/0/3a95e712/1/"
+alt="web analytics"></a></div>
+<!-- End of StatCounter Code for Default Guide -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="(c) William Franck" />
+		<meta name="description" content="AdaForge is the home of the brave Ada developer programming in the Ada language source code and searching free quality Open Source software libraries" />
+		<meta name="keywords" content="ada programming language source code software library libraries osx linux freebsd real-time free quality opensource open-source adaforge" />
+		<meta name="description" content="Ada Open Source Code and Tools - Software for a complex world - Ada code sources for Web Services" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.adaforge.org/resources/large.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.adaforge.org/resources/medium.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_large.png" sizes="64x64" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_medium.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.adaforge.org/resources/Ada_1983-2022_3D_Coin-152.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_small.png" sizes="16x16" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AdaForge2022">
+	<meta name="twitter:creator" content="@AdaForge2022">
+	<meta name="twitter:title" content="Ada Forge Software resources">
+	<meta name="twitter:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta name="twitter:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta name="twitter:url" content="https://www.adaforge.org/Libraries/ServiceLibs/Services/ServicesWeb/index.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Ada Forge - Home">
+	<meta property="og:title" content="Ada Forge Software resources">
+	<meta property="og:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta property="og:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta property="og:url" content="https://www.adaforge.org/Libraries/ServiceLibs/Services/ServicesWeb/index.html"> <title>Developers Forge for Open Source Ada Code and Tools - Web Services</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/colourtag.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/flexslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ec5on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ec6on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ec9on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/rimage.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ssoff.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/sslide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/sidenone.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/olight60.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontfjalla.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/title32.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontdakotaspan.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/bts46.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/bt20.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontfjallanav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/nav16.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontquestrialside.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontquestrialheader.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontquestrialcontent.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/font16.css" />
+		 <style type="text/css" media="all">#feature {background-image: url("../../../../resources/Banner/Ada-5-3D-Coins-2022-SourceCode.jpg")}
+
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+</style>
+    <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/html5shiv.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/javascript.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/function.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery.flexslider.js"></script>
+    <script>
+			 function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '../../../../resources/FreeMind/show.png';
+}
+else {
+div_el.style.display='block';
+img_el.src = '../../../../resources/FreeMind/hide.png';
+};
+};
+ 
+		</script> 		<link rel='stylesheet' type='text/css' media='all' href='../../../../rw_common/plugins/stacks/stacks.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page58.css' />
+        
+        
+        
+        
+		
+        <meta name="formatter" content="Stacks v4.2.4 (6029)" >
+		<meta class="stacks4 stack version" id="info.extracontent.extracontent" name="ExtraContent" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.responsive" name="Resp 2 Column" content="1.6.6">
+		
+ <link rel="stylesheet" type="text/css" media="all" href="../../../../resources/FreeMind/freemind2html.css" />
+<link rel="stylesheet" type="text/css" href="../../../../rw_common/assets/message.css" />
+<link rel="stylesheet" type="text/css" href="../../../../rw_common/assets/global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hwrap">
+            <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div id="headwrap">
+			
+					<div id="titlelogo">
+							<a href="https://www.adaforge.org/">				
+							<div id="logo"></div>	
+							<h1>Ada Forge - Home</h1></a>
+							<h2>Software for a complex world</h2>
+					</div>
+						
+						
+						<div id="mwrap">
+							<div id="lt"></div>
+							<div id="lm"></div>
+							<div id="lb"></div>
+						</div>
+						
+						
+						<div id="nwrap">
+							<div id="menuBtn"></div>
+							<nav><ul class="navigation"><li><a href="../../../../News/" rel="">News</a></li><li  id="currentAncestor"><a href="../../../../Libraries/" rel="" class="currentAncestor">Libraries</a><ul class="navigation"><li><a href="../../../../Libraries/AppDomains/" rel="">App Domains</a></li><li  id="currentAncestor"><a href="../../../../Libraries/ServiceLibs/" rel="" class="currentAncestor">Service Libs</a></li><li><a href="../../../../Libraries/SystemLibs/" rel="">System Libs</a></li><li><a href="../../../../Libraries/Hardware-Kernels/" rel="">Hardware & Kernels</a></li></ul></li><li><a href="../../../../DevTools/" rel="">Dev Tools</a><ul class="navigation"><li><a href="../../../../DevTools/DevToolsDesign/" rel="">Design</a></li><li><a href="../../../../DevTools/DevToolsSources/" rel="">Sources</a></li><li><a href="../../../../DevTools/DevToolsBuild/" rel="">Build</a></li><li><a href="../../../../DevTools/DevToolsTest/" rel="">Test</a></li><li><a href="../../../../DevTools/DevToolsDevOps/" rel="">DevOps</a></li><li><a href="../../../../DevTools/Translators/" rel="">Translate</a></li></ul></li><li><a href="../../../../Thematics/" rel="">Thematics</a></li><li><a href="../../../../OtherResources/" rel="">Other resources</a><ul class="navigation"><li><a href="../../../../OtherResources/Learn/" rel="">Learn</a></li><li><a href="../../../../OtherResources/Communities/" rel="">Communities</a></li><li><a href="../../../../OtherResources/Forums-Chats/" rel="">Forums &Chat</a></li><li><a href="../../../../OtherResources/OtherAdaResources/" rel="">Ada Resources</a></li><li><a href="../../../../OtherResources/PublicRepos/" rel="">Public Repos</a></li><li><a href="../../../../OtherResources/OSI-Licenses/" rel="">FOSS Licenses</a></li><li><a href="../../../../OtherResources/ProjectStructure/" rel="">AdaForge GPR</a></li><li><a href="../../../../OtherResources/Advocacy/" rel="">Advocacy</a></li><li><a href="../../../../OtherResources/Popularize/" rel="">Popularize</a></li><li><a href="../../../../OtherResources/BenchMarking/" rel="">Benchmarking</a></li><li><a href="../../../../OtherResources/CodeContests/" rel="">Code Contest</a></li><li><a href="../../../../OtherResources/AboutUs/" rel="">About US</a></li></ul></li><li><a href="../../../../Goodies/" rel="">Goodies</a><ul class="navigation"><li><a href="../../../../Goodies/AdaGoldCoin/" rel="">Ada Gold Coin</a></li><li><a href="../../../../Goodies/LadyAda/" rel="">Lady Ada</a></li><li><a href="../../../../Goodies/Ada_Logo/" rel="">Ada Language Logo</a></li></ul></li><li><a href="../../../../contact-form/" rel="">Contact</a></li></ul></nav>						
+						</div>
+				</div>
+			</header>
+            <div class="banner video_banner">
+                <div id="feature">
+                    <div id="extraContainer11">
+                        <div class="videoWrapper">
+                        </div>
+                    </div>
+                    <div id="extraContainer1">
+                    </div>
+                    <div class="banner-text">
+                    </div>
+                    <div id="extraContainer9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="container">
+            <div id="extraContainer7">
+            </div>
+            <div id="extraContainer8">
+            </div>
+            <section>
+								
+								<div id="padding">
+<div id='stacks_out_587' class='stacks_top'><div id='stacks_in_587' class=''><div id="myExtraContent9"><div id='stacks_out_614' class='stacks_out'><div id='stacks_in_614' class='stacks_in html_stack'>Web Services</div></div></div><div id='stacks_out_690' class='stacks_out'><div id='stacks_in_690' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_690"> <div id='stacks_out_691' class='stacks_out'><div id='stacks_in_691' class='stacks_in text_stack'>Libraries are prefixed by a logo relative to the given <em><a href="../../../../OtherResources/OSI-Licenses/" title="OSI Licenses">OpenSource License</a></em>.<br /><strong>ALR</strong>: Component available through the <a href="https://alire.ada.dev" target="_blank" title="Ada LIbrary REpository">ALIRE</a> crates (component) manager and repository.</div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_690"> <div id='stacks_out_694' class='stacks_out'><div id='stacks_in_694' class='stacks_in text_stack'><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the arrow <span style="font:12px .AppleSystemUIFont; ">➚</span> to go to the section beneath with some more details.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the earth symbol <span style="font:12px AppleColorEmoji; ">🌎</span> to go to the mentioned site.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Hover on, or Click on the little page symbol <span style="font:12px AppleColorEmoji; ">📄</span> to read a short description.<br /></div></div></div></div>
+
+</div></div><div id='stacks_out_683' class='stacks_out'><div id='stacks_in_683' class='stacks_in html_stack'>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 2038 5948" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="2038" height="5948" xlink:href="../../../../resources/SoftwareCategories/Sub/ServicesWeb.png"></image>
+<a xlink:href="#HTTP-Server" xlink:title="#HTTP-Server"><rect x="404" y="3137" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_fastcgi" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_fastcgi"><rect x="1220" y="422" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/222D86A3-EE7B-412A-8CE1-764B3009CBAA/note.html" xlink:title="FastCGI implementation (demo) &mdash;  [&quot;web&quot;, &quot;cgi&quot;, &quot;http&quot;]"><rect x="1188" y="422" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_servlet" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_servlet"><rect x="1290" y="579" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/5C90FAF9-181B-4138-B418-12E8D45F1FFD/note.html" xlink:title="Servlet API &mdash;  [&quot;web&quot;, &quot;servlet&quot;, &quot;http&quot;]"><rect x="1258" y="579" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/servletada" target="_blank" xlink:title="https://alire.ada.dev/crates/servletada"><rect x="1290" y="725" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DE6DD0EE-E439-4FC3-BC87-7A1C365EBDEE/note.html" xlink:title="Web Servlet Library following JSR 154, JSR 315 (Core) &mdash; 0"><rect x="1258" y="725" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/servletada_aws" target="_blank" xlink:title="https://alire.ada.dev/crates/servletada_aws"><rect x="1290" y="871" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3AE4B3BB-D3EF-468A-88FC-98AEC03CA7CD/note.html" xlink:title="Web Servlet Library following JSR 154, JSR 315 (AWS) &mdash; 0"><rect x="1258" y="871" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/aws" target="_blank" xlink:title="https://alire.ada.dev/crates/aws"><rect x="1266" y="1041" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/27FE0212-4F09-44AE-BD01-B6B605DAABA6/note.html" xlink:title="Ada Web Server &mdash;  [&quot;aws&quot;, &quot;web&quot;, &quot;server&quot;, &quot;http&quot;, &quot;https&quot;, &quot;soap&quot;, &quot;wsdl&quot;, &quot;ssl&quot;]"><rect x="1234" y="1041" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/jwt" target="_blank" xlink:title="https://alire.ada.dev/crates/jwt"><rect x="1396" y="1187" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/91D72D88-16C6-410D-A3D6-A8AB6C134825/note.html" xlink:title="JSON Web Token (JWT) implementation in Ada &mdash;  [&quot;web&quot;, &quot;token&quot;, &quot;jws&quot;, &quot;json&quot;, &quot;jwt&quot;]"><rect x="1364" y="1187" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_spikedog_api" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_spikedog_api"><rect x="1396" y="1333" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8EA3C137-597A-4C79-8C04-18F25BAC5285/note.html" xlink:title="Web-application server. API library &mdash;  [&quot;web&quot;, &quot;servlet&quot;]"><rect x="1364" y="1333" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_spikedog_awsd" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_spikedog_awsd"><rect x="1396" y="1479" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/90A22978-CEB9-4A54-B031-C438DB5D1741/note.html" xlink:title="Web-application server. API library &mdash;  [&quot;web&quot;, &quot;servlet&quot;]"><rect x="1364" y="1479" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_spikedog_core" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_spikedog_core"><rect x="1396" y="1625" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D8B03F23-D654-4A2F-AC55-FD0974016395/note.html" xlink:title="Web-application server. Implementation library &mdash;  [&quot;web&quot;, &quot;servlet&quot;]"><rect x="1364" y="1625" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/serverfaces" target="_blank" xlink:title="https://alire.ada.dev/crates/serverfaces"><rect x="1396" y="1771" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/EDC75409-E7B8-415A-A580-5B94F6B7961E/note.html" xlink:title="Web Server Faces JSR 252, JSR 314 and JSR 344 &mdash; 0"><rect x="1364" y="1771" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/serverfaces_unit" target="_blank" xlink:title="https://alire.ada.dev/crates/serverfaces_unit"><rect x="1396" y="1917" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3E495D15-BF9F-4139-96A8-EC1226798675/note.html" xlink:title="Web Server Faces JSR 252, JSR 314 and JSR 344 (Testing framework) &mdash; 0"><rect x="1364" y="1917" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/servletada_unit" target="_blank" xlink:title="https://alire.ada.dev/crates/servletada_unit"><rect x="1396" y="2063" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/040D6F45-B615-41CA-9D71-6E5935EBA803/note.html" xlink:title="Web Servlet Library following JSR 154, JSR 315 (Testing framework) &mdash; 0"><rect x="1364" y="2063" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/utilada_aws" target="_blank" xlink:title="https://alire.ada.dev/crates/utilada_aws"><rect x="1396" y="2209" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D38EDD58-45FA-43DB-A286-14CED1450132/note.html" xlink:title="Utility Library REST support on top of AWS &mdash;  [&quot;web&quot;, &quot;http&quot;]"><rect x="1364" y="2209" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/utilada_curl" target="_blank" xlink:title="https://alire.ada.dev/crates/utilada_curl"><rect x="1396" y="2355" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/56802FFE-2EB2-41DD-B13E-11CB97A6330F/note.html" xlink:title="Utility Library REST support on top of CURL &mdash;  [&quot;web&quot;, &quot;http&quot;]"><rect x="1364" y="2355" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/webdriver" target="_blank" xlink:title="https://alire.ada.dev/crates/webdriver"><rect x="1396" y="2501" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/03AAD4C5-B332-4EFE-8382-5B2B13B33157/note.html" xlink:title="Web Browser control API &mdash;  [&quot;web&quot;, &quot;control&quot;, &quot;selenium&quot;, &quot;chrome&quot;]"><rect x="1364" y="2501" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/security" target="_blank" xlink:title="https://alire.ada.dev/crates/security"><rect x="1396" y="2647" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/0CFA2C5F-0C28-4B77-9596-EA8155E78309/note.html" xlink:title="Security Library for HTTP client and server with OAuth2 support &mdash; 0"><rect x="1364" y="2647" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/axmpp" target="_blank" xlink:title="https://alire.ada.dev/crates/axmpp"><rect x="1396" y="2793" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/4125BAC7-F33F-4FDC-9276-61930B16D704/note.html" xlink:title="XMPP client library in Ada &mdash;  [&quot;xmpp&quot;, &quot;jabber&quot;, &quot;messaging&quot;]"><rect x="1364" y="2793" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/jwt" target="_blank" xlink:title="https://alire.ada.dev/crates/jwt"><rect x="1224" y="2963" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/463B61FC-4690-4EB9-9A07-DA74ACF790FB/note.html" xlink:title="JSON Web Token (JWT) implementation in Ada &mdash;  [&quot;web&quot;, &quot;token&quot;, &quot;jws&quot;, &quot;json&quot;, &quot;jwt&quot;]"><rect x="1192" y="2963" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_fastcgi" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_fastcgi"><rect x="1224" y="3133" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/CC8F97C8-EDFD-471D-95DC-7838576F13DC/note.html" xlink:title="FastCGI implementation (demo) &mdash;  [&quot;web&quot;, &quot;cgi&quot;, &quot;http&quot;]"><rect x="1192" y="3133" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_servlet" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_servlet"><rect x="1224" y="3303" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D99E703B-52BA-4AAB-9EC5-AF6856E95307/note.html" xlink:title="Servlet API &mdash;  [&quot;web&quot;, &quot;servlet&quot;, &quot;http&quot;]"><rect x="1192" y="3303" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_spikedog_api" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_spikedog_api"><rect x="1224" y="3473" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/0143650A-D515-4B0D-ABC1-E918F5D01A3C/note.html" xlink:title="Web-application server. API library &mdash;  [&quot;web&quot;, &quot;servlet&quot;]"><rect x="1192" y="3473" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_spikedog_awsd" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_spikedog_awsd"><rect x="1224" y="3643" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/87A98168-8B07-40CF-BE66-CED124325200/note.html" xlink:title="Web-application server. API library &mdash;  [&quot;web&quot;, &quot;servlet&quot;]"><rect x="1192" y="3643" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_spikedog_core" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_spikedog_core"><rect x="1224" y="3813" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F52F9150-AB1B-4991-A416-ECED5BBA6CDB/note.html" xlink:title="Web-application server. Implementation library &mdash;  [&quot;web&quot;, &quot;servlet&quot;]"><rect x="1192" y="3813" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/serverfaces" target="_blank" xlink:title="https://alire.ada.dev/crates/serverfaces"><rect x="1224" y="3983" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/43BF0A9C-6932-4158-8CAE-925583B449FA/note.html" xlink:title="Web Server Faces JSR 252, JSR 314 and JSR 344 &mdash; 0"><rect x="1192" y="3983" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/serverfaces_unit" target="_blank" xlink:title="https://alire.ada.dev/crates/serverfaces_unit"><rect x="1224" y="4153" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/26CEB804-2798-41CF-AAF9-3237B4995A47/note.html" xlink:title="Web Server Faces JSR 252, JSR 314 and JSR 344 (Testing framework) &mdash; 0"><rect x="1192" y="4153" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/servletada" target="_blank" xlink:title="https://alire.ada.dev/crates/servletada"><rect x="1224" y="4323" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D8D53061-6B36-4EC3-BCF1-0B32233933EE/note.html" xlink:title="Web Servlet Library following JSR 154, JSR 315 (Core) &mdash; 0"><rect x="1192" y="4323" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/servletada_aws" target="_blank" xlink:title="https://alire.ada.dev/crates/servletada_aws"><rect x="1224" y="4493" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2C112795-878F-4A71-A1F1-FEE64858FC8A/note.html" xlink:title="Web Servlet Library following JSR 154, JSR 315 (AWS) &mdash; 0"><rect x="1192" y="4493" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/servletada_unit" target="_blank" xlink:title="https://alire.ada.dev/crates/servletada_unit"><rect x="1224" y="4663" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/344D4ACD-D230-436C-8593-076938795882/note.html" xlink:title="Web Servlet Library following JSR 154, JSR 315 (Testing framework) &mdash; 0"><rect x="1192" y="4663" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/utilada_aws" target="_blank" xlink:title="https://alire.ada.dev/crates/utilada_aws"><rect x="1224" y="4833" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B7C64122-45A3-4839-ACA8-60706F14D28B/note.html" xlink:title="Utility Library REST support on top of AWS &mdash;  [&quot;web&quot;, &quot;http&quot;]"><rect x="1192" y="4833" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/utilada_curl" target="_blank" xlink:title="https://alire.ada.dev/crates/utilada_curl"><rect x="1224" y="5003" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2340C1E2-C7AD-4110-A015-05710242597B/note.html" xlink:title="Utility Library REST support on top of CURL &mdash;  [&quot;web&quot;, &quot;http&quot;]"><rect x="1192" y="5003" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/webdriver" target="_blank" xlink:title="https://alire.ada.dev/crates/webdriver"><rect x="1224" y="5173" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D6DC435F-9144-409D-B2CE-9DA10F1500E0/note.html" xlink:title="Web Browser control API &mdash;  [&quot;web&quot;, &quot;control&quot;, &quot;selenium&quot;, &quot;chrome&quot;]"><rect x="1192" y="5173" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/security" target="_blank" xlink:title="https://alire.ada.dev/crates/security"><rect x="1224" y="5343" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8542C3B6-DE0C-46C7-95E5-B3998DAF9C24/note.html" xlink:title="Security Library for HTTP client and server with OAuth2 support &mdash; 0"><rect x="1192" y="5343" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/axmpp" target="_blank" xlink:title="https://alire.ada.dev/crates/axmpp"><rect x="1224" y="5513" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/5E532B2D-07AB-4054-BEFA-2025A9CDBECF/note.html" xlink:title="XMPP client library in Ada &mdash;  [&quot;xmpp&quot;, &quot;jabber&quot;, &quot;messaging&quot;]"><rect x="1192" y="5513" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_soap" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_soap"><rect x="1236" y="5683" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8B4C3AF5-5D56-4B16-B487-2FB2F66CF334/note.html" xlink:title="Framework for work with SOAP 1.2 &mdash;  [&quot;soap&quot;, &quot;rpc&quot;, &quot;protocol&quot;, &quot;web&quot;]"><rect x="1204" y="5683" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_soap_wsse" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_soap_wsse"><rect x="1236" y="5853" width="45" height="45"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesWeb/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3B2BD67D-875E-4E77-A53A-41AF30E7D9E0/note.html" xlink:title="WS-Security 1.1 implementation for SOAP 1.2 &mdash;  [&quot;soap&quot;, &quot;wsse&quot;, &quot;web&quot;]"><rect x="1204" y="5853" width="45" height="45"/></a>
+<a xlink:href="#DOM" xlink:title="#DOM"><rect x="378" y="191" width="45" height="45"/></a>
+<a xlink:href="http://forge.ada-ru.org/matreshka/wiki" target="_blank" xlink:title="http://forge.ada-ru.org/matreshka/wiki"><rect x="1018" y="204" width="45" height="45"/></a>
+</svg>
+</div>
+</div>
+
+<br/>
+
+<div id="outlineDiv">
+<hr><h1 id="Web">Web</h1>
+<hr><h2 id="DOM">DOM</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>Matreshka<br />
+Link: <a href="http://forge.ada-ru.org/matreshka/wiki" target="_blank">forge.ada-ru.org/matreshka/wiki</a><br />
+Copyright: Vadim Godunko<br />
+Repository: forge.ada-ru.org</li>
+</ul>
+<hr><h2 id="HTTP-Server">HTTP-Server</h2>
+<h3 id="CGI">CGI</h3>
+<ul>
+<li>
+<p>Matreshka_fastcgi<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_fastcgi" target="_blank">alire.ada.dev/crates/matreshka_fastcgi</a><br />
+Author: godunko,reznikmm</p>
+<p>FastCGI implementation (demo) —  [&quot;web&quot;, &quot;cgi&quot;, &quot;http&quot;]</p>
+</li>
+</ul>
+<h3 id="Servlets">Servlets</h3>
+<ul>
+<li>
+<p>Matreshka_servlet<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_servlet" target="_blank">alire.ada.dev/crates/matreshka_servlet</a><br />
+Author: godunko,reznikmm</p>
+<p>Servlet API —  [&quot;web&quot;, &quot;servlet&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Servletada<br />
+Link: <a href="https://alire.ada.dev/crates/servletada" target="_blank">alire.ada.dev/crates/servletada</a><br />
+Author: stcarrez</p>
+<p>Web Servlet Library following JSR 154, JSR 315 (Core) — 0</p>
+</li>
+<li>
+<p>Servletada_aws<br />
+Link: <a href="https://alire.ada.dev/crates/servletada_aws" target="_blank">alire.ada.dev/crates/servletada_aws</a><br />
+Author: stcarrez</p>
+<p>Web Servlet Library following JSR 154, JSR 315 (AWS) — 0</p>
+</li>
+</ul>
+<h3 id="Server">Server</h3>
+<ul>
+<li>
+<p>Aws<br />
+Link: <a href="https://alire.ada.dev/crates/aws" target="_blank">alire.ada.dev/crates/aws</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau,adacore</p>
+<p>Ada Web Server —  [&quot;aws&quot;, &quot;web&quot;, &quot;server&quot;, &quot;http&quot;, &quot;https&quot;, &quot;soap&quot;, &quot;wsdl&quot;, &quot;ssl&quot;]</p>
+</li>
+</ul>
+<h3 id="Other-services">Other services</h3>
+<ul>
+<li>
+<p>Jwt<br />
+Link: <a href="https://alire.ada.dev/crates/jwt" target="_blank">alire.ada.dev/crates/jwt</a><br />
+Author: reznikmm</p>
+<p>JSON Web Token (JWT) implementation in Ada —  [&quot;web&quot;, &quot;token&quot;, &quot;jws&quot;, &quot;json&quot;, &quot;jwt&quot;]</p>
+</li>
+<li>
+<p>Matreshka_spikedog_api<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_spikedog_api" target="_blank">alire.ada.dev/crates/matreshka_spikedog_api</a><br />
+Author: godunko,reznikmm</p>
+<p>Web-application server. API library —  [&quot;web&quot;, &quot;servlet&quot;]</p>
+</li>
+<li>
+<p>Matreshka_spikedog_awsd<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_spikedog_awsd" target="_blank">alire.ada.dev/crates/matreshka_spikedog_awsd</a><br />
+Author: godunko,reznikmm</p>
+<p>Web-application server. API library —  [&quot;web&quot;, &quot;servlet&quot;]</p>
+</li>
+<li>
+<p>Matreshka_spikedog_core<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_spikedog_core" target="_blank">alire.ada.dev/crates/matreshka_spikedog_core</a><br />
+Author: godunko,reznikmm</p>
+<p>Web-application server. Implementation library —  [&quot;web&quot;, &quot;servlet&quot;]</p>
+</li>
+<li>
+<p>Serverfaces<br />
+Link: <a href="https://alire.ada.dev/crates/serverfaces" target="_blank">alire.ada.dev/crates/serverfaces</a><br />
+Author: stcarrez</p>
+<p>Web Server Faces JSR 252, JSR 314 and JSR 344 — 0</p>
+</li>
+<li>
+<p>Serverfaces_unit<br />
+Link: <a href="https://alire.ada.dev/crates/serverfaces_unit" target="_blank">alire.ada.dev/crates/serverfaces_unit</a><br />
+Author: stcarrez</p>
+<p>Web Server Faces JSR 252, JSR 314 and JSR 344 (Testing framework) — 0</p>
+</li>
+<li>
+<p>Servletada_unit<br />
+Link: <a href="https://alire.ada.dev/crates/servletada_unit" target="_blank">alire.ada.dev/crates/servletada_unit</a><br />
+Author: stcarrez</p>
+<p>Web Servlet Library following JSR 154, JSR 315 (Testing framework) — 0</p>
+</li>
+<li>
+<p>Utilada_aws<br />
+Link: <a href="https://alire.ada.dev/crates/utilada_aws" target="_blank">alire.ada.dev/crates/utilada_aws</a><br />
+Author: stcarrez</p>
+<p>Utility Library REST support on top of AWS —  [&quot;web&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Utilada_curl<br />
+Link: <a href="https://alire.ada.dev/crates/utilada_curl" target="_blank">alire.ada.dev/crates/utilada_curl</a><br />
+Author: stcarrez</p>
+<p>Utility Library REST support on top of CURL —  [&quot;web&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Webdriver<br />
+Link: <a href="https://alire.ada.dev/crates/webdriver" target="_blank">alire.ada.dev/crates/webdriver</a><br />
+Author: reznikmm</p>
+<p>Web Browser control API —  [&quot;web&quot;, &quot;control&quot;, &quot;selenium&quot;, &quot;chrome&quot;]</p>
+</li>
+<li>
+<p>Security<br />
+Link: <a href="https://alire.ada.dev/crates/security" target="_blank">alire.ada.dev/crates/security</a><br />
+Author: stcarrez</p>
+<p>Security Library for HTTP client and server with OAuth2 support — 0</p>
+</li>
+<li>
+<p>Axmpp<br />
+Link: <a href="https://alire.ada.dev/crates/axmpp" target="_blank">alire.ada.dev/crates/axmpp</a><br />
+Author: coopht,reznikmm</p>
+<p>XMPP client library in Ada —  [&quot;xmpp&quot;, &quot;jabber&quot;, &quot;messaging&quot;]</p>
+</li>
+</ul>
+<h3 id="web">web</h3>
+<ul>
+<li>
+<p>Jwt<br />
+Link: <a href="https://alire.ada.dev/crates/jwt" target="_blank">alire.ada.dev/crates/jwt</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: reznikmm</p>
+<p>JSON Web Token (JWT) implementation in Ada —  [&quot;web&quot;, &quot;token&quot;, &quot;jws&quot;, &quot;json&quot;, &quot;jwt&quot;]</p>
+</li>
+<li>
+<p>Matreshka_fastcgi<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_fastcgi" target="_blank">alire.ada.dev/crates/matreshka_fastcgi</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>FastCGI implementation (demo) —  [&quot;web&quot;, &quot;cgi&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Matreshka_servlet<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_servlet" target="_blank">alire.ada.dev/crates/matreshka_servlet</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>Servlet API —  [&quot;web&quot;, &quot;servlet&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Matreshka_spikedog_api<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_spikedog_api" target="_blank">alire.ada.dev/crates/matreshka_spikedog_api</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>Web-application server. API library —  [&quot;web&quot;, &quot;servlet&quot;]</p>
+</li>
+<li>
+<p>Matreshka_spikedog_awsd<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_spikedog_awsd" target="_blank">alire.ada.dev/crates/matreshka_spikedog_awsd</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>Web-application server. API library —  [&quot;web&quot;, &quot;servlet&quot;]</p>
+</li>
+<li>
+<p>Matreshka_spikedog_core<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_spikedog_core" target="_blank">alire.ada.dev/crates/matreshka_spikedog_core</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>Web-application server. Implementation library —  [&quot;web&quot;, &quot;servlet&quot;]</p>
+</li>
+<li>
+<p>Serverfaces<br />
+Link: <a href="https://alire.ada.dev/crates/serverfaces" target="_blank">alire.ada.dev/crates/serverfaces</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Web Server Faces JSR 252, JSR 314 and JSR 344 — 0</p>
+</li>
+<li>
+<p>Serverfaces_unit<br />
+Link: <a href="https://alire.ada.dev/crates/serverfaces_unit" target="_blank">alire.ada.dev/crates/serverfaces_unit</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Web Server Faces JSR 252, JSR 314 and JSR 344 (Testing framework) — 0</p>
+</li>
+<li>
+<p>Servletada<br />
+Link: <a href="https://alire.ada.dev/crates/servletada" target="_blank">alire.ada.dev/crates/servletada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Web Servlet Library following JSR 154, JSR 315 (Core) — 0</p>
+</li>
+<li>
+<p>Servletada_aws<br />
+Link: <a href="https://alire.ada.dev/crates/servletada_aws" target="_blank">alire.ada.dev/crates/servletada_aws</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Web Servlet Library following JSR 154, JSR 315 (AWS) — 0</p>
+</li>
+<li>
+<p>Servletada_unit<br />
+Link: <a href="https://alire.ada.dev/crates/servletada_unit" target="_blank">alire.ada.dev/crates/servletada_unit</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Web Servlet Library following JSR 154, JSR 315 (Testing framework) — 0</p>
+</li>
+<li>
+<p>Utilada_aws<br />
+Link: <a href="https://alire.ada.dev/crates/utilada_aws" target="_blank">alire.ada.dev/crates/utilada_aws</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Utility Library REST support on top of AWS —  [&quot;web&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Utilada_curl<br />
+Link: <a href="https://alire.ada.dev/crates/utilada_curl" target="_blank">alire.ada.dev/crates/utilada_curl</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Utility Library REST support on top of CURL —  [&quot;web&quot;, &quot;http&quot;]</p>
+</li>
+<li>
+<p>Webdriver<br />
+Link: <a href="https://alire.ada.dev/crates/webdriver" target="_blank">alire.ada.dev/crates/webdriver</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: reznikmm</p>
+<p>Web Browser control API —  [&quot;web&quot;, &quot;control&quot;, &quot;selenium&quot;, &quot;chrome&quot;]</p>
+</li>
+<li>
+<p>Security<br />
+Link: <a href="https://alire.ada.dev/crates/security" target="_blank">alire.ada.dev/crates/security</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Security Library for HTTP client and server with OAuth2 support — 0</p>
+</li>
+<li>
+<p>Axmpp<br />
+Link: <a href="https://alire.ada.dev/crates/axmpp" target="_blank">alire.ada.dev/crates/axmpp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: coopht,reznikmm</p>
+<p>XMPP client library in Ada —  [&quot;xmpp&quot;, &quot;jabber&quot;, &quot;messaging&quot;]</p>
+</li>
+</ul>
+<h3 id="soap">soap</h3>
+<ul>
+<li>
+<p>Matreshka_soap<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_soap" target="_blank">alire.ada.dev/crates/matreshka_soap</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>Framework for work with SOAP 1.2 —  [&quot;soap&quot;, &quot;rpc&quot;, &quot;protocol&quot;, &quot;web&quot;]</p>
+</li>
+<li>
+<p>Matreshka_soap_wsse<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_soap_wsse" target="_blank">alire.ada.dev/crates/matreshka_soap_wsse</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>WS-Security 1.1 implementation for SOAP 1.2 —  [&quot;soap&quot;, &quot;wsse&quot;, &quot;web&quot;]</p>
+</li>
+</ul>
+
+</div>
+
+</div></div><div id="myExtraContent6"><div id='stacks_out_675' class='stacks_out'><div id='stacks_in_675' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_675"> <div id='stacks_out_676' class='stacks_out'><div id='stacks_in_676' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../../sitemap/" title="Site Map">Site Map</a></p></div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_675"> <div id='stacks_out_679' class='stacks_out'><div id='stacks_in_679' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../../OtherResources/AboutUs/" title="About US">About Us</a></p></div></div></div></div>
+
+</div></div></div></div></div>
+</div>
+								
+							</section>
+            <div id="asidewrap">
+                <aside>
+								<div id="sidecontent">
+									<div id="sideTitle"></div>	
+										
+									
+								</div>	
+							</aside>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="ecwrap">
+            </div>
+            <div id="ec2wrap">
+                <div id="extraContainer2">
+                </div>
+            </div>
+            <div id="ec3wrap">
+                <div id="extraContainer3">
+                </div>
+            </div>
+            <div id="ec4wrap">
+                <div id="extraContainer4">
+                </div>
+            </div>
+            <div id="ec5wrap">
+                <div id="extraContainer5">
+                </div>
+            </div>
+            <div id="ec6wrap">
+                <div id="extraContainer6">
+                </div>
+            </div>
+            <div id="extraContainer10">
+            </div>
+        </div>
+        <footer>		
+			<div id="footer">&copy; 2015-2022 William J. FRANCK <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":co";var _rwObsfuscatedHref3 = "nta";var _rwObsfuscatedHref4 = "ct@";var _rwObsfuscatedHref5 = "ada";var _rwObsfuscatedHref6 = "for";var _rwObsfuscatedHref7 = "ge.";var _rwObsfuscatedHref8 = "org";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById("rw_email_contact").href = _rwObsfuscatedHref;</script></div>		
+				<div id="socialicons">
+				<div id="socialicons1"></div>
+			</div>		
+		</footer>
+    </div>
+    <a href="#" class="scrollup">Scroll</a> 
+<script src="../../../../rw_common/assets/global.js"></script>
+<div id="rapidweaver_privacy_message">
+    <p><span style="font:13px .AppleSystemUIFont; color:#000000;">GDPR compliant</span></p>
+    <button id="rapidweaver_privacy_message_dismiss_button">OK</button>
+</div>
+
+<script src="../../../../rw_common/assets/message.js"></script>
+</body>
+</html>

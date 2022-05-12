@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>BrowserTitle</key>
+				<string>Developers Forge for Open Source Ada Code and Tools - Ada Public Repositories</string>
+				<key>CreatedDate</key>
+				<date>2015-11-05T07:58:44Z</date>
+				<key>CustomThemeName</key>
+				<string>Endeavor2</string>
+				<key>ID</key>
+				<string>page36</string>
+				<key>MostRecentlySelectedStyleName</key>
+				<string>Theme Default</string>
+				<key>PageTitle</key>
+				<string>Public Repos</string>
+				<key>PluginClassName</key>
+				<string>YHStacksPlugin</string>
+				<key>PluginMetadata</key>
+				<dict>
+					<key>Author</key>
+					<string>YourHead Software</string>
+					<key>Name</key>
+					<string>Stacks</string>
+					<key>Version</key>
+					<string>4.2.4</string>
+				</dict>
+				<key>PublishingManifests</key>
+				<dict>
+					<key>sftp://sftp.sd5.gpaas.net</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-05-07T11:01:42Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/stacks-image-39d77ab.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								HTbiz+wtbh5W
+								kHZ5UuMnUw==
+								</data>
+								<key>Size</key>
+								<integer>19090</integer>
+							</dict>
+							<key>files/stacks_page_page36.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								lFbzTGQm+8EP
+								gZNiHDag4A==
+								</data>
+								<key>Size</key>
+								<integer>4034</integer>
+							</dict>
+							<key>files/stacks_page_page36.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								m3f+wgrkTcTJ
+								le1cCK3Pww==
+								</data>
+								<key>Size</key>
+								<integer>9485</integer>
+							</dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								7xFfhljywf7v
+								DU2p7vH9Pw==
+								</data>
+								<key>Size</key>
+								<integer>19460</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page36</string>
+						<key>SiteRoot</key>
+						<string>OtherResources/PublicRepos</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>Data</string>
+				<string>PageAttributes</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page</string>
+</dict>
+</plist>

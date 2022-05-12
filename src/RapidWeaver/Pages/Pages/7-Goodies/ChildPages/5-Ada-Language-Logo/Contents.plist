@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>BrowserTitle</key>
+				<string>Developers Forge for Open Source Ada Code and Tools - Ada Language Logo</string>
+				<key>CreatedDate</key>
+				<date>2022-05-06T06:24:46Z</date>
+				<key>CustomThemeName</key>
+				<string>Endeavor2</string>
+				<key>ID</key>
+				<string>page66</string>
+				<key>MostRecentlySelectedStyleName</key>
+				<string>Theme Default</string>
+				<key>PageTitle</key>
+				<string>Ada Language Logo</string>
+				<key>PluginClassName</key>
+				<string>YHStacksPlugin</string>
+				<key>PluginMetadata</key>
+				<dict>
+					<key>Author</key>
+					<string>YourHead Software</string>
+					<key>Name</key>
+					<string>Stacks</string>
+					<key>Version</key>
+					<string>4.2.4</string>
+				</dict>
+				<key>PublishingManifests</key>
+				<dict>
+					<key>sftp://sftp.sd5.gpaas.net</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-05-11T05:59:50Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								PWoMqPpTnz8m
+								ovyCH4+i2g==
+								</data>
+								<key>Size</key>
+								<integer>28188</integer>
+							</dict>
+							<key>index_files/stacks_page_page66.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								dUmQkCkj5TL5
+								lwWZ6H5D6Q==
+								</data>
+								<key>Size</key>
+								<integer>3991</integer>
+							</dict>
+							<key>index_files/stacks_page_page66.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/sVCkdFW9q/I
+								jsYQMInoDw==
+								</data>
+								<key>Size</key>
+								<integer>17</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page66</string>
+						<key>SiteRoot</key>
+						<string>Goodies/Ada_Logo</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>Data</string>
+				<string>PageAttributes</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page</string>
+</dict>
+</plist>

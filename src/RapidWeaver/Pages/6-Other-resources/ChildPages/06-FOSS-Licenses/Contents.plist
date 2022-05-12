@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>BrowserTitle</key>
+				<string>Developers Forge for Open Source Ada Code and Tools - OpenSource Licenses</string>
+				<key>CreatedDate</key>
+				<date>2015-11-10T15:31:54Z</date>
+				<key>CustomThemeName</key>
+				<string>Endeavor2</string>
+				<key>ID</key>
+				<string>page14</string>
+				<key>MostRecentlySelectedStyleName</key>
+				<string>Theme Default</string>
+				<key>PageTitle</key>
+				<string>FOSS Licenses</string>
+				<key>PluginClassName</key>
+				<string>YHStacksPlugin</string>
+				<key>PluginMetadata</key>
+				<dict>
+					<key>Author</key>
+					<string>YourHead Software</string>
+					<key>Name</key>
+					<string>Stacks</string>
+					<key>Version</key>
+					<string>4.2.4</string>
+				</dict>
+				<key>PublishingManifests</key>
+				<dict>
+					<key>sftp://sftp.sd5.gpaas.net</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-05-09T07:52:37Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>files/stacks.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								5MsOVT5d8mht
+								rfCNtCfPug==
+								</data>
+								<key>Size</key>
+								<integer>1850</integer>
+							</dict>
+							<key>files/stacks_page_page14.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								awfUtSFyauJR
+								Zei7it6e+g==
+								</data>
+								<key>Size</key>
+								<integer>426</integer>
+							</dict>
+							<key>files/stacks_page_page14.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								/sVCkdFW9q/I
+								jsYQMInoDw==
+								</data>
+								<key>Size</key>
+								<integer>17</integer>
+							</dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								3RJSyY9M7pZ6
+								GxeQMPfnRA==
+								</data>
+								<key>Size</key>
+								<integer>18234</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page14</string>
+						<key>SiteRoot</key>
+						<string>OtherResources/OSI-Licenses</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>Data</string>
+				<string>PageAttributes</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page</string>
+</dict>
+</plist>

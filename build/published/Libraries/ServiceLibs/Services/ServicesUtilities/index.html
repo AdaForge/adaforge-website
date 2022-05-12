@@ -1,0 +1,1462 @@
+<!doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1" />
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/resources/Scripts/StatCounter.js"></script>
+
+<div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10688383/0/3a95e712/1/"
+alt="web analytics"></a></div>
+<!-- End of StatCounter Code for Default Guide -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="(c) William Franck" />
+		<meta name="description" content="AdaForge is the home of the brave Ada developer programming in the Ada language source code and searching free quality Open Source software libraries" />
+		<meta name="keywords" content="ada programming language source code software library libraries osx linux freebsd real-time free quality opensource open-source adaforge" />
+		<meta name="description" content="Ada Open Source Code and Tools - Software for a complex world - Ada code sources for Utilities" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.adaforge.org/resources/large.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.adaforge.org/resources/medium.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_large.png" sizes="64x64" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_medium.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.adaforge.org/resources/Ada_1983-2022_3D_Coin-152.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_small.png" sizes="16x16" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AdaForge2022">
+	<meta name="twitter:creator" content="@AdaForge2022">
+	<meta name="twitter:title" content="Ada Forge Software resources">
+	<meta name="twitter:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta name="twitter:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta name="twitter:url" content="https://www.adaforge.org/Libraries/ServiceLibs/Services/ServicesUtilities/index.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Ada Forge - Home">
+	<meta property="og:title" content="Ada Forge Software resources">
+	<meta property="og:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta property="og:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta property="og:url" content="https://www.adaforge.org/Libraries/ServiceLibs/Services/ServicesUtilities/index.html"> <title>Developers Forge for Open Source Ada Code and Tools - Utilities</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/colourtag.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/flexslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ec5on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ec6on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ec9on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/rimage.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/ssoff.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/sslide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/sidenone.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/olight60.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontfjalla.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/title32.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontdakotaspan.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/bts46.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/bt20.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontfjallanav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/nav16.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontquestrialside.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontquestrialheader.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/fontquestrialcontent.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../../rw_common/themes/Endeavor2/css/font16.css" />
+		 <style type="text/css" media="all">#feature {background-image: url("../../../../resources/Banner/Ada-5-3D-Coins-2022-SourceCode.jpg")}
+
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+</style>
+    <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/html5shiv.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/javascript.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/function.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../../../rw_common/themes/Endeavor2/scripts/jquery.flexslider.js"></script>
+    <script>
+			 function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '../../../../resources/FreeMind/show.png';
+}
+else {
+div_el.style.display='block';
+img_el.src = '../../../../resources/FreeMind/hide.png';
+};
+};
+ 
+		</script> 		<link rel='stylesheet' type='text/css' media='all' href='../../../../rw_common/plugins/stacks/stacks.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page57.css' />
+        
+        
+        
+        
+		
+        <meta name="formatter" content="Stacks v4.2.4 (6029)" >
+		<meta class="stacks4 stack version" id="info.extracontent.extracontent" name="ExtraContent" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.responsive" name="Resp 2 Column" content="1.6.6">
+		
+ <link rel="stylesheet" type="text/css" media="all" href="../../../../resources/FreeMind/freemind2html.css" />
+<link rel="stylesheet" type="text/css" href="../../../../rw_common/assets/message.css" />
+<link rel="stylesheet" type="text/css" href="../../../../rw_common/assets/global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hwrap">
+            <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div id="headwrap">
+			
+					<div id="titlelogo">
+							<a href="https://www.adaforge.org/">				
+							<div id="logo"></div>	
+							<h1>Ada Forge - Home</h1></a>
+							<h2>Software for a complex world</h2>
+					</div>
+						
+						
+						<div id="mwrap">
+							<div id="lt"></div>
+							<div id="lm"></div>
+							<div id="lb"></div>
+						</div>
+						
+						
+						<div id="nwrap">
+							<div id="menuBtn"></div>
+							<nav><ul class="navigation"><li><a href="../../../../News/" rel="">News</a></li><li  id="currentAncestor"><a href="../../../../Libraries/" rel="" class="currentAncestor">Libraries</a><ul class="navigation"><li><a href="../../../../Libraries/AppDomains/" rel="">App Domains</a></li><li  id="currentAncestor"><a href="../../../../Libraries/ServiceLibs/" rel="" class="currentAncestor">Service Libs</a></li><li><a href="../../../../Libraries/SystemLibs/" rel="">System Libs</a></li><li><a href="../../../../Libraries/Hardware-Kernels/" rel="">Hardware & Kernels</a></li></ul></li><li><a href="../../../../DevTools/" rel="">Dev Tools</a><ul class="navigation"><li><a href="../../../../DevTools/DevToolsDesign/" rel="">Design</a></li><li><a href="../../../../DevTools/DevToolsSources/" rel="">Sources</a></li><li><a href="../../../../DevTools/DevToolsBuild/" rel="">Build</a></li><li><a href="../../../../DevTools/DevToolsTest/" rel="">Test</a></li><li><a href="../../../../DevTools/DevToolsDevOps/" rel="">DevOps</a></li><li><a href="../../../../DevTools/Translators/" rel="">Translate</a></li></ul></li><li><a href="../../../../Thematics/" rel="">Thematics</a></li><li><a href="../../../../OtherResources/" rel="">Other resources</a><ul class="navigation"><li><a href="../../../../OtherResources/Learn/" rel="">Learn</a></li><li><a href="../../../../OtherResources/Communities/" rel="">Communities</a></li><li><a href="../../../../OtherResources/Forums-Chats/" rel="">Forums &Chat</a></li><li><a href="../../../../OtherResources/OtherAdaResources/" rel="">Ada Resources</a></li><li><a href="../../../../OtherResources/PublicRepos/" rel="">Public Repos</a></li><li><a href="../../../../OtherResources/OSI-Licenses/" rel="">FOSS Licenses</a></li><li><a href="../../../../OtherResources/ProjectStructure/" rel="">AdaForge GPR</a></li><li><a href="../../../../OtherResources/Advocacy/" rel="">Advocacy</a></li><li><a href="../../../../OtherResources/Popularize/" rel="">Popularize</a></li><li><a href="../../../../OtherResources/BenchMarking/" rel="">Benchmarking</a></li><li><a href="../../../../OtherResources/CodeContests/" rel="">Code Contest</a></li><li><a href="../../../../OtherResources/AboutUs/" rel="">About US</a></li></ul></li><li><a href="../../../../Goodies/" rel="">Goodies</a><ul class="navigation"><li><a href="../../../../Goodies/AdaGoldCoin/" rel="">Ada Gold Coin</a></li><li><a href="../../../../Goodies/LadyAda/" rel="">Lady Ada</a></li><li><a href="../../../../Goodies/Ada_Logo/" rel="">Ada Language Logo</a></li></ul></li><li><a href="../../../../contact-form/" rel="">Contact</a></li></ul></nav>						
+						</div>
+				</div>
+			</header>
+            <div class="banner video_banner">
+                <div id="feature">
+                    <div id="extraContainer11">
+                        <div class="videoWrapper">
+                        </div>
+                    </div>
+                    <div id="extraContainer1">
+                    </div>
+                    <div class="banner-text">
+                    </div>
+                    <div id="extraContainer9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="container">
+            <div id="extraContainer7">
+            </div>
+            <div id="extraContainer8">
+            </div>
+            <section>
+								
+								<div id="padding">
+<div id='stacks_out_587' class='stacks_top'><div id='stacks_in_587' class=''><div id="myExtraContent9"><div id='stacks_out_614' class='stacks_out'><div id='stacks_in_614' class='stacks_in html_stack'>Utilities libs</div></div></div><div id='stacks_out_690' class='stacks_out'><div id='stacks_in_690' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_690"> <div id='stacks_out_691' class='stacks_out'><div id='stacks_in_691' class='stacks_in text_stack'>Libraries are prefixed by a logo relative to the given <em><a href="../../../../OtherResources/OSI-Licenses/" title="OSI Licenses">OpenSource License</a></em>.<br /><strong>ALR</strong>: Component available through the <a href="https://alire.ada.dev" target="_blank" title="Ada LIbrary REpository">ALIRE</a> crates (component) manager and repository.</div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_690"> <div id='stacks_out_694' class='stacks_out'><div id='stacks_in_694' class='stacks_in text_stack'><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the arrow <span style="font:12px .AppleSystemUIFont; ">➚</span> to go to the section beneath with some more details.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the earth symbol <span style="font:12px AppleColorEmoji; ">🌎</span> to go to the mentioned site.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Hover on, or Click on the little page symbol <span style="font:12px AppleColorEmoji; ">📄</span> to read a short description.<br /></div></div></div></div>
+
+</div></div><div id='stacks_out_683' class='stacks_out'><div id='stacks_in_683' class='stacks_in html_stack'>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 2000 8192" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="2000" height="8192" xlink:href="../../../../resources/SoftwareCategories/Sub/ServicesUtilities.png"></image>
+<a xlink:href="#de-Compress" xlink:title="#de-Compress"><rect x="354" y="814" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/azip/" target="_blank" xlink:title="https://sourceforge.net/projects/azip/"><rect x="990" y="199" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9BD418D7-FF3B-424A-AE17-B02A90ABD6D2/note.html" xlink:title="AZip is a free Zip Archive Manager with unique features such as: built-in content Search, smart archive Update, archive Recompression.&#10;&#10;The goal is to keep the user interface as simple as possible and bother the user the least possible with options or useless gadgets.&#10;•    Multi-document&#10;•    Compression methods supported: Reduce, Shrink, Implode, Deflate, Deflate64, BZip2, LZMA&#10;•    Encryption&#10;"><rect x="966" y="199" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/azip/" target="_blank" xlink:title="https://sourceforge.net/projects/azip/"><rect x="998" y="388" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/C60B561F-7ECB-4BD2-8EA6-34C7B627969B/note.html" xlink:title="AZip is a free Zip Archive Manager with unique features such as: built-in content Search, smart archive Update, archive Recompression.&#10;&#10;The goal is to keep the user interface as simple as possible and bother the user the least possible with options or useless gadgets.&#10;•    Multi-document&#10;•    Compression methods supported: Reduce, Shrink, Implode, Deflate, Deflate64, BZip2, LZMA&#10;•    Encryption"><rect x="973" y="388" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/zipada" target="_blank" xlink:title="https://alire.ada.dev/crates/zipada"><rect x="1379" y="329" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F764BE01-ABA1-4A71-AAFA-4E4193C8264B/note.html" xlink:title="Manage Zip Archives and raw LZMA streams &mdash;  [ &quot;zip&quot; ]"><rect x="1355" y="329" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/lzmada" target="_blank" xlink:title="https://alire.ada.dev/crates/lzmada"><rect x="998" y="517" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/4AEADA3F-389B-42AB-8B78-855D8C3F6B2E/note.html" xlink:title="Ada LZMA Library Binding &mdash; 0"><rect x="973" y="517" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/utilada_lzma" target="_blank" xlink:title="https://alire.ada.dev/crates/utilada_lzma"><rect x="998" y="647" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9AC84263-AFEE-4C0B-9301-D3489906FDE3/note.html" xlink:title="Utility Library streams with LZMA support &mdash;  [&quot;lzma&quot;, &quot;streams&quot;]"><rect x="973" y="647" width="21" height="21"/></a>
+<a xlink:href="https://github.com/ytomino/zlib-ada" target="_blank" xlink:title="https://github.com/ytomino/zlib-ada"><rect x="729" y="827" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_zlib" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_zlib"><rect x="972" y="777" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/970DA42B-D2D6-45AE-B54A-DCB8B4D07963/note.html" xlink:title="GNAT Components Collection - zlib binding &mdash;  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;zlib&quot;, &quot;compression&quot;, &quot;zip&quot;, &quot;deflate&quot;]"><rect x="947" y="777" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/zlib_ada" target="_blank" xlink:title="https://alire.ada.dev/crates/zlib_ada"><rect x="972" y="907" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D6BFB91C-A4A0-4633-8140-35BBB3E160B3/note.html" xlink:title="ZLib for Ada thick binding &mdash; 0"><rect x="947" y="907" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/azip/" target="_blank" xlink:title="https://sourceforge.net/projects/azip/"><rect x="957" y="1095" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/0D46F644-6C29-43D2-A95C-1B939DD917CB/note.html" xlink:title="AZip is a free Zip Archive Manager with unique features such as: built-in content Search, smart archive Update, archive Recompression.&#10;&#10;The goal is to keep the user interface as simple as possible and bother the user the least possible with options or useless gadgets.&#10;•    Multi-document&#10;•    Compression methods supported: Reduce, Shrink, Implode, Deflate, Deflate64, BZip2, LZMA&#10;•    Encryption&#10;More details and screenshots on the AZip Web site: http://azip.sf.net"><rect x="932" y="1095" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/zipada" target="_blank" xlink:title="https://alire.ada.dev/crates/zipada"><rect x="1338" y="1036" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/837C453A-41D0-4DC7-8CFB-D24407F2F9D0/note.html" xlink:title="Manage Zip Archives and raw LZMA streams &mdash;  [ &quot;zip&quot; ]"><rect x="1314" y="1036" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/zipdcf" target="_blank" xlink:title="https://alire.ada.dev/crates/zipdcf"><rect x="957" y="1225" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/872142FF-0CB3-473F-982F-13E3533B33D0/note.html" xlink:title="Tools that can (un)zip document container files, a Zip-based format &mdash;  [&quot;zip&quot;, &quot;document&quot;, &quot;container&quot;]"><rect x="932" y="1225" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/dcf" target="_blank" xlink:title="https://alire.ada.dev/crates/dcf"><rect x="1154" y="1355" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DAFAE2A7-5FB6-40E7-BDE2-933F3FD8229F/note.html" xlink:title="Ada 2012 library for document container files, a Zip-based format &mdash;  [&quot;zip&quot;, &quot;document&quot;, &quot;container&quot;]"><rect x="1129" y="1355" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/zipdcf" target="_blank" xlink:title="https://alire.ada.dev/crates/zipdcf"><rect x="1154" y="1485" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/25BC43CE-704A-4EC2-B3E4-92515A9813E4/note.html" xlink:title="Tools that can (un)zip document container files, a Zip-based format &mdash;  [&quot;zip&quot;, &quot;document&quot;, &quot;container&quot;]"><rect x="1129" y="1485" width="21" height="21"/></a>
+<a xlink:href="#Scripting-CGI-GarbageCollector" xlink:title="#Scripting-CGI-GarbageCollector"><rect x="398" y="1747" width="21" height="21"/></a>
+<a xlink:href="http://sourceforge.net/projects/adacl/" target="_blank" xlink:title="http://sourceforge.net/projects/adacl/"><rect x="1334" y="1710" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3684B6D7-DFE4-43D7-B085-A0F1CC4A414D/note.html" xlink:title="Ada Class Library - an object orientated library for Ada.&#10;Text search and replace.&#10;Scripting (small tool programs).&#10;CGI scripts.&#10;Execution of external programs (incl. I/O redirection).&#10;Garbage Collection.&#10;Extendended Booch Components.&#10;CD-Recorder"><rect x="1309" y="1710" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="1334" y="1840" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/7701680E-4B8F-464D-A819-5BEB08DD9BA9/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="1309" y="1840" width="21" height="21"/></a>
+<a xlink:href="#Booch-Components" xlink:title="#Booch-Components"><rect x="369" y="2031" width="21" height="21"/></a>
+<a xlink:href="http://sourceforge.net/projects/adacl/" target="_blank" xlink:title="http://sourceforge.net/projects/adacl/"><rect x="1106" y="2059" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D7F5B576-8C5B-42F9-B9C4-718DA3519FA3/note.html" xlink:title="Ada Class Library - an object orientated library for Ada.&#10;Text search and replace.&#10;Scripting (small tool programs).&#10;CGI scripts.&#10;Execution of external programs (incl. I/O redirection).&#10;Garbage Collection.&#10;Extendended Booch Components.&#10;CD-Recorder"><rect x="1082" y="2059" width="21" height="21"/></a>
+<a xlink:href="#MMap" xlink:title="#MMap"><rect x="338" y="2228" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="868" y="2237" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/FC3369A7-C0E1-474E-A47C-8A7E8C13B450/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="844" y="2237" width="21" height="21"/></a>
+<a xlink:href="#FileSystem" xlink:title="#FileSystem"><rect x="348" y="2407" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="940" y="2417" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/6DCA55E8-02BA-4879-B9AA-86B39093D32E/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="915" y="2417" width="21" height="21"/></a>
+<a xlink:href="#Scripting" xlink:title="#Scripting"><rect x="343" y="2586" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="908" y="2596" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8274CC41-A51D-4B88-B6F0-75331E15E996/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="883" y="2596" width="21" height="21"/></a>
+<a xlink:href="#Logging" xlink:title="#Logging"><rect x="340" y="2902" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="888" y="2782" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/612FC952-E678-4CF3-9313-45860BEC38B3/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="863" y="2782" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_syslog" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_syslog"><rect x="900" y="2912" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/97A26550-4562-4170-B726-9AA47520FDF3/note.html" xlink:title="GNAT Components Collection - syslog binding &mdash;  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;syslog&quot;, &quot;logging&quot;]"><rect x="876" y="2912" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_logging" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_logging"><rect x="900" y="3042" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/4D94DF2F-1765-4DDB-8271-DD702C78B809/note.html" xlink:title="Simple logging to console &mdash;  [&quot;logging&quot;, &quot;utility&quot;]"><rect x="876" y="3042" width="21" height="21"/></a>
+<a xlink:href="#Strings" xlink:title="#Strings"><rect x="340" y="3825" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="891" y="3234" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/6A121686-C08A-444C-A37B-E08A0E650514/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="867" y="3234" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="874" y="3364" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/859FFE9F-CB1C-4F51-8508-41A82B031623/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="850" y="3364" width="21" height="21"/></a>
+<a xlink:href="#i18n" xlink:title="#i18n"><rect x="627" y="3544" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_iconv" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_iconv"><rect x="879" y="3493" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3A8D90B3-B38E-4F23-B52A-D59F0CE16174/note.html" xlink:title="GNAT Components Collection - iconv binding &mdash;  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;iconv&quot;, &quot;i18n&quot;]"><rect x="854" y="3493" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/felix" target="_blank" xlink:title="https://alire.ada.dev/crates/felix"><rect x="879" y="3623" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/6A90F70C-38DB-4014-8189-A4DFCD747E36/note.html" xlink:title="X/Open Native Language System (NLS) for Ada &mdash; [&quot;ada1995&quot;, &quot;i18n&quot;, &quot;nls&quot;,"><rect x="854" y="3623" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="879" y="3753" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/E9BB13CB-3782-490D-9A6C-498057D89E7D/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="854" y="3753" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/c_strings" target="_blank" xlink:title="https://alire.ada.dev/crates/c_strings"><rect x="894" y="3883" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/C922070C-18AC-457D-9366-87B4EA4E768B/note.html" xlink:title="Convenience subprograms to interact with C strings &mdash; 0"><rect x="870" y="3883" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/matreshka_league" target="_blank" xlink:title="https://alire.ada.dev/crates/matreshka_league"><rect x="894" y="4012" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/EFA93379-3E70-4B33-9D89-2E90F0A266F9/note.html" xlink:title="League - universal string library. Part of Matreshka framework &mdash; [&quot;unicode  xml&quot;,&quot;sax&quot;,&quot;json&quot;,&quot;encoding&quot;,&quot;regexp&quot;,&quot;time&quot;]"><rect x="870" y="4012" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/stringsedit/" target="_blank" xlink:title="https://sourceforge.net/projects/stringsedit/"><rect x="894" y="4179" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/AC15C200-B34B-48C6-B450-F0C8C240052D/note.html" xlink:title="Strings edit is a library that provides I/O facilities for integers, floating-point numbers, Roman numerals, and strings. Both input and output subroutines support string pointers for consequent stream processing. The output can be aligned in a fixed size field with padding. Numeric input can be checked against expected values range to be either saturated or to raise an exception. For floating-point output either relative or absolute output precision can be specified. UTF-8 encoded strings are supported, including wildcard pattern matching, sets and maps of code points, upper/lowercase, and other Unicode categorizations."><rect x="870" y="4179" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/uri_ada" target="_blank" xlink:title="https://alire.ada.dev/crates/uri_ada"><rect x="894" y="4308" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D580890C-202E-4D8B-96B1-5F1EA8BAE2B9/note.html" xlink:title="Processing of URI strings &mdash;  [&quot;uri&quot;, &quot;url&quot;, &quot;utility&quot;]"><rect x="870" y="4308" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/uxstrings" target="_blank" xlink:title="https://alire.ada.dev/crates/uxstrings"><rect x="894" y="4435" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/23CB2680-1410-4DB2-8602-B2DB98A1A543/note.html" xlink:title="Unicode Extended Strings utilities &mdash;  [&quot;unicode&quot;, &quot;dynamic&quot;, &quot;string&quot;]"><rect x="870" y="4435" width="21" height="21"/></a>
+<a xlink:href="#Sort" xlink:title="#Sort"><rect x="332" y="4610" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/partord" target="_blank" xlink:title="https://alire.ada.dev/crates/partord"><rect x="824" y="4620" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/FF45499C-231E-437E-9920-4CA4F8BC1E0B/note.html" xlink:title="Small library for sorting with partial orders &mdash;  [&quot;sorting&quot;]"><rect x="799" y="4620" width="21" height="21"/></a>
+<a xlink:href="#Dmitry" xlink:title="#Dmitry"><rect x="337" y="4878" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="857" y="4804" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/0DE4C8D7-04AE-4AE3-98AD-2B8AA0A21620/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="833" y="4804" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/tablesforada/" target="_blank" xlink:title="https://sourceforge.net/projects/tablesforada/"><rect x="857" y="4971" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/53DE7A16-4711-43D3-94AD-8B189D9449F6/note.html" xlink:title="This library provides an implementation of tables indexed by strings. The binary search is used for names of known length. It is also possible to search a table for names of unknown length, i.e. to parse a string using some table. Table elements can be of any private type. Key- insensitive tables are supported."><rect x="833" y="4971" width="21" height="21"/></a>
+<a xlink:href="#Graphs" xlink:title="#Graphs"><rect x="338" y="5256" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="871" y="5162" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/047AB0FD-277B-478C-8A6B-FF647C50C4AC/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="847" y="5162" width="21" height="21"/></a>
+<a xlink:href="#Arrays-Lists-Pools-Stacks-Trees" xlink:title="#Arrays-Lists-Pools-Stacks-Trees"><rect x="416" y="6331" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1401" y="5562" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B2FD4ABD-21B4-4EC5-AD67-6321E1DD364D/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1376" y="5562" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/avltrees" target="_blank" xlink:title="https://alire.ada.dev/crates/avltrees"><rect x="1305" y="6673" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9CC5B133-FD48-41B0-BAD8-A75B683E2AF1/note.html" xlink:title="Threaded AVL trees library for Ada &mdash; [&quot;ada1987&quot;, &quot;data-structures&quot;]&#10;AVLTREES is a threaded, self-balancing, binary trees library for Ada (1987), based upon the algorithms developed by G. M. Adelson-Velsky and E. M. Landis, often abbreviated AVL in the literature."><rect x="1280" y="6673" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1305" y="6803" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/80C88D6B-15BA-4883-8749-0DBC4AD9840D/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1280" y="6803" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1308" y="6118" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9C735981-2009-406F-8B6A-7441CCBDDBC9/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1283" y="6118" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1459" y="6933" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2A63A35D-0BA2-44D8-A5D2-5B60EB371DB5/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1434" y="6933" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/spark_unbound" target="_blank" xlink:title="https://alire.ada.dev/crates/spark_unbound"><rect x="1459" y="7063" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B6375E37-C6D4-480D-8599-BFCBEA848F1D/note.html" xlink:title="Unbound data structures in Ada-Spark &mdash;  [&quot;spark&quot;, &quot;unbound&quot;]"><rect x="1434" y="7063" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1323" y="6544" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F895CB62-CC33-4D62-861B-5198989F862E/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1299" y="6544" width="21" height="21"/></a>
+<a xlink:href="#BufferQueues" xlink:title="#BufferQueues"><rect x="1054" y="6316" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1332" y="6247" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/41C37D75-F5D9-4581-AF96-C1415360E036/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1308" y="6247" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/dequesterity/" target="_blank" xlink:title="https://sourceforge.net/projects/dequesterity/"><rect x="1332" y="6414" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/363DDC05-21F2-471B-AAF9-54A67388FAAD/note.html" xlink:title="Dequesterity [dek-ster-i-tee] is an assortment of deque/buffer generics written in Ada 2005 that consist of building blocks that may be combined in various ways to create higher abstraction buffers."><rect x="1308" y="6414" width="21" height="21"/></a>
+<a xlink:href="#MPool" xlink:title="#MPool"><rect x="1054" y="5825" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="1320" y="5692" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D7CF692A-289C-4E71-9939-4A215C24D905/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="1295" y="5692" width="21" height="21"/></a>
+<a xlink:href="https://sourceforge.net/projects/deepend/" target="_blank" xlink:title="https://sourceforge.net/projects/deepend/"><rect x="1320" y="5858" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/A64C5804-25E6-4637-B290-40A09D873A95/note.html" xlink:title="Deepend is a storage pool with subpool capabilities for Ada 2012, Ada 2005, and Ada 95. Memory allocations can be associated with subpools and subpools can be deallocated as a whole which provides a safer alternative than managing deletions of individual objects. It also is likely to be more deterministic and efficient than garbage collection."><rect x="1295" y="5858" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1320" y="5988" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D217D8F9-6887-44DA-B79D-41998C81F43D/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1295" y="5988" width="21" height="21"/></a>
+<a xlink:href="#Events" xlink:title="#Events"><rect x="338" y="7235" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="870" y="7245" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/57457949-4D41-4997-8543-612D0327C093/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="845" y="7245" width="21" height="21"/></a>
+<a xlink:href="#Mutex" xlink:title="#Mutex"><rect x="337" y="7409" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="859" y="7419" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/66574DEF-EC2C-4B57-8CAD-3EC2FC323BF3/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="834" y="7419" width="21" height="21"/></a>
+<a xlink:href="#Math" xlink:title="#Math"><rect x="334" y="7850" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/mathpaqs" target="_blank" xlink:title="https://alire.ada.dev/crates/mathpaqs"><rect x="839" y="7601" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/791E29B4-01C2-478A-B594-F5F02E179C3A/note.html" xlink:title="A collection of mathematical, 100% portable, packages &mdash; 0"><rect x="815" y="7601" width="21" height="21"/></a>
+<a xlink:href="https://gmplib.org" target="_blank" xlink:title="https://gmplib.org"><rect x="581" y="7716" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_gmp" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_gmp"><rect x="831" y="7731" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/C6E3D6AF-A5AA-4520-BC8A-E87A8A70C739/note.html" xlink:title="GNAT Components Collection - GNU Multiple Precision Arithmetic binding &mdash;  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;gmp&quot;, &quot;arbitrary&quot;, &quot;precision&quot;, &quot;arithmetic&quot;]"><rect x="807" y="7731" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/xoshiro" target="_blank" xlink:title="https://alire.ada.dev/crates/xoshiro"><rect x="1181" y="7860" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DBC92049-5843-45C9-BB02-C023D05F982F/note.html" xlink:title="xoshiro128++ and xoshiro256++ pseudo-random number generators &mdash;  [&quot;xoshiro&quot;, &quot;rng&quot;, &quot;random&quot;, &quot;spark&quot;]"><rect x="1157" y="7860" width="21" height="21"/></a>
+<a xlink:href="https://en.wikipedia.org/wiki/Special_functions" target="_blank" xlink:title="https://en.wikipedia.org/wiki/Special_functions"><rect x="581" y="7976" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/specfun" target="_blank" xlink:title="https://alire.ada.dev/crates/specfun"><rect x="970" y="7990" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/06446E0F-C69F-4CBD-A675-93F91DF411E6/note.html" xlink:title="Native Ada library of special functions (e.g., beta, gamma) &mdash;  [&quot;special-fun&quot;, &quot;numerics&quot;, &quot;beta-function&quot;, &quot;gamma-function&quot;, &quot;beta-incomplete&quot;]"><rect x="946" y="7990" width="21" height="21"/></a>
+<a xlink:href="https://en.wikipedia.org/wiki/IEEE_754" target="_blank" xlink:title="https://en.wikipedia.org/wiki/IEEE_754"><rect x="581" y="8105" width="21" height="21"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="902" y="8120" width="21" height="21"/></a>
+<a xlink:href="../../../../resources/SoftwareLibs/ServicesUtilities/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DD0A2616-EE6D-48E5-93D0-CC5541542FBC/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="877" y="8120" width="21" height="21"/></a>
+</svg>
+</div>
+</div>
+
+<br/>
+
+<div id="outlineDiv">
+<hr><h1 id="Utilities">Utilities</h1>
+<hr><h2 id="de-Compress">de-Compress</h2>
+<h3 id="Bzip2">Bzip2</h3>
+<ul>
+<li>
+<p>AZip<br />
+Link: <a href="https://sourceforge.net/projects/azip/" target="_blank">sourceforge.net/projects/azip/</a><br />
+LastCheck: 13 sept. 2021<br />
+Author: gdemont,zertovitch<br />
+Copyright: Julian Seward<br />
+Repository: GitHub</p>
+<p>AZip is a free Zip Archive Manager with unique features such as: built-in content Search, smart archive Update, archive Recompression.</p>
+<p>The goal is to keep the user interface as simple as possible and bother the user the least possible with options or useless gadgets.</p>
+<pre><code>  •    Multi-document  
+  •    Compression methods supported: Reduce, Shrink, Implode, Deflate, Deflate64, BZip2, LZMA  
+  •    Encryption  
+</code></pre>
+</li>
+</ul>
+<h3 id="LZMA">LZMA</h3>
+<ul>
+<li>
+<p>AZip<br />
+Link: <a href="https://sourceforge.net/projects/azip/" target="_blank">sourceforge.net/projects/azip/</a><br />
+LastCheck: 13 sept. 2021<br />
+Author: gdemont,zertovitch<br />
+Copyright: Julian Seward<br />
+Repository: GitHub</p>
+<p>AZip is a free Zip Archive Manager with unique features such as: built-in content Search, smart archive Update, archive Recompression.</p>
+<p>The goal is to keep the user interface as simple as possible and bother the user the least possible with options or useless gadgets.<br />
+•    Multi-document<br />
+•    Compression methods supported: Reduce, Shrink, Implode, Deflate, Deflate64, BZip2, LZMA<br />
+•    Encryption</p>
+<ul>
+<li>
+<p>Zipada<br />
+Link: <a href="https://alire.ada.dev/crates/zipada" target="_blank">alire.ada.dev/crates/zipada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: gdemont,zertovitch</p>
+<p>Manage Zip Archives and raw LZMA streams —  [ &quot;zip&quot; ]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Lzmada<br />
+Link: <a href="https://alire.ada.dev/crates/lzmada" target="_blank">alire.ada.dev/crates/lzmada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Ada LZMA Library Binding — 0</p>
+</li>
+<li>
+<p>Utilada_lzma<br />
+Link: <a href="https://alire.ada.dev/crates/utilada_lzma" target="_blank">alire.ada.dev/crates/utilada_lzma</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>Utility Library streams with LZMA support —  [&quot;lzma&quot;, &quot;streams&quot;]</p>
+</li>
+</ul>
+<h3 id="ZLib">ZLib</h3>
+<p>Link: <a href="https://github.com/ytomino/zlib-ada" target="_blank">github.com/ytomino/zlib-ada</a></p>
+<ul>
+<li>
+<p>Gnatcoll_zlib<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_zlib" target="_blank">alire.ada.dev/crates/gnatcoll_zlib</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - zlib binding —  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;zlib&quot;, &quot;compression&quot;, &quot;zip&quot;, &quot;deflate&quot;]</p>
+</li>
+<li>
+<p>Zlib_ada<br />
+Link: <a href="https://alire.ada.dev/crates/zlib_ada" target="_blank">alire.ada.dev/crates/zlib_ada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>ZLib for Ada thick binding — 0</p>
+</li>
+</ul>
+<h3 id="Zip">Zip</h3>
+<ul>
+<li>
+<p>AZip<br />
+Link: <a href="https://sourceforge.net/projects/azip/" target="_blank">sourceforge.net/projects/azip/</a><br />
+LastCheck: 13 sept. 2021<br />
+Author: gdemont,zertovitch<br />
+Copyright: Julian Seward<br />
+Repository: GitHub</p>
+<p>AZip is a free Zip Archive Manager with unique features such as: built-in content Search, smart archive Update, archive Recompression.</p>
+<p>The goal is to keep the user interface as simple as possible and bother the user the least possible with options or useless gadgets.</p>
+<pre><code>  •    Multi-document  
+  •    Compression methods supported: Reduce, Shrink, Implode, Deflate, Deflate64, BZip2, LZMA  
+  •    Encryption  
+</code></pre>
+<p>More details and screenshots on the AZip Web site: <a href="http://azip.sf.net/" target="_blank">http://azip.sf.net</a></p>
+<ul>
+<li>
+<p>Zipada<br />
+Link: <a href="https://alire.ada.dev/crates/zipada" target="_blank">alire.ada.dev/crates/zipada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: gdemont,zertovitch</p>
+<p>Manage Zip Archives and raw LZMA streams —  [ &quot;zip&quot; ]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Zipdcf<br />
+Link: <a href="https://alire.ada.dev/crates/zipdcf" target="_blank">alire.ada.dev/crates/zipdcf</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: onox</p>
+<p>Tools that can (un)zip document container files, a Zip-based format —  [&quot;zip&quot;, &quot;document&quot;, &quot;container&quot;]</p>
+</li>
+</ul>
+<h3 id="Embed-compression">Embed compression</h3>
+<ul>
+<li>
+<p>Dcf<br />
+Link: <a href="https://alire.ada.dev/crates/dcf" target="_blank">alire.ada.dev/crates/dcf</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: onox</p>
+<p>Ada 2012 library for document container files, a Zip-based format —  [&quot;zip&quot;, &quot;document&quot;, &quot;container&quot;]</p>
+</li>
+<li>
+<p>Zipdcf<br />
+Link: <a href="https://alire.ada.dev/crates/zipdcf" target="_blank">alire.ada.dev/crates/zipdcf</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: onox</p>
+<p>Tools that can (un)zip document container files, a Zip-based format —  [&quot;zip&quot;, &quot;document&quot;, &quot;container&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Scripting-CGI-GarbageCollector">Scripting-CGI-GarbageCollector</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Ada Class Library<br />
+Link: <a href="http://sourceforge.net/projects/adacl/" target="_blank">sourceforge.net/projects/adacl/</a><br />
+LastCheck: 9 déc. 2007<br />
+Author: krischik<br />
+Copyright: Grady Booch<br />
+Repository: SourceForge</p>
+<p>Ada Class Library - an object orientated library for Ada.<br />
+Text search and replace.<br />
+Scripting (small tool programs).<br />
+CGI scripts.<br />
+Execution of external programs (incl. I/O redirection).<br />
+Garbage Collection.<br />
+Extendended Booch Components.<br />
+CD-Recorder</p>
+</li>
+</ul>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Booch-Components">Booch Components</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Ada Class Library<br />
+Link: <a href="http://sourceforge.net/projects/adacl/" target="_blank">sourceforge.net/projects/adacl/</a><br />
+LastCheck: 9 déc. 2007<br />
+Author: krischik<br />
+Copyright: Grady Booch<br />
+Repository: SourceForge</p>
+<p>Ada Class Library - an object orientated library for Ada.<br />
+Text search and replace.<br />
+Scripting (small tool programs).<br />
+CGI scripts.<br />
+Execution of external programs (incl. I/O redirection).<br />
+Garbage Collection.<br />
+Extendended Booch Components.<br />
+CD-Recorder</p>
+</li>
+</ul>
+<hr><h2 id="MMap">MMap</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="FileSystem">FileSystem</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Scripting">Scripting</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Logging">Logging</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<h3 id="logging">logging</h3>
+<ul>
+<li>
+<p>Gnatcoll_syslog<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_syslog" target="_blank">alire.ada.dev/crates/gnatcoll_syslog</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - syslog binding —  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;syslog&quot;, &quot;logging&quot;]</p>
+</li>
+<li>
+<p>Simple_logging<br />
+Link: <a href="https://alire.ada.dev/crates/simple_logging" target="_blank">alire.ada.dev/crates/simple_logging</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Simple logging to console —  [&quot;logging&quot;, &quot;utility&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Strings">Strings</h2>
+<h3 id="Search">Search</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<h3 id="iConv">iConv</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+<h3 id="i18n">i18n</h3>
+<ul>
+<li>
+<p>Gnatcoll_iconv<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_iconv" target="_blank">alire.ada.dev/crates/gnatcoll_iconv</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau,adacore</p>
+<p>GNAT Components Collection - iconv binding —  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;iconv&quot;, &quot;i18n&quot;]</p>
+</li>
+<li>
+<p>Felix<br />
+Link: <a href="https://alire.ada.dev/crates/felix" target="_blank">alire.ada.dev/crates/felix</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: lkujaw</p>
+<p>X/Open Native Language System (NLS) for Ada — [&quot;ada1995&quot;, &quot;i18n&quot;, &quot;nls&quot;,</p>
+</li>
+</ul>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="Strings">Strings</h3>
+<ul>
+<li>
+<p>C_strings<br />
+Link: <a href="https://alire.ada.dev/crates/c_strings" target="_blank">alire.ada.dev/crates/c_strings</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Convenience subprograms to interact with C strings — 0</p>
+</li>
+<li>
+<p>Matreshka_league<br />
+Link: <a href="https://alire.ada.dev/crates/matreshka_league" target="_blank">alire.ada.dev/crates/matreshka_league</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: godunko,reznikmm</p>
+<p>League - universal string library. Part of Matreshka framework — [&quot;unicode  xml&quot;,&quot;sax&quot;,&quot;json&quot;,&quot;encoding&quot;,&quot;regexp&quot;,&quot;time&quot;]</p>
+</li>
+<li>
+<p>Strings Edit<br />
+Link: <a href="https://sourceforge.net/projects/stringsedit/" target="_blank">sourceforge.net/projects/stringsedit/</a><br />
+LastCheck: 2 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</p>
+<p>Strings edit is a library that provides I/O facilities for integers, floating-point numbers, Roman numerals, and strings. Both input and output subroutines support string pointers for consequent stream processing. The output can be aligned in a fixed size field with padding. Numeric input can be checked against expected values range to be either saturated or to raise an exception. For floating-point output either relative or absolute output precision can be specified. UTF-8 encoded strings are supported, including wildcard pattern matching, sets and maps of code points, upper/lowercase, and other Unicode categorizations.</p>
+</li>
+<li>
+<p>Uri_ada<br />
+Link: <a href="https://alire.ada.dev/crates/uri_ada" target="_blank">alire.ada.dev/crates/uri_ada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Processing of URI strings —  [&quot;uri&quot;, &quot;url&quot;, &quot;utility&quot;]</p>
+</li>
+<li>
+<p>Uxstrings<br />
+Link: <a href="https://alire.ada.dev/crates/uxstrings" target="_blank">alire.ada.dev/crates/uxstrings</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Blady-Com</p>
+<p>Unicode Extended Strings utilities —  [&quot;unicode&quot;, &quot;dynamic&quot;, &quot;string&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Sort">Sort</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Partord<br />
+Link: <a href="https://alire.ada.dev/crates/partord" target="_blank">alire.ada.dev/crates/partord</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: fintatarta</p>
+<p>Small library for sorting with partial orders —  [&quot;sorting&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Tables">Tables</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Tables indexed by strings<br />
+Link: <a href="https://sourceforge.net/projects/tablesforada/" target="_blank">sourceforge.net/projects/tablesforada/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</p>
+<p>This library provides an implementation of tables indexed by strings. The binary search is used for names of known length. It is also possible to search a table for names of unknown length, i.e. to parse a string using some table. Table elements can be of any private type. Key- insensitive tables are supported.</p>
+</li>
+</ul>
+<hr><h2 id="Graphs">Graphs</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="GraphViz">GraphViz</h3>
+<h3 id="PlantUML">PlantUML</h3>
+<hr><h2 id="Arrays-Lists-Pools-Stacks-Trees">Arrays-Lists-Pools-Stacks-Trees</h2>
+<h3 id="Doubly-linked">Doubly-linked</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="MPool">MPool</h3>
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+<li>
+<p>Deepend<br />
+Link: <a href="https://sourceforge.net/projects/deepend/" target="_blank">sourceforge.net/projects/deepend/</a><br />
+LastCheck: 3 janv. 2017<br />
+Author: billymeister<br />
+Copyright: Bradley J. Moor<br />
+Repository: SourceForge</p>
+<p>Deepend is a storage pool with subpool capabilities for Ada 2012, Ada 2005, and Ada 95. Memory allocations can be associated with subpools and subpools can be deallocated as a whole which provides a safer alternative than managing deletions of individual objects. It also is likely to be more deterministic and efficient than garbage collection.</p>
+</li>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="Pools">Pools</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="Queues">Queues</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+<li>
+<p>Dequesterity<br />
+Link: <a href="https://sourceforge.net/projects/dequesterity/" target="_blank">sourceforge.net/projects/dequesterity/</a><br />
+LastCheck: 18 nov. 2016<br />
+Author: billymeister<br />
+Copyright: Bradley J. Moor<br />
+Repository: SourceForge</p>
+<p>Dequesterity [dek-ster-i-tee] is an assortment of deque/buffer generics written in Ada 2005 that consist of building blocks that may be combined in various ways to create higher abstraction buffers.</p>
+</li>
+</ul>
+<h3 id="Stacks">Stacks</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="Trees">Trees</h3>
+<ul>
+<li>
+<p>Avltrees<br />
+Link: <a href="https://alire.ada.dev/crates/avltrees" target="_blank">alire.ada.dev/crates/avltrees</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: lkujaw</p>
+<p>Threaded AVL trees library for Ada — [&quot;ada1987&quot;, &quot;data-structures&quot;]<br />
+AVLTREES is a threaded, self-balancing, binary trees library for Ada (1987), based upon the algorithms developed by G. M. Adelson-Velsky and E. M. Landis, often abbreviated AVL in the literature.</p>
+</li>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<h3 id="Unbounded-arrays">Unbounded arrays</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+<li>
+<p>Spark_unbound<br />
+Link: <a href="https://alire.ada.dev/crates/spark_unbound" target="_blank">alire.ada.dev/crates/spark_unbound</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mhatzl</p>
+<p>Unbound data structures in Ada-Spark —  [&quot;spark&quot;, &quot;unbound&quot;]</p>
+</li>
+</ul>
+<hr><h2 id="Events">Events</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<hr><h2 id="Mutex">Mutex</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+<hr><h2 id="Math">Math</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>
+<p>Mathpaqs<br />
+Link: <a href="https://alire.ada.dev/crates/mathpaqs" target="_blank">alire.ada.dev/crates/mathpaqs</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo,zertovitch</p>
+<p>A collection of mathematical, 100% portable, packages — 0</p>
+</li>
+</ul>
+<h3 id="GMP">GMP</h3>
+<p>Link: <a href="https://gmplib.org" target="_blank">gmplib.org</a></p>
+<ul>
+<li>
+<p>Gnatcoll_gmp<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_gmp" target="_blank">alire.ada.dev/crates/gnatcoll_gmp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - GNU Multiple Precision Arithmetic binding —  [&quot;gnatcoll&quot;, &quot;bindings&quot;, &quot;gmp&quot;, &quot;arbitrary&quot;, &quot;precision&quot;, &quot;arithmetic&quot;]</p>
+</li>
+</ul>
+<h3 id="pseudo-random-number-generators">pseudo-random number generators</h3>
+<ul>
+<li>
+<p>Xoshiro<br />
+Link: <a href="https://alire.ada.dev/crates/xoshiro" target="_blank">alire.ada.dev/crates/xoshiro</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: onox</p>
+<p>xoshiro128++ and xoshiro256++ pseudo-random number generators —  [&quot;xoshiro&quot;, &quot;rng&quot;, &quot;random&quot;, &quot;spark&quot;]</p>
+</li>
+</ul>
+<h3 id="Special-functions">Special functions</h3>
+<p>Link: <a href="https://en.wikipedia.org/wiki/Special_functions" target="_blank">en.wikipedia.org/wiki/Special_functions</a></p>
+<ul>
+<li>
+<p>Specfun<br />
+Link: <a href="https://alire.ada.dev/crates/specfun" target="_blank">alire.ada.dev/crates/specfun</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: fintatarta</p>
+<p>Native Ada library of special functions (e.g., beta, gamma) —  [&quot;special-fun&quot;, &quot;numerics&quot;, &quot;beta-function&quot;, &quot;gamma-function&quot;, &quot;beta-incomplete&quot;]</p>
+</li>
+</ul>
+<h3 id="IEEE-754">IEEE 754</h3>
+<p>Link: <a href="https://en.wikipedia.org/wiki/IEEE_754" target="_blank">en.wikipedia.org/wiki/IEEE_754</a></p>
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+
+</div>
+
+</div></div><div id="myExtraContent6"><div id='stacks_out_675' class='stacks_out'><div id='stacks_in_675' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_675"> <div id='stacks_out_676' class='stacks_out'><div id='stacks_in_676' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../../sitemap/" title="Site Map">Site Map</a></p></div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_675"> <div id='stacks_out_679' class='stacks_out'><div id='stacks_in_679' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../../OtherResources/AboutUs/" title="About US">About Us</a></p></div></div></div></div>
+
+</div></div></div></div></div>
+</div>
+								
+							</section>
+            <div id="asidewrap">
+                <aside>
+								<div id="sidecontent">
+									<div id="sideTitle"></div>	
+										
+									
+								</div>	
+							</aside>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="ecwrap">
+            </div>
+            <div id="ec2wrap">
+                <div id="extraContainer2">
+                </div>
+            </div>
+            <div id="ec3wrap">
+                <div id="extraContainer3">
+                </div>
+            </div>
+            <div id="ec4wrap">
+                <div id="extraContainer4">
+                </div>
+            </div>
+            <div id="ec5wrap">
+                <div id="extraContainer5">
+                </div>
+            </div>
+            <div id="ec6wrap">
+                <div id="extraContainer6">
+                </div>
+            </div>
+            <div id="extraContainer10">
+            </div>
+        </div>
+        <footer>		
+			<div id="footer">&copy; 2015-2022 William J. FRANCK <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":co";var _rwObsfuscatedHref3 = "nta";var _rwObsfuscatedHref4 = "ct@";var _rwObsfuscatedHref5 = "ada";var _rwObsfuscatedHref6 = "for";var _rwObsfuscatedHref7 = "ge.";var _rwObsfuscatedHref8 = "org";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById("rw_email_contact").href = _rwObsfuscatedHref;</script></div>		
+				<div id="socialicons">
+				<div id="socialicons1"></div>
+			</div>		
+		</footer>
+    </div>
+    <a href="#" class="scrollup">Scroll</a> 
+<script src="../../../../rw_common/assets/global.js"></script>
+<div id="rapidweaver_privacy_message">
+    <p><span style="font:13px .AppleSystemUIFont; color:#000000;">GDPR compliant</span></p>
+    <button id="rapidweaver_privacy_message_dismiss_button">OK</button>
+</div>
+
+<script src="../../../../rw_common/assets/message.js"></script>
+</body>
+</html>

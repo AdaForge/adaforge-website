@@ -1,0 +1,773 @@
+<!doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1" />
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/resources/Scripts/StatCounter.js"></script>
+
+<div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10688383/0/3a95e712/1/"
+alt="web analytics"></a></div>
+<!-- End of StatCounter Code for Default Guide -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="(c) William Franck" />
+		<meta name="description" content="AdaForge is the home of the brave Ada developer programming in the Ada language source code and searching free quality Open Source software libraries" />
+		<meta name="keywords" content="ada programming language source code software library libraries osx linux freebsd real-time free quality opensource open-source adaforge" />
+		<meta name="description" content="Ada Open Source Code and Tools - Software for a complex world - Edit Sources  for Ada developers" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.adaforge.org/resources/large.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.adaforge.org/resources/medium.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_large.png" sizes="64x64" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_medium.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.adaforge.org/resources/Ada_1983-2022_3D_Coin-152.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_small.png" sizes="16x16" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AdaForge2022">
+	<meta name="twitter:creator" content="@AdaForge2022">
+	<meta name="twitter:title" content="Ada Forge Software resources">
+	<meta name="twitter:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta name="twitter:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta name="twitter:url" content="https://www.adaforge.org/DevTools/DevToolsSources/index.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Ada Forge - Home">
+	<meta property="og:title" content="Ada Forge Software resources">
+	<meta property="og:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta property="og:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta property="og:url" content="https://www.adaforge.org/DevTools/DevToolsSources/index.html"> <title>Developers Forge for Open Source Ada Code and Tools - Edit Sources</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/colourtag-theme-default-page15.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/flexslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ec5on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ec6on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ec9on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/rimage.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ssoff.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/sslide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/sidenone.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/olight60.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontfjalla.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/title32.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontdakotaspan.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/bts46.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/bt20.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontfjallanav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/nav16.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontquestrialside.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontquestrialheader.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontquestrialcontent.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/font16.css" />
+		 <style type="text/css" media="all">#feature {background-image: url("../../resources/Banner/SourceCode-Ada-Earth-and-Moon.jpg")}
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+</style>
+    <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/html5shiv.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/javascript.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/function.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery.flexslider.js"></script>
+    <script>
+			 function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '../../resources/FreeMind/show.png';
+}
+else {
+div_el.style.display='block';
+img_el.src = '../../resources/FreeMind/hide.png';
+};
+};
+ 
+		</script> 		<link rel='stylesheet' type='text/css' media='all' href='../../rw_common/plugins/stacks/stacks.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page15.css' />
+        
+        
+        
+        
+		
+        <meta name="formatter" content="Stacks v4.2.4 (6029)" >
+		<meta class="stacks4 stack version" id="info.extracontent.extracontent" name="ExtraContent" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.responsive" name="Resp 2 Column" content="1.6.6">
+		
+ <link rel="stylesheet" type="text/css" media="all" href="../../resources/FreeMind/freemind2html.css" />
+<link rel="stylesheet" type="text/css" href="../../rw_common/assets/message.css" />
+<link rel="stylesheet" type="text/css" href="../../rw_common/assets/global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hwrap">
+            <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div id="headwrap">
+			
+					<div id="titlelogo">
+							<a href="https://www.adaforge.org/">				
+							<div id="logo"></div>	
+							<h1>Ada Forge - Home</h1></a>
+							<h2>Software for a complex world</h2>
+					</div>
+						
+						
+						<div id="mwrap">
+							<div id="lt"></div>
+							<div id="lm"></div>
+							<div id="lb"></div>
+						</div>
+						
+						
+						<div id="nwrap">
+							<div id="menuBtn"></div>
+							<nav><ul class="navigation"><li><a href="../../News/" rel="">News</a></li><li><a href="../../Libraries/" rel="">Libraries</a><ul class="navigation"><li><a href="../../Libraries/AppDomains/" rel="">App Domains</a></li><li><a href="../../Libraries/ServiceLibs/" rel="">Service Libs</a></li><li><a href="../../Libraries/SystemLibs/" rel="">System Libs</a></li><li><a href="../../Libraries/Hardware-Kernels/" rel="">Hardware & Kernels</a></li></ul></li><li  id="currentAncestor"><a href="../../DevTools/" rel="" class="currentAncestor">Dev Tools</a><ul class="navigation"><li><a href="../../DevTools/DevToolsDesign/" rel="">Design</a></li><li id="current"><a href="./" rel="" id="current">Sources</a></li><li><a href="../../DevTools/DevToolsBuild/" rel="">Build</a></li><li><a href="../../DevTools/DevToolsTest/" rel="">Test</a></li><li><a href="../../DevTools/DevToolsDevOps/" rel="">DevOps</a></li><li><a href="../../DevTools/Translators/" rel="">Translate</a></li></ul></li><li><a href="../../Thematics/" rel="">Thematics</a></li><li><a href="../../OtherResources/" rel="">Other resources</a><ul class="navigation"><li><a href="../../OtherResources/Learn/" rel="">Learn</a></li><li><a href="../../OtherResources/Communities/" rel="">Communities</a></li><li><a href="../../OtherResources/Forums-Chats/" rel="">Forums &Chat</a></li><li><a href="../../OtherResources/OtherAdaResources/" rel="">Ada Resources</a></li><li><a href="../../OtherResources/PublicRepos/" rel="">Public Repos</a></li><li><a href="../../OtherResources/OSI-Licenses/" rel="">FOSS Licenses</a></li><li><a href="../../OtherResources/ProjectStructure/" rel="">AdaForge GPR</a></li><li><a href="../../OtherResources/Advocacy/" rel="">Advocacy</a></li><li><a href="../../OtherResources/Popularize/" rel="">Popularize</a></li><li><a href="../../OtherResources/BenchMarking/" rel="">Benchmarking</a></li><li><a href="../../OtherResources/CodeContests/" rel="">Code Contest</a></li><li><a href="../../OtherResources/AboutUs/" rel="">About US</a></li></ul></li><li><a href="../../Goodies/" rel="">Goodies</a><ul class="navigation"><li><a href="../../Goodies/AdaGoldCoin/" rel="">Ada Gold Coin</a></li><li><a href="../../Goodies/LadyAda/" rel="">Lady Ada</a></li><li><a href="../../Goodies/Ada_Logo/" rel="">Ada Language Logo</a></li></ul></li><li><a href="../../contact-form/" rel="">Contact</a></li></ul></nav>						
+						</div>
+				</div>
+			</header>
+            <div class="banner video_banner">
+                <div id="feature">
+                    <div id="extraContainer11">
+                        <div class="videoWrapper">
+                        </div>
+                    </div>
+                    <div id="extraContainer1">
+                    </div>
+                    <div class="banner-text">
+                    </div>
+                    <div id="extraContainer9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="container">
+            <div id="extraContainer7">
+            </div>
+            <div id="extraContainer8">
+            </div>
+            <section>
+								
+								<div id="padding">
+<div id='stacks_out_587' class='stacks_top'><div id='stacks_in_587' class=''><div id="myExtraContent9"><div id='stacks_out_614' class='stacks_out'><div id='stacks_in_614' class='stacks_in html_stack'>Edit Sources</div></div></div><div id='stacks_out_703' class='stacks_out'><div id='stacks_in_703' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_703"> <div id='stacks_out_704' class='stacks_out'><div id='stacks_in_704' class='stacks_in text_stack'>Libraries are prefixed by a logo relative to the given <em><a href="../../OtherResources/OSI-Licenses/" title="OSI Licenses">OpenSource License</a></em>.<br /><strong>ALR</strong>: Component available through the <a href="https://alire.ada.dev" target="_blank" title="Ada LIbrary REpository">ALIRE</a> crates (component) manager and repository.</div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_703"> <div id='stacks_out_707' class='stacks_out'><div id='stacks_in_707' class='stacks_in text_stack'><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the arrow <span style="font:12px .AppleSystemUIFont; ">➚</span> to go to the section beneath with some more details.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the earth symbol <span style="font:12px AppleColorEmoji; ">🌎</span> to go to the mentioned site.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Hover on, or Click on the little page symbol <span style="font:12px AppleColorEmoji; ">📄</span> to read a short description.<br /></div></div></div></div>
+
+</div></div><div id='stacks_out_687' class='stacks_out'><div id='stacks_in_687' class='stacks_in html_stack'>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 2566 8192" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="2566" height="8192" xlink:href="../../resources/SoftwareCategories/Sub/DevToolsSources.png"></image>
+<a xlink:href="#Text-Code-Editor" xlink:title="#Text-Code-Editor"><rect x="524" y="433" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/ada_language_server" target="_blank" xlink:title="https://alire.ada.dev/crates/ada_language_server"><rect x="1755" y="496" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F5E0B324-CACA-4CE1-BE33-BCF7CE3838E7/note.html" xlink:title="An implementation of the Microsoft's Language Server Protocol for Ada &mdash; 0"><rect x="1723" y="496" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8A93F9E4-2888-477E-AB2B-8839936EBDB7/note.html" xlink:title="LEA, a Lightweight Editor for Ada, aims to provide an easy,&#10;script-like, &quot;look &amp; feel&quot; for developing Ada projects of any size, while enabling access to full-scale development tools like GNAT."><rect x="1751" y="666" width="27" height="27"/></a>
+<a xlink:href="#IDE" xlink:title="#IDE"><rect x="472" y="1658" width="27" height="27"/></a>
+<a xlink:href="https://github.com/AdaCore/gnatstudio" target="_blank" xlink:title="https://github.com/AdaCore/gnatstudio"><rect x="1792" y="921" width="27" height="27"/></a>
+<a xlink:href="https://github.com/AdaCore/gnatstudio" target="_blank" xlink:title="https://github.com/AdaCore/gnatstudio"><rect x="1781" y="1090" width="27" height="27"/></a>
+<a xlink:href="https://sourceforge.net/projects/ideada/" target="_blank" xlink:title="https://sourceforge.net/projects/ideada/"><rect x="1435" y="1467" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/278D67D1-8CAB-4C37-978E-6CCEE164F88F/note.html" xlink:title="A new Eclipse Plugin for ADA developpement. For the moment the plugin works with :&#10;    • Syntax coloration&#10;    • Compilation (Not debug mode)&#10;    • Autocompletion&#10;    • Package manager (some imporovement have to be done)"><rect x="1403" y="1467" width="27" height="27"/></a>
+<a xlink:href="https://sourceforge.net/projects/adagide" target="_blank" xlink:title="https://sourceforge.net/projects/adagide"><rect x="1489" y="1684" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/946EDBA3-3C16-4423-B58D-9AE79AC20569/note.html" xlink:title="daGIDE: GNAT Integrated Development Environment for Windows."><rect x="1457" y="1684" width="27" height="27"/></a>
+<a xlink:href="https://sourceforge.net/projects/gnavi/" target="_blank" xlink:title="https://sourceforge.net/projects/gnavi/"><rect x="1489" y="1924" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/7233BB77-21E6-4A3E-83A1-AF7F7820669F/note.html" xlink:title="The GNAVI project provides GWindows, a Rapid Application Development framework for Graphical User Interfaces on MS Windows.&#10;The durable Open Source answer to Delphi and Visual Basic."><rect x="1457" y="1924" width="27" height="27"/></a>
+<a xlink:href="https://r3fowwcolhrzycn2yzlzzw-on.drv.tw/AdaStudio/adastudio.html" target="_blank" xlink:title="https://r3fowwcolhrzycn2yzlzzw-on.drv.tw/AdaStudio/adastudio.html"><rect x="1457" y="2093" width="27" height="27"/></a>
+<a xlink:href="https://github.com/flyx/gps-osx" target="_blank" xlink:title="https://github.com/flyx/gps-osx"><rect x="1421" y="2412" width="27" height="27"/></a>
+<a xlink:href="#Syntax-Highlighting" xlink:title="#Syntax-Highlighting"><rect x="532" y="2899" width="27" height="27"/></a>
+<a xlink:href="#Pretty-Formater" xlink:title="#Pretty-Formater"><rect x="518" y="3548" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/ada_pretty" target="_blank" xlink:title="https://alire.ada.dev/crates/ada_pretty"><rect x="1860" y="3706" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DC86EA5A-871D-477A-8BB4-54B1A282DF41/note.html" xlink:title="Ada Pretty Printer Library &mdash;  [&quot;pretty&quot;, &quot;printing&quot;, &quot;generator&quot;]"><rect x="1828" y="3706" width="27" height="27"/></a>
+<a xlink:href="#Documentation" xlink:title="#Documentation"><rect x="516" y="4470" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll_xref" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll_xref"><rect x="1983" y="4180" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/349741DB-6A93-409F-8AF1-40C1224DA7DC/note.html" xlink:title="GNAT Components Collection - xref &mdash;  [&quot;gnatcoll&quot;, &quot;database&quot;, &quot;xref&quot;, &quot;ali&quot;]"><rect x="1951" y="4180" width="27" height="27"/></a>
+<a xlink:href="http://adadoc.sourceforge.net" target="_blank" xlink:title="http://adadoc.sourceforge.net"><rect x="1638" y="4595" width="27" height="27"/></a>
+<a xlink:href="https://sourceforge.net/projects/doxygen/" target="_blank" xlink:title="https://sourceforge.net/projects/doxygen/"><rect x="1644" y="4729" width="27" height="27"/></a>
+<a xlink:href="http://sphinx-doc.org" target="_blank" xlink:title="http://sphinx-doc.org"><rect x="1644" y="4864" width="27" height="27"/></a>
+<a xlink:href="#Code-Analysis" xlink:title="#Code-Analysis"><rect x="514" y="6343" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/asis" target="_blank" xlink:title="https://alire.ada.dev/crates/asis"><rect x="1951" y="5250" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/490B7562-C09F-44A4-A27D-9C585B15E878/note.html" xlink:title="Ada Semantic Interface Specification or ASIS (library part) &mdash; 0"><rect x="1920" y="5250" width="27" height="27"/></a>
+<a xlink:href="http://sourceforge.net/projects/asis2xml/" target="_blank" xlink:title="http://sourceforge.net/projects/asis2xml/"><rect x="1920" y="5467" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/libadalang" target="_blank" xlink:title="https://alire.ada.dev/crates/libadalang"><rect x="2084" y="5636" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/5154550F-9B5F-4CEC-8C39-5141ED722F81/note.html" xlink:title="Ada semantic analysis library &mdash; [&quot;libadalang&quot;,&quot;static-analysis&quot;]"><rect x="2053" y="5636" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/libadalang_tools" target="_blank" xlink:title="https://alire.ada.dev/crates/libadalang_tools"><rect x="2084" y="5804" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/E28A2B6E-D64C-4D19-B758-D092ADF08701/note.html" xlink:title="Ada semantic analysis library extension and tools &mdash; [&quot;libadalang&quot;,&quot;static-analysis&quot;,&quot;metric&quot;,&quot;formatting&quot;,&quot;generator&quot;]"><rect x="2053" y="5804" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/langkit_support" target="_blank" xlink:title="https://alire.ada.dev/crates/langkit_support"><rect x="2084" y="5973" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/071EBFD6-9B60-4610-8444-692829E1DDFD/note.html" xlink:title="Runtime support library for Langkit-generated libraries &mdash; 0"><rect x="2053" y="5973" width="27" height="27"/></a>
+<a xlink:href="https://www.antlr.org" target="_blank" xlink:title="https://www.antlr.org"><rect x="1628" y="6106" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/aflex" target="_blank" xlink:title="https://alire.ada.dev/crates/aflex"><rect x="1931" y="6293" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DA17BCBC-9014-4D99-9DCA-2C9143B4C3D5/note.html" xlink:title="An Ada Lexical Analyzer Generator &mdash; [&quot;parser&quot;,&quot;generator&quot;,&quot;grammar&quot;]"><rect x="1900" y="6293" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/ayacc" target="_blank" xlink:title="https://alire.ada.dev/crates/ayacc"><rect x="1943" y="6462" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/6141DF65-1C8D-4916-87BE-4F77C9C80C63/note.html" xlink:title="An Ada LARL(1) parser generator &mdash;  [&quot;parser&quot;, &quot;generator&quot;, &quot;grammar&quot;]"><rect x="1912" y="6462" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/anagram" target="_blank" xlink:title="https://alire.ada.dev/crates/anagram"><rect x="1963" y="6630" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F0E16A1C-52AB-478F-B876-18BAE99D0D90/note.html" xlink:title="Grammar handling and parser generation Ada library &mdash;  [&quot;grammar&quot;, &quot;syntax&quot;, &quot;analysis&quot;, &quot;bnf&quot;, &quot;ebnf&quot;, &quot;generator&quot;]"><rect x="1931" y="6630" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="1741" y="6799" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/96A900B4-085F-47E4-9168-FC2E969803FC/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;Features:&#10;ASN.1&#10;B-trees&#10;Blackboards (lock-free)&#10;Chebyshev series&#10;Cryptography&#10;Doubly-linked webs and lists&#10;ELV/eQ-3 MAX! client implementation&#10;Events (plain, pulse, array of)&#10;FIFO (lock-free)&#10;GNUTLS bindings&#10;Graphs (directed, weighted, acyclic, trees)&#10;HTTP implementation&#10;IEEE 754&#10;Inter-process communication&#10;Interfacing Julia language&#10;JSON&#10;LDAP&#10;MODBUS client implementation&#10;MQTT client and server/broker implementation&#10;Multiple connection TCP servers&#10;Mutexes&#10;Objects and handles to&#10;ODBC bindings&#10;OpenSSL bindings&#10;Parsers&#10;Persistent objects and handles to&#10;Pools&#10;Sets and maps&#10;SMTP client implementation&#10;SQLite bindings&#10;Stacks&#10;Streams&#10;Strings editing&#10;Tables (maps of strings)&#10;Unbounded arrays"><rect x="1709" y="6799" width="27" height="27"/></a>
+<a xlink:href="https://sourceforge.net/projects/adacontrol/" target="_blank" xlink:title="https://sourceforge.net/projects/adacontrol/"><rect x="1935" y="7116" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/lal_highlight" target="_blank" xlink:title="https://alire.ada.dev/crates/lal_highlight"><rect x="1967" y="7285" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3F084494-A0A5-4269-863A-B16265E72D23/note.html" xlink:title="Simple code highlighters based on Libadalang &mdash; [&quot;libadalang&quot;,&quot;static-analysis&quot;]"><rect x="1935" y="7285" width="27" height="27"/></a>
+<a xlink:href="https://alire.ada.dev/crates/spat" target="_blank" xlink:title="https://alire.ada.dev/crates/spat"><rect x="1967" y="7453" width="27" height="27"/></a>
+<a xlink:href="../../resources/SoftwareLibs/DevToolsSources/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/FE5B94FF-0A13-473E-8D61-1D020B2927EE/note.html" xlink:title="SPAT - SPARK Proof Analysis Tool &mdash;  [&quot;spark&quot;]"><rect x="1935" y="7453" width="27" height="27"/></a>
+<a xlink:href="#Reverse" xlink:title="#Reverse"><rect x="488" y="7693" width="27" height="27"/></a>
+<a xlink:href="#Translate" xlink:title="#Translate"><rect x="492" y="8015" width="27" height="27"/></a>
+</svg>
+</div>
+</div>
+
+<br/>
+
+<div id="outlineDiv">
+<hr><h1 id="Sources">Sources</h1>
+<hr><h2 id="Text-Code-Editor">Text-Code Editor</h2>
+<h3 id="TextMate-(MacOS)">TextMate (MacOS)</h3>
+<h3 id="Visual-Code">Visual Code</h3>
+<h3 id="LSP">LSP</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Ada_language_server<br />
+Link: <a href="https://alire.ada.dev/crates/ada_language_server" target="_blank">alire.ada.dev/crates/ada_language_server</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: reznikmm</p>
+<p>An implementation of the Microsoft's Language Server Protocol for Ada — 0</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>LEA<br />
+LastCheck: 22 janv. 2022<br />
+Author: gdemont,zertovitch</p>
+<p>LEA, a Lightweight Editor for Ada, aims to provide an easy,<br />
+script-like, &quot;look &amp; feel&quot; for developing Ada projects of any size, while enabling access to full-scale development tools like GNAT.</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="IDE">IDE</h2>
+<h3 id="GNAT-Studio---GPS-(GTK)">GNAT Studio - GPS (GTK)</h3>
+<p>Copyright: AdaCore<br />
+Repository: Libre.Adacore.com</p>
+<ul>
+<li>
+<p>MacOS</p>
+<ul>
+<li>gnatstudio (GTK-Quartz)<br />
+Link: <a href="https://github.com/AdaCore/gnatstudio" target="_blank">github.com/AdaCore/gnatstudio</a><br />
+Copyright: AdaCore<br />
+Repository: Libre.Adacore.com</li>
+</ul>
+</li>
+<li>
+<p>Win32</p>
+<ul>
+<li>gnatstudio (GTK-Win32)<br />
+Link: <a href="https://github.com/AdaCore/gnatstudio" target="_blank">github.com/AdaCore/gnatstudio</a><br />
+Copyright: AdaCore<br />
+Repository: Libre.Adacore.com</li>
+</ul>
+</li>
+</ul>
+<h3 id="Emacs">Emacs</h3>
+<ul>
+<li>Unix/OSX</li>
+</ul>
+<h3 id="Eclipse">Eclipse</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>IDEADA<br />
+Link: <a href="https://sourceforge.net/projects/ideada/" target="_blank">sourceforge.net/projects/ideada/</a><br />
+LastCheck: 2 nov. 2007<br />
+Author: azalsup<br />
+Copyright: Martin C. Carlisle<br />
+Repository: SourceForge</p>
+<p>A new Eclipse Plugin for ADA developpement. For the moment the plugin works with :</p>
+<ul>
+<li>Syntax coloration</li>
+<li>Compilation (Not debug mode)</li>
+<li>Autocompletion</li>
+<li>Package manager (some imporovement have to be done)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Windows">Windows</h3>
+<ul>
+<li>Win v?
+<ul>
+<li>
+<p>AdaGIDE<br />
+Link: <a href="https://sourceforge.net/projects/adagide" target="_blank">sourceforge.net/projects/adagide</a><br />
+LastCheck: 5 août 2010<br />
+Author: carlislemc<br />
+Copyright: David Botton<br />
+Repository: SourceForge</p>
+<p>daGIDE: GNAT Integrated Development Environment for Windows.</p>
+</li>
+<li>
+<p>GNAVI-GWindows<br />
+Link: <a href="https://sourceforge.net/projects/gnavi/" target="_blank">sourceforge.net/projects/gnavi/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dbotton,gdemont,zertovitch<br />
+Copyright: Regents of the University of California<br />
+Repository: SourceForge</p>
+<p>The GNAVI project provides GWindows, a Rapid Application Development framework for Graphical User Interfaces on MS Windows.<br />
+The durable Open Source answer to Delphi and Visual Basic.</p>
+</li>
+<li>
+<p>VAD-Visual Ada Developer<br />
+Link: <a href="https://r3fowwcolhrzycn2yzlzzw-on.drv.tw/AdaStudio/adastudio.html" target="_blank">r3fowwcolhrzycn2yzlzzw-on.drv.tw/AdaStudio/adastudio.html</a><br />
+Copyright: Leonid Dulman<br />
+Repository: Drive.Google</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="MacOS">MacOS</h3>
+<ul>
+<li>…
+<ul>
+<li>XCode Plugin</li>
+</ul>
+</li>
+<li>…
+<ul>
+<li>GPS for OSX (GTK-Quartz)<br />
+Link: <a href="https://github.com/flyx/gps-osx" target="_blank">github.com/flyx/gps-osx</a><br />
+Copyright: Felix Krause<br />
+Repository: Libre.Adacore.com</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Syntax-Highlighting">Syntax Highlighting</h2>
+<h3 id="Ruby-env">Ruby env</h3>
+<ul>
+<li>…
+<ul>
+<li>Rouge</li>
+</ul>
+</li>
+</ul>
+<h3 id="Python-env">Python env</h3>
+<ul>
+<li>…
+<ul>
+<li>Pygments</li>
+</ul>
+</li>
+</ul>
+<h3 id="TextMate">TextMate</h3>
+<ul>
+<li>…
+<ul>
+<li>TextMate</li>
+</ul>
+</li>
+</ul>
+<h3 id="Visual-Code">Visual Code</h3>
+<ul>
+<li>…
+<ul>
+<li>Visual Code</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Pretty-Formater">Pretty Formater</h2>
+<h3 id="ASIS-based">ASIS based</h3>
+<ul>
+<li>gnatpp</li>
+</ul>
+<h3 id="LibAdaLang-based">LibAdaLang based</h3>
+<h3 id="Other-lexers">Other lexers</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Ada_pretty<br />
+Link: <a href="https://alire.ada.dev/crates/ada_pretty" target="_blank">alire.ada.dev/crates/ada_pretty</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: reznikmm</p>
+<p>Ada Pretty Printer Library —  [&quot;pretty&quot;, &quot;printing&quot;, &quot;generator&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Documentation">Documentation</h2>
+<h3 id="Source-Graph">Source Graph</h3>
+<ul>
+<li>Dependencies
+<ul>
+<li>
+<p>GraphViz generator</p>
+</li>
+<li>
+<p>PlantUML generator</p>
+</li>
+<li>
+<p>Gnatcoll_xref<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll_xref" target="_blank">alire.ada.dev/crates/gnatcoll_xref</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - xref —  [&quot;gnatcoll&quot;, &quot;database&quot;, &quot;xref&quot;, &quot;ali&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="API-Doc-generator">API-Doc generator</h3>
+<ul>
+<li>
+<p>GnatDoc<br />
+Copyright: David Botton<br />
+Repository: SourceForge</p>
+</li>
+<li>
+<p>AdaDoc<br />
+Link: <a href="http://adadoc.sourceforge.net" target="_blank">adadoc.sourceforge.net</a><br />
+Copyright: Vincent Decorges<br />
+Repository: SourceForge</p>
+</li>
+<li>
+<p>Doxygen<br />
+Link: <a href="https://sourceforge.net/projects/doxygen/" target="_blank">sourceforge.net/projects/doxygen/</a></p>
+</li>
+<li>
+<p>Sphynx<br />
+Link: <a href="http://sphinx-doc.org" target="_blank">sphinx-doc.org</a></p>
+<ul>
+<li>AdaDomain<br />
+Repository: BitBucket<br />
+Author: Tero Koskinen</li>
+</ul>
+</li>
+<li>
+<p>Dash</p>
+</li>
+</ul>
+<hr><h2 id="Code-Analysis">Code Analysis</h2>
+<h3 id="Grammars-<h3>Grammars &amp; Lexers</h3>amp;-Lexers">Grammars &amp; Lexers</h3>
+<ul>
+<li>
+<p>ASIS</p>
+<ul>
+<li>
+<p>Asis<br />
+Link: <a href="https://alire.ada.dev/crates/asis" target="_blank">alire.ada.dev/crates/asis</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Ada Semantic Interface Specification or ASIS (library part) — 0</p>
+</li>
+<li>
+<p>ASIS2XML<br />
+Link: <a href="http://sourceforge.net/projects/asis2xml/" target="_blank">sourceforge.net/projects/asis2xml/</a><br />
+LastCheck: 26 avr. 2019<br />
+Author: simonjwright<br />
+Copyright: FSF<br />
+Repository: SourceForge</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Lib-Ada-Lang</p>
+<ul>
+<li>
+<p>Libadalang<br />
+Link: <a href="https://alire.ada.dev/crates/libadalang" target="_blank">alire.ada.dev/crates/libadalang</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: pmderodat</p>
+<p>Ada semantic analysis library — [&quot;libadalang&quot;,&quot;static-analysis&quot;]</p>
+</li>
+<li>
+<p>Libadalang_tools<br />
+Link: <a href="https://alire.ada.dev/crates/libadalang_tools" target="_blank">alire.ada.dev/crates/libadalang_tools</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: pmderodat,reznikmm</p>
+<p>Ada semantic analysis library extension and tools — [&quot;libadalang&quot;,&quot;static-analysis&quot;,&quot;metric&quot;,&quot;formatting&quot;,&quot;generator&quot;]</p>
+</li>
+<li>
+<p>Langkit_support<br />
+Link: <a href="https://alire.ada.dev/crates/langkit_support" target="_blank">alire.ada.dev/crates/langkit_support</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: pmderodat</p>
+<p>Runtime support library for Langkit-generated libraries — 0</p>
+</li>
+</ul>
+</li>
+<li>
+<p>ANTLR<br />
+Link: <a href="https://www.antlr.org" target="_blank">antlr.org</a></p>
+<ul>
+<li>Ada2012-grammar</li>
+</ul>
+</li>
+<li>
+<p>Flex</p>
+<ul>
+<li>
+<p>Aflex<br />
+Link: <a href="https://alire.ada.dev/crates/aflex" target="_blank">alire.ada.dev/crates/aflex</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>An Ada Lexical Analyzer Generator — [&quot;parser&quot;,&quot;generator&quot;,&quot;grammar&quot;]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Yacc</p>
+<ul>
+<li>
+<p>Ayacc<br />
+Link: <a href="https://alire.ada.dev/crates/ayacc" target="_blank">alire.ada.dev/crates/ayacc</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>An Ada LARL(1) parser generator —  [&quot;parser&quot;, &quot;generator&quot;, &quot;grammar&quot;]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>others</p>
+<ul>
+<li>
+<p>Anagram<br />
+Link: <a href="https://alire.ada.dev/crates/anagram" target="_blank">alire.ada.dev/crates/anagram</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: reznikmm</p>
+<p>Grammar handling and parser generation Ada library —  [&quot;grammar&quot;, &quot;syntax&quot;, &quot;analysis&quot;, &quot;bnf&quot;, &quot;ebnf&quot;, &quot;generator&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Parsers">Parsers</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+Features:<br />
+ASN.1<br />
+B-trees<br />
+Blackboards (lock-free)<br />
+Chebyshev series<br />
+Cryptography<br />
+Doubly-linked webs and lists<br />
+ELV/eQ-3 MAX! client implementation<br />
+Events (plain, pulse, array of)<br />
+FIFO (lock-free)<br />
+GNUTLS bindings<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+HTTP implementation<br />
+IEEE 754<br />
+Inter-process communication<br />
+Interfacing Julia language<br />
+JSON<br />
+LDAP<br />
+MODBUS client implementation<br />
+MQTT client and server/broker implementation<br />
+Multiple connection TCP servers<br />
+Mutexes<br />
+Objects and handles to<br />
+ODBC bindings<br />
+OpenSSL bindings<br />
+Parsers<br />
+Persistent objects and handles to<br />
+Pools<br />
+Sets and maps<br />
+SMTP client implementation<br />
+SQLite bindings<br />
+Stacks<br />
+Streams<br />
+Strings editing<br />
+Tables (maps of strings)<br />
+Unbounded arrays</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Code-Metrics">Code Metrics</h3>
+<h3 id="Code-Quality">Code Quality</h3>
+<ul>
+<li>static-analysis
+<ul>
+<li>
+<p>AdaControl<br />
+Link: <a href="https://sourceforge.net/projects/adacontrol/" target="_blank">sourceforge.net/projects/adacontrol/</a><br />
+Copyright: Jean-Pierre Rosen<br />
+Repository: SourceForge</p>
+</li>
+<li>
+<p>Lal_highlight<br />
+Link: <a href="https://alire.ada.dev/crates/lal_highlight" target="_blank">alire.ada.dev/crates/lal_highlight</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: pmderodat</p>
+<p>Simple code highlighters based on Libadalang — [&quot;libadalang&quot;,&quot;static-analysis&quot;]</p>
+</li>
+<li>
+<p>Spat<br />
+Link: <a href="https://alire.ada.dev/crates/spat" target="_blank">alire.ada.dev/crates/spat</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Jellix</p>
+<p>SPAT - SPARK Proof Analysis Tool —  [&quot;spark&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Reverse">Reverse</h2>
+<h3 id="To-UML">To UML</h3>
+<ul>
+<li>Ada2UML</li>
+</ul>
+<hr><h2 id="Translate">Translate</h2>
+<h3 id="To-C">To C</h3>
+<ul>
+<li>Ada2C</li>
+</ul>
+<h3 id="To-Swift">To Swift</h3>
+<ul>
+<li>Ada2Swift</li>
+</ul>
+
+</div>
+
+</div></div><div id="myExtraContent6"><div id='stacks_out_690' class='stacks_out'><div id='stacks_in_690' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_690"> <div id='stacks_out_691' class='stacks_out'><div id='stacks_in_691' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../sitemap/" title="Site Map">Site Map</a></p></div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_690"> <div id='stacks_out_694' class='stacks_out'><div id='stacks_in_694' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../OtherResources/AboutUs/" title="About US">About Us</a></p></div></div></div></div>
+
+</div></div></div></div></div>
+</div>
+								
+							</section>
+            <div id="asidewrap">
+                <aside>
+								<div id="sidecontent">
+									<div id="sideTitle"></div>	
+									<br />	
+									
+								</div>	
+							</aside>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="ecwrap">
+            </div>
+            <div id="ec2wrap">
+                <div id="extraContainer2">
+                </div>
+            </div>
+            <div id="ec3wrap">
+                <div id="extraContainer3">
+                </div>
+            </div>
+            <div id="ec4wrap">
+                <div id="extraContainer4">
+                </div>
+            </div>
+            <div id="ec5wrap">
+                <div id="extraContainer5">
+                </div>
+            </div>
+            <div id="ec6wrap">
+                <div id="extraContainer6">
+                </div>
+            </div>
+            <div id="extraContainer10">
+            </div>
+        </div>
+        <footer>		
+			<div id="footer">&copy; 2015-2022 William J. FRANCK <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":co";var _rwObsfuscatedHref3 = "nta";var _rwObsfuscatedHref4 = "ct@";var _rwObsfuscatedHref5 = "ada";var _rwObsfuscatedHref6 = "for";var _rwObsfuscatedHref7 = "ge.";var _rwObsfuscatedHref8 = "org";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById("rw_email_contact").href = _rwObsfuscatedHref;</script></div>		
+				<div id="socialicons">
+				<div id="socialicons1"></div>
+			</div>		
+		</footer>
+    </div>
+    <a href="#" class="scrollup">Scroll</a> 
+<script src="../../rw_common/assets/global.js"></script>
+<div id="rapidweaver_privacy_message">
+    <p><span style="font:13px .AppleSystemUIFont; color:#000000;">GDPR compliant</span></p>
+    <button id="rapidweaver_privacy_message_dismiss_button">OK</button>
+</div>
+
+<script src="../../rw_common/assets/message.js"></script>
+</body>
+</html>

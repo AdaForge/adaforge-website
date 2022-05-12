@@ -1,0 +1,642 @@
+<!doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1" />
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/resources/Scripts/StatCounter.js"></script>
+
+<div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10688383/0/3a95e712/1/"
+alt="web analytics"></a></div>
+<!-- End of StatCounter Code for Default Guide -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="(c) William Franck" />
+		<meta name="description" content="AdaForge is the home of the brave Ada developer programming in the Ada language source code and searching free quality Open Source software libraries" />
+		<meta name="keywords" content="ada programming language source code software library libraries osx linux freebsd real-time free quality opensource open-source adaforge" />
+		<meta name="description" content="Ada Open Source Code and Tools - Software for a complex world - Ada code sources Hardware Drivers & Kernel Libraries for embedded computer boards" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.adaforge.org/resources/large.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.adaforge.org/resources/medium.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_large.png" sizes="64x64" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_medium.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.adaforge.org/resources/Ada_1983-2022_3D_Coin-152.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_small.png" sizes="16x16" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AdaForge2022">
+	<meta name="twitter:creator" content="@AdaForge2022">
+	<meta name="twitter:title" content="Ada Forge Software resources">
+	<meta name="twitter:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta name="twitter:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta name="twitter:url" content="https://www.adaforge.org/Libraries/Hardware-Kernels/SoC-Boards/index.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Ada Forge - Home">
+	<meta property="og:title" content="Ada Forge Software resources">
+	<meta property="og:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta property="og:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta property="og:url" content="https://www.adaforge.org/Libraries/Hardware-Kernels/SoC-Boards/index.html"> <title>Developers Forge for Open Source Ada Code and Tools - SoC Boards</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/colourtag.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/flexslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ec5on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ec6on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ec9on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/rimage.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/ssoff.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/sslide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/sidenone.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/olight60.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontfjalla.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/title32.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontdakotaspan.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/bts46.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/bt20.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontfjallanav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/nav16.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontquestrialside.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontquestrialheader.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/fontquestrialcontent.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../../rw_common/themes/Endeavor2/css/font16.css" />
+		 <style type="text/css" media="all">#feature {background-image: url("../../../resources/Banner/Ada-5-3D-Coins-2022-SourceCode.jpg")}
+
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+</style>
+    <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/html5shiv.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/javascript.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/function.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../../rw_common/themes/Endeavor2/scripts/jquery.flexslider.js"></script>
+    <script>
+			 function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '../../../resources/FreeMind/show.png';
+}
+else {
+div_el.style.display='block';
+img_el.src = '../../../resources/FreeMind/hide.png';
+};
+};
+
+function showhide(id)
+{
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+ 
+		</script> 		<link rel='stylesheet' type='text/css' media='all' href='../../../rw_common/plugins/stacks/stacks.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page62.css' />
+        
+        
+        
+        
+		
+        <meta name="formatter" content="Stacks v4.2.4 (6029)" >
+		<meta class="stacks4 stack version" id="info.extracontent.extracontent" name="ExtraContent" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.responsive" name="Resp 2 Column" content="1.6.6">
+		
+ <link rel="stylesheet" type="text/css" media="all" href="../../../resources/FreeMind/freemind2html.css" />
+<link rel="stylesheet" type="text/css" href="../../../rw_common/assets/message.css" />
+<link rel="stylesheet" type="text/css" href="../../../rw_common/assets/global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hwrap">
+            <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div id="headwrap">
+			
+					<div id="titlelogo">
+							<a href="https://www.adaforge.org/">				
+							<div id="logo"></div>	
+							<h1>Ada Forge - Home</h1></a>
+							<h2>Software for a complex world</h2>
+					</div>
+						
+						
+						<div id="mwrap">
+							<div id="lt"></div>
+							<div id="lm"></div>
+							<div id="lb"></div>
+						</div>
+						
+						
+						<div id="nwrap">
+							<div id="menuBtn"></div>
+							<nav><ul class="navigation"><li><a href="../../../News/" rel="">News</a></li><li  id="currentAncestor"><a href="../../../Libraries/" rel="" class="currentAncestor">Libraries</a><ul class="navigation"><li><a href="../../../Libraries/AppDomains/" rel="">App Domains</a></li><li><a href="../../../Libraries/ServiceLibs/" rel="">Service Libs</a></li><li><a href="../../../Libraries/SystemLibs/" rel="">System Libs</a></li><li  id="currentAncestor"><a href="../../../Libraries/Hardware-Kernels/" rel="" class="currentAncestor">Hardware & Kernels</a></li></ul></li><li><a href="../../../DevTools/" rel="">Dev Tools</a><ul class="navigation"><li><a href="../../../DevTools/DevToolsDesign/" rel="">Design</a></li><li><a href="../../../DevTools/DevToolsSources/" rel="">Sources</a></li><li><a href="../../../DevTools/DevToolsBuild/" rel="">Build</a></li><li><a href="../../../DevTools/DevToolsTest/" rel="">Test</a></li><li><a href="../../../DevTools/DevToolsDevOps/" rel="">DevOps</a></li><li><a href="../../../DevTools/Translators/" rel="">Translate</a></li></ul></li><li><a href="../../../Thematics/" rel="">Thematics</a></li><li><a href="../../../OtherResources/" rel="">Other resources</a><ul class="navigation"><li><a href="../../../OtherResources/Learn/" rel="">Learn</a></li><li><a href="../../../OtherResources/Communities/" rel="">Communities</a></li><li><a href="../../../OtherResources/Forums-Chats/" rel="">Forums &Chat</a></li><li><a href="../../../OtherResources/OtherAdaResources/" rel="">Ada Resources</a></li><li><a href="../../../OtherResources/PublicRepos/" rel="">Public Repos</a></li><li><a href="../../../OtherResources/OSI-Licenses/" rel="">FOSS Licenses</a></li><li><a href="../../../OtherResources/ProjectStructure/" rel="">AdaForge GPR</a></li><li><a href="../../../OtherResources/Advocacy/" rel="">Advocacy</a></li><li><a href="../../../OtherResources/Popularize/" rel="">Popularize</a></li><li><a href="../../../OtherResources/BenchMarking/" rel="">Benchmarking</a></li><li><a href="../../../OtherResources/CodeContests/" rel="">Code Contest</a></li><li><a href="../../../OtherResources/AboutUs/" rel="">About US</a></li></ul></li><li><a href="../../../Goodies/" rel="">Goodies</a><ul class="navigation"><li><a href="../../../Goodies/AdaGoldCoin/" rel="">Ada Gold Coin</a></li><li><a href="../../../Goodies/LadyAda/" rel="">Lady Ada</a></li><li><a href="../../../Goodies/Ada_Logo/" rel="">Ada Language Logo</a></li></ul></li><li><a href="../../../contact-form/" rel="">Contact</a></li></ul></nav>						
+						</div>
+				</div>
+			</header>
+            <div class="banner video_banner">
+                <div id="feature">
+                    <div id="extraContainer11">
+                        <div class="videoWrapper">
+                        </div>
+                    </div>
+                    <div id="extraContainer1">
+                    </div>
+                    <div class="banner-text">
+                    </div>
+                    <div id="extraContainer9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="container">
+            <div id="extraContainer7">
+            </div>
+            <div id="extraContainer8">
+            </div>
+            <section>
+								
+								<div id="padding">
+<div id='stacks_out_587' class='stacks_top'><div id='stacks_in_587' class=''><div id="myExtraContent9"><div id='stacks_out_614' class='stacks_out'><div id='stacks_in_614' class='stacks_in html_stack'>SoC Boards</div></div></div><div id='stacks_out_699' class='stacks_out'><div id='stacks_in_699' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_699"> <div id='stacks_out_700' class='stacks_out'><div id='stacks_in_700' class='stacks_in text_stack'>Libraries are prefixed by a logo relative to the given <em><a href="../../../OtherResources/OSI-Licenses/" title="OSI Licenses">OpenSource License</a></em>.<br /><strong>ALR</strong>: Component available through the <a href="https://alire.ada.dev" target="_blank" title="Ada LIbrary REpository">ALIRE</a> crates (component) manager and repository.</div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_699"> <div id='stacks_out_703' class='stacks_out'><div id='stacks_in_703' class='stacks_in text_stack'><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the arrow <span style="font:12px .AppleSystemUIFont; ">➚</span> to go to the section beneath with some more details.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the earth symbol <span style="font:12px AppleColorEmoji; ">🌎</span> to go to the mentioned site.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Hover on, or Click on the little page symbol <span style="font:12px AppleColorEmoji; ">📄</span> to read a short description.<br /></div></div></div></div>
+
+</div></div><div id='stacks_out_692' class='stacks_out'><div id='stacks_in_692' class='stacks_in html_stack'>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 2452 6652" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="2452" height="6652" xlink:href="../../../resources/SoftwareCategories/Sub/HardwareSoC-Boards.png"></image>
+<a xlink:href="#ARM" xlink:title="#ARM"><rect x="582" y="966" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/rp2040_hal" target="_blank" xlink:title="https://alire.ada.dev/crates/rp2040_hal"><rect x="2040" y="356" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9A8B8BC7-6BA8-444C-B427-4FCBC985D274/note.html" xlink:title="Drivers and HAL for the RP2040 micro-controller family &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;rp2040&quot;, &quot;raspberrypi&quot;, &quot;drivers&quot;]"><rect x="2008" y="356" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/pygamer_bsp" target="_blank" xlink:title="https://alire.ada.dev/crates/pygamer_bsp"><rect x="1768" y="526" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/0ACC73BE-92CF-4CBD-B42E-29DE38F3DCB3/note.html" xlink:title="Board Support Package for the AdaFruit PyGamer &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;bsp&quot;]"><rect x="1736" y="526" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/pygamer_simulator" target="_blank" xlink:title="https://alire.ada.dev/crates/pygamer_simulator"><rect x="1768" y="696" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3E675B09-7CE2-45A3-BD45-BEAA90EC7B00/note.html" xlink:title="SDL simulator of the AdaFruit PyGamer console &mdash;  [&quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;simulator&quot;]"><rect x="1736" y="696" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/mcp2221" target="_blank" xlink:title="https://alire.ada.dev/crates/mcp2221"><rect x="2038" y="866" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B745C5C7-17AB-430C-A1E5-FF45C2789260/note.html" xlink:title="MCP2221 USB Raw HID I/O Expander Library for GNAT Ada &mdash;  [&quot;embedded&quot;, &quot;linux&quot;, &quot;mcp2221&quot;, &quot;adc&quot;, &quot;dac&quot;, &quot;gpio&quot;, &quot;i2c&quot;, &quot;motor&quot;,"><rect x="2006" y="866" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/raspberry_bsp" target="_blank" xlink:title="https://alire.ada.dev/crates/raspberry_bsp"><rect x="1794" y="1036" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B6640D96-3BFC-47B8-BBB8-0F7EA77203B5/note.html" xlink:title="Board Support package for Raspberry PI v1, v2 and B+ &mdash;  [&quot;raspberry&quot;, &quot;pi&quot;]"><rect x="1762" y="1036" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/pico_bsp" target="_blank" xlink:title="https://alire.ada.dev/crates/pico_bsp"><rect x="1794" y="1206" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/604CA68A-DBE6-4608-AF82-F25F07CDD159/note.html" xlink:title="Board support package for Raspberry Pi Pico &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;raspberrypi&quot;, &quot;pico&quot;, &quot;rp2040&quot;, &quot;bsp&quot;]"><rect x="1762" y="1206" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/pico_examples" target="_blank" xlink:title="https://alire.ada.dev/crates/pico_examples"><rect x="1794" y="1376" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/37468063-7B01-418D-BD03-E52DEE00A579/note.html" xlink:title="Examples for Ada on the Raspberry Pi Pico &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;pico&quot;, &quot;rp2040&quot;]"><rect x="1762" y="1376" width="45" height="45"/></a>
+<a xlink:href="https://github.com/rowsail/AdaForMicrocontrollers" target="_blank" xlink:title="https://github.com/rowsail/AdaForMicrocontrollers"><rect x="1656" y="1738" width="45" height="45"/></a>
+<a xlink:href="#Atmel-AVR" xlink:title="#Atmel-AVR"><rect x="604" y="1984" width="45" height="45"/></a>
+<a xlink:href="#MSP430" xlink:title="#MSP430"><rect x="602" y="2251" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/msp430ada/" target="_blank" xlink:title="https://sourceforge.net/projects/msp430ada/"><rect x="1730" y="2284" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/BED949DA-DDBD-4070-A664-521EDCDC8074/note.html" xlink:title="Compiler and device support for Ada programs on the ultra-low-power TI MSP430 microcontrollers. This project builds on the Gnu Gnat/GCC Ada compiler, the Sourceforge mspgcc back-end and MSP430 CPU support. It was inspired by the Sourceforge AVR-Ada project."><rect x="1698" y="2284" width="45" height="45"/></a>
+<a xlink:href="#PowerPC-e300" xlink:title="#PowerPC-e300"><rect x="626" y="2575" width="45" height="45"/></a>
+<a xlink:href="#RISC-V" xlink:title="#RISC-V"><rect x="590" y="2891" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/adl_middleware" target="_blank" xlink:title="https://alire.ada.dev/crates/adl_middleware"><rect x="1674" y="3157" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/75AF9D5D-EDAD-4EFE-8B73-92A770464776/note.html" xlink:title="Middleware layer of the Ada Drivers Library project &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;fat&quot;, &quot;bitmap&quot;]"><rect x="1642" y="3157" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/atomic" target="_blank" xlink:title="https://alire.ada.dev/crates/atomic"><rect x="1674" y="3327" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F65D8385-C7C6-4E88-B830-F252BFF83677/note.html" xlink:title="Standalone Ada/SPARK bindings to GCC atomic built-ins &mdash;  [&quot;atomic&quot;, &quot;spark&quot;, &quot;embedded&quot;, &quot;nostd&quot;]"><rect x="1642" y="3327" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/bbqueue" target="_blank" xlink:title="https://alire.ada.dev/crates/bbqueue"><rect x="1674" y="3497" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D280ED10-B71C-4F31-B52C-5196DE0B6D48/note.html" xlink:title="DMA friendly lock-free BipBuffer &mdash;  [&quot;spark&quot;, &quot;nostd&quot;, &quot;embedded&quot;, &quot;lockfree&quot;, &quot;dma&quot;, &quot;bipbuffer&quot;]"><rect x="1642" y="3497" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/cortex_m" target="_blank" xlink:title="https://alire.ada.dev/crates/cortex_m"><rect x="1674" y="3667" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/A102CE54-5DD0-40D5-9D69-D437C7FA565B/note.html" xlink:title="Drivers for Cortex-M micro-controllers (NVIC, SysTick, etc.) &mdash;  [&quot;embedded&quot;, &quot;arm&quot;, &quot;nostd&quot;]"><rect x="1642" y="3667" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/embedded_components" target="_blank" xlink:title="https://alire.ada.dev/crates/embedded_components"><rect x="1674" y="3837" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2E685B86-007F-4167-8CDF-F7C7432BF1D1/note.html" xlink:title="Platform agnostic drivers to interface external components &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;]"><rect x="1642" y="3837" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/hal" target="_blank" xlink:title="https://alire.ada.dev/crates/hal"><rect x="1674" y="4007" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/5ACC4A35-7D98-4CA2-B69D-76194E079D0C/note.html" xlink:title="Hardware Abstraction Layer (HAL) &mdash;  [&quot;embedded&quot;, &quot;hal&quot;, &quot;nostd&quot;]"><rect x="1642" y="4007" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/littlefs" target="_blank" xlink:title="https://alire.ada.dev/crates/littlefs"><rect x="1674" y="4177" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/53EEE66F-EF36-409E-A7D0-7B76C5A0213A/note.html" xlink:title="Ada/SPARK binding for the LittleFS flash embedded filesystem &mdash;  [&quot;embedded&quot;, &quot;filesystem&quot;, &quot;nostd&quot;, &quot;flash&quot;]"><rect x="1642" y="4177" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/lvgl_ada" target="_blank" xlink:title="https://alire.ada.dev/crates/lvgl_ada"><rect x="1674" y="4347" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F270A532-F1D5-4968-853D-680330C92C61/note.html" xlink:title="Bindings for the LVGL embedded GUI framework &mdash;  [&quot;embedded&quot;, &quot;gui&quot;, &quot;lvgl&quot;, &quot;no-std&quot;]"><rect x="1642" y="4347" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/lvgl_ada_examples" target="_blank" xlink:title="https://alire.ada.dev/crates/lvgl_ada_examples"><rect x="1674" y="4517" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/5FE80F24-D80F-41AA-89AC-F404AB56DB0C/note.html" xlink:title="Examples for the LVGL embedded GUI framework Ada binding &mdash;  [&quot;gui&quot;, &quot;lvgl&quot;]"><rect x="1642" y="4517" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/lvgl_ada_simulator" target="_blank" xlink:title="https://alire.ada.dev/crates/lvgl_ada_simulator"><rect x="1674" y="4687" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/C92CA51B-EC7F-41FA-9819-0099F27C3ED5/note.html" xlink:title="SDL simulator for the LVGL embedded GUI framework &mdash;  [&quot;gui&quot;, &quot;lvgl&quot;]"><rect x="1642" y="4687" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/microbit_bsp" target="_blank" xlink:title="https://alire.ada.dev/crates/microbit_bsp"><rect x="1674" y="4857" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B10CECF2-DFAC-4D7B-95B8-EBA8C1A71D27/note.html" xlink:title="Board Support Package for the BBC micro:bit v1 &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;microbit&quot;, &quot;bbc&quot;, &quot;nrf51&quot;, &quot;bsp&quot;]"><rect x="1642" y="4857" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/microbit_examples" target="_blank" xlink:title="https://alire.ada.dev/crates/microbit_examples"><rect x="1674" y="5027" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8BB76B1F-509C-4B9C-805D-942545C509BA/note.html" xlink:title="Examples and tutorials for Ada on the BBC micro:bit &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;microbit&quot;, &quot;nrf51&quot;]"><rect x="1642" y="5027" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/minirest" target="_blank" xlink:title="https://alire.ada.dev/crates/minirest"><rect x="1674" y="5197" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/4267F505-8A4A-4D2C-AF0F-2837525411BA/note.html" xlink:title="Minimalist Ada REST client library &mdash;  [&quot;rest&quot;]"><rect x="1642" y="5197" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/minisamd51_bsp" target="_blank" xlink:title="https://alire.ada.dev/crates/minisamd51_bsp"><rect x="1674" y="5367" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/F1DA0A4C-635A-4A90-AB8E-EC3C053B9D2E/note.html" xlink:title="Board Support Package for the MiniSAM D51 &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;samd51&quot;, &quot;minisam&quot;]"><rect x="1642" y="5367" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/minisamd51_example" target="_blank" xlink:title="https://alire.ada.dev/crates/minisamd51_example"><rect x="1674" y="5537" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/267A7C8D-15F1-4F4F-A5D2-02520431B7A0/note.html" xlink:title="Example project for the MiniSAM D51 &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;samd51&quot;, &quot;minisam&quot;]"><rect x="1642" y="5537" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/nrf5x_hal" target="_blank" xlink:title="https://alire.ada.dev/crates/nrf5x_hal"><rect x="1674" y="5707" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/DA005C9B-7260-4F27-B625-6CE22973E5F8/note.html" xlink:title="Drivers and HAL for the Nordic nRF5X micro-controller family &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;nrf51&quot;, &quot;nrf52&quot;, &quot;nordic&quot;, &quot;drivers&quot;, &quot;ble&quot;]"><rect x="1642" y="5707" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/remoteio" target="_blank" xlink:title="https://alire.ada.dev/crates/remoteio"><rect x="1674" y="5877" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/199E7B62-BA68-4825-841B-C3365F070E26/note.html" xlink:title="Remote I/O Protocol Client Library for GNAT Ada &mdash;  [&quot;embedded&quot;, &quot;linux&quot;, &quot;remoteio&quot;, &quot;adc&quot;, &quot;dac&quot;, &quot;gpio&quot;, &quot;i2c&quot;, &quot;motor&quot;,"><rect x="1642" y="5877" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/samd51_hal" target="_blank" xlink:title="https://alire.ada.dev/crates/samd51_hal"><rect x="1674" y="6047" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/CF5FF563-F206-495A-87EE-0483D7EA23D4/note.html" xlink:title="Drivers and HAL for the SAMD51 micro-controller family &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;atsamd51&quot;, &quot;microchip&quot;, &quot;atmel&quot;, &quot;drivers&quot;]"><rect x="1642" y="6047" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/slip" target="_blank" xlink:title="https://alire.ada.dev/crates/slip"><rect x="1674" y="6217" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/066A5243-904D-4A0E-B7AF-5EDCF62DF4BE/note.html" xlink:title="SLIP Protocol Implementation &mdash; [ &quot;embedded&quot;, &quot;protocols&quot;, &quot;spark&quot; ]"><rect x="1642" y="6217" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/startup_gen" target="_blank" xlink:title="https://alire.ada.dev/crates/startup_gen"><rect x="1674" y="6387" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/3070499A-877D-4B6A-9CCA-7250D69B7E6E/note.html" xlink:title="Generates startup files (crt0 and linker script) &mdash;  [&quot;embedded&quot;, &quot;zfp&quot;, &quot;nostd&quot;]"><rect x="1642" y="6387" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/usb_embedded" target="_blank" xlink:title="https://alire.ada.dev/crates/usb_embedded"><rect x="1674" y="6557" width="45" height="45"/></a>
+<a xlink:href="../../../resources/SoftwareLibs/HardwareSoC-Boards/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/99151223-0F48-4448-8FF2-C33ACA42CB5C/note.html" xlink:title="An Ada USB stack for embedded devices &mdash;  [&quot;embedded&quot;, &quot;usb&quot;, &quot;hid&quot;, &quot;midi&quot;, &quot;nostd&quot;]"><rect x="1642" y="6557" width="45" height="45"/></a>
+</svg>
+</div>
+</div>
+
+<br/>
+
+<div id="outlineDiv">
+<hr><h1 id="SoC-Boards">SoC-Boards</h1>
+<hr><h2 id="ARM">ARM</h2>
+<h3 id="Arduino-Due">Arduino Due</h3>
+<h3 id="Raspberry-Pi">Raspberry Pi</h3>
+<ul>
+<li>
+<p>RP2040 Microcontroller</p>
+<ul>
+<li>
+<p>Rp2040_hal<br />
+Link: <a href="https://alire.ada.dev/crates/rp2040_hal" target="_blank">alire.ada.dev/crates/rp2040_hal</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: JeremyGrosser</p>
+<p>Drivers and HAL for the RP2040 micro-controller family —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;rp2040&quot;, &quot;raspberrypi&quot;, &quot;drivers&quot;]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>PyGamer</p>
+<ul>
+<li>
+<p>Pygamer_bsp<br />
+Link: <a href="https://alire.ada.dev/crates/pygamer_bsp" target="_blank">alire.ada.dev/crates/pygamer_bsp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Board Support Package for the AdaFruit PyGamer —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;bsp&quot;]</p>
+</li>
+<li>
+<p>Pygamer_simulator<br />
+Link: <a href="https://alire.ada.dev/crates/pygamer_simulator" target="_blank">alire.ada.dev/crates/pygamer_simulator</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>SDL simulator of the AdaFruit PyGamer console —  [&quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;simulator&quot;]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>USB-Serial MCP2221</p>
+<ul>
+<li>
+<p>Mcp2221<br />
+Link: <a href="https://alire.ada.dev/crates/mcp2221" target="_blank">alire.ada.dev/crates/mcp2221</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: pmunts</p>
+<p>MCP2221 USB Raw HID I/O Expander Library for GNAT Ada —  [&quot;embedded&quot;, &quot;linux&quot;, &quot;mcp2221&quot;, &quot;adc&quot;, &quot;dac&quot;, &quot;gpio&quot;, &quot;i2c&quot;, &quot;motor&quot;,</p>
+</li>
+</ul>
+</li>
+<li>
+<p>raspberrypi</p>
+<ul>
+<li>
+<p>Raspberry_bsp<br />
+Link: <a href="https://alire.ada.dev/crates/raspberry_bsp" target="_blank">alire.ada.dev/crates/raspberry_bsp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: TamaMcGlinn</p>
+<p>Board Support package for Raspberry PI v1, v2 and B+ —  [&quot;raspberry&quot;, &quot;pi&quot;]</p>
+</li>
+<li>
+<p>Pico_bsp<br />
+Link: <a href="https://alire.ada.dev/crates/pico_bsp" target="_blank">alire.ada.dev/crates/pico_bsp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: JeremyGrosser</p>
+<p>Board support package for Raspberry Pi Pico —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;raspberrypi&quot;, &quot;pico&quot;, &quot;rp2040&quot;, &quot;bsp&quot;]</p>
+</li>
+<li>
+<p>Pico_examples<br />
+Link: <a href="https://alire.ada.dev/crates/pico_examples" target="_blank">alire.ada.dev/crates/pico_examples</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: JeremyGrosser</p>
+<p>Examples for Ada on the Raspberry Pi Pico —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;pico&quot;, &quot;rp2040&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="MSP432">MSP432</h3>
+<h3 id="STM32F4">STM32F4</h3>
+<ul>
+<li>…
+<ul>
+<li>AdaForMicrocontrollers<br />
+Link: <a href="https://github.com/rowsail/AdaForMicrocontrollers" target="_blank">github.com/rowsail/AdaForMicrocontrollers</a><br />
+LastCheck: 12 août 2015<br />
+Author: rowsail<br />
+Copyright: Robert Kleczek<br />
+Repository: GitHub</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Atmel-AVR">Atmel AVR</h2>
+<h3 id="Arduino-Uno-(ATmega32xx)">Arduino Uno (ATmega32xx)</h3>
+<hr><h2 id="MSP430">MSP430</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>MSP430-Ada<br />
+Link: <a href="https://sourceforge.net/projects/msp430ada/" target="_blank">sourceforge.net/projects/msp430ada/</a><br />
+LastCheck: 18 avr. 2013<br />
+Author: briandrummond<br />
+Copyright: Brian Drummond<br />
+Repository: SourceForge</p>
+<p>Compiler and device support for Ada programs on the ultra-low-power TI MSP430 microcontrollers. This project builds on the Gnu Gnat/GCC Ada compiler, the Sourceforge mspgcc back-end and MSP430 CPU support. It was inspired by the Sourceforge AVR-Ada project.</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="PowerPC-e300">PowerPC e300</h2>
+<h3 id="MPC51xx-<h3>MPC51xx &amp; MPC52xx</h3>amp;-MPC52xx">MPC51xx &amp; MPC52xx</h3>
+<h3 id="MPC83xx">MPC83xx</h3>
+<hr><h2 id="RISC-V">RISC-V</h2>
+<h3 id="HiFive-Unmatched">HiFive Unmatched</h3>
+<hr><h2 id="Embedded">Embedded</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>embedded
+<ul>
+<li>
+<p>Adl_middleware<br />
+Link: <a href="https://alire.ada.dev/crates/adl_middleware" target="_blank">alire.ada.dev/crates/adl_middleware</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Middleware layer of the Ada Drivers Library project —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;fat&quot;, &quot;bitmap&quot;]</p>
+</li>
+<li>
+<p>Atomic<br />
+Link: <a href="https://alire.ada.dev/crates/atomic" target="_blank">alire.ada.dev/crates/atomic</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Standalone Ada/SPARK bindings to GCC atomic built-ins —  [&quot;atomic&quot;, &quot;spark&quot;, &quot;embedded&quot;, &quot;nostd&quot;]</p>
+</li>
+<li>
+<p>Bbqueue<br />
+Link: <a href="https://alire.ada.dev/crates/bbqueue" target="_blank">alire.ada.dev/crates/bbqueue</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>DMA friendly lock-free BipBuffer —  [&quot;spark&quot;, &quot;nostd&quot;, &quot;embedded&quot;, &quot;lockfree&quot;, &quot;dma&quot;, &quot;bipbuffer&quot;]</p>
+</li>
+<li>
+<p>Cortex_m<br />
+Link: <a href="https://alire.ada.dev/crates/cortex_m" target="_blank">alire.ada.dev/crates/cortex_m</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Drivers for Cortex-M micro-controllers (NVIC, SysTick, etc.) —  [&quot;embedded&quot;, &quot;arm&quot;, &quot;nostd&quot;]</p>
+</li>
+<li>
+<p>Embedded_components<br />
+Link: <a href="https://alire.ada.dev/crates/embedded_components" target="_blank">alire.ada.dev/crates/embedded_components</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Platform agnostic drivers to interface external components —  [&quot;embedded&quot;, &quot;nostd&quot;]</p>
+</li>
+<li>
+<p>Hal<br />
+Link: <a href="https://alire.ada.dev/crates/hal" target="_blank">alire.ada.dev/crates/hal</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Hardware Abstraction Layer (HAL) —  [&quot;embedded&quot;, &quot;hal&quot;, &quot;nostd&quot;]</p>
+</li>
+<li>
+<p>Littlefs<br />
+Link: <a href="https://alire.ada.dev/crates/littlefs" target="_blank">alire.ada.dev/crates/littlefs</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Ada/SPARK binding for the LittleFS flash embedded filesystem —  [&quot;embedded&quot;, &quot;filesystem&quot;, &quot;nostd&quot;, &quot;flash&quot;]</p>
+</li>
+<li>
+<p>Lvgl_ada<br />
+Link: <a href="https://alire.ada.dev/crates/lvgl_ada" target="_blank">alire.ada.dev/crates/lvgl_ada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Bindings for the LVGL embedded GUI framework —  [&quot;embedded&quot;, &quot;gui&quot;, &quot;lvgl&quot;, &quot;no-std&quot;]</p>
+</li>
+<li>
+<p>Lvgl_ada_examples<br />
+Link: <a href="https://alire.ada.dev/crates/lvgl_ada_examples" target="_blank">alire.ada.dev/crates/lvgl_ada_examples</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Examples for the LVGL embedded GUI framework Ada binding —  [&quot;gui&quot;, &quot;lvgl&quot;]</p>
+</li>
+<li>
+<p>Lvgl_ada_simulator<br />
+Link: <a href="https://alire.ada.dev/crates/lvgl_ada_simulator" target="_blank">alire.ada.dev/crates/lvgl_ada_simulator</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>SDL simulator for the LVGL embedded GUI framework —  [&quot;gui&quot;, &quot;lvgl&quot;]</p>
+</li>
+<li>
+<p>Microbit_bsp<br />
+Link: <a href="https://alire.ada.dev/crates/microbit_bsp" target="_blank">alire.ada.dev/crates/microbit_bsp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Board Support Package for the BBC micro:bit v1 —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;microbit&quot;, &quot;bbc&quot;, &quot;nrf51&quot;, &quot;bsp&quot;]</p>
+</li>
+<li>
+<p>Microbit_examples<br />
+Link: <a href="https://alire.ada.dev/crates/microbit_examples" target="_blank">alire.ada.dev/crates/microbit_examples</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Examples and tutorials for Ada on the BBC micro:bit —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;microbit&quot;, &quot;nrf51&quot;]</p>
+</li>
+<li>
+<p>Minirest<br />
+Link: <a href="https://alire.ada.dev/crates/minirest" target="_blank">alire.ada.dev/crates/minirest</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Minimalist Ada REST client library —  [&quot;rest&quot;]</p>
+</li>
+<li>
+<p>Minisamd51_bsp<br />
+Link: <a href="https://alire.ada.dev/crates/minisamd51_bsp" target="_blank">alire.ada.dev/crates/minisamd51_bsp</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Board Support Package for the MiniSAM D51 —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;samd51&quot;, &quot;minisam&quot;]</p>
+</li>
+<li>
+<p>Minisamd51_example<br />
+Link: <a href="https://alire.ada.dev/crates/minisamd51_example" target="_blank">alire.ada.dev/crates/minisamd51_example</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Example project for the MiniSAM D51 —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;samd51&quot;, &quot;minisam&quot;]</p>
+</li>
+<li>
+<p>Nrf5x_hal<br />
+Link: <a href="https://alire.ada.dev/crates/nrf5x_hal" target="_blank">alire.ada.dev/crates/nrf5x_hal</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Drivers and HAL for the Nordic nRF5X micro-controller family —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;nrf51&quot;, &quot;nrf52&quot;, &quot;nordic&quot;, &quot;drivers&quot;, &quot;ble&quot;]</p>
+</li>
+<li>
+<p>Remoteio<br />
+Link: <a href="https://alire.ada.dev/crates/remoteio" target="_blank">alire.ada.dev/crates/remoteio</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: pmunts</p>
+<p>Remote I/O Protocol Client Library for GNAT Ada —  [&quot;embedded&quot;, &quot;linux&quot;, &quot;remoteio&quot;, &quot;adc&quot;, &quot;dac&quot;, &quot;gpio&quot;, &quot;i2c&quot;, &quot;motor&quot;,</p>
+</li>
+<li>
+<p>Samd51_hal<br />
+Link: <a href="https://alire.ada.dev/crates/samd51_hal" target="_blank">alire.ada.dev/crates/samd51_hal</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Drivers and HAL for the SAMD51 micro-controller family —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;atsamd51&quot;, &quot;microchip&quot;, &quot;atmel&quot;, &quot;drivers&quot;]</p>
+</li>
+<li>
+<p>Slip<br />
+Link: <a href="https://alire.ada.dev/crates/slip" target="_blank">alire.ada.dev/crates/slip</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: bmilanov</p>
+<p>SLIP Protocol Implementation — [ &quot;embedded&quot;, &quot;protocols&quot;, &quot;spark&quot; ]</p>
+</li>
+<li>
+<p>Startup_gen<br />
+Link: <a href="https://alire.ada.dev/crates/startup_gen" target="_blank">alire.ada.dev/crates/startup_gen</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Generates startup files (crt0 and linker script) —  [&quot;embedded&quot;, &quot;zfp&quot;, &quot;nostd&quot;]</p>
+</li>
+<li>
+<p>Usb_embedded<br />
+Link: <a href="https://alire.ada.dev/crates/usb_embedded" target="_blank">alire.ada.dev/crates/usb_embedded</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>An Ada USB stack for embedded devices —  [&quot;embedded&quot;, &quot;usb&quot;, &quot;hid&quot;, &quot;midi&quot;, &quot;nostd&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+</div></div><div id="myExtraContent6"><div id='stacks_out_684' class='stacks_out'><div id='stacks_in_684' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_684"> <div id='stacks_out_685' class='stacks_out'><div id='stacks_in_685' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../sitemap/" title="Site Map">Site Map</a></p></div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_684"> <div id='stacks_out_688' class='stacks_out'><div id='stacks_in_688' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../../OtherResources/AboutUs/" title="About US">About Us</a></p></div></div></div></div>
+
+</div></div></div></div></div>
+</div>
+								
+							</section>
+            <div id="asidewrap">
+                <aside>
+								<div id="sidecontent">
+									<div id="sideTitle"></div>	
+										
+									
+								</div>	
+							</aside>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="ecwrap">
+            </div>
+            <div id="ec2wrap">
+                <div id="extraContainer2">
+                </div>
+            </div>
+            <div id="ec3wrap">
+                <div id="extraContainer3">
+                </div>
+            </div>
+            <div id="ec4wrap">
+                <div id="extraContainer4">
+                </div>
+            </div>
+            <div id="ec5wrap">
+                <div id="extraContainer5">
+                </div>
+            </div>
+            <div id="ec6wrap">
+                <div id="extraContainer6">
+                </div>
+            </div>
+            <div id="extraContainer10">
+            </div>
+        </div>
+        <footer>		
+			<div id="footer">&copy; 2015-2022 William J. FRANCK <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":co";var _rwObsfuscatedHref3 = "nta";var _rwObsfuscatedHref4 = "ct@";var _rwObsfuscatedHref5 = "ada";var _rwObsfuscatedHref6 = "for";var _rwObsfuscatedHref7 = "ge.";var _rwObsfuscatedHref8 = "org";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById("rw_email_contact").href = _rwObsfuscatedHref;</script></div>		
+				<div id="socialicons">
+				<div id="socialicons1"></div>
+			</div>		
+		</footer>
+    </div>
+    <a href="#" class="scrollup">Scroll</a> 
+<script src="../../../rw_common/assets/global.js"></script>
+<div id="rapidweaver_privacy_message">
+    <p><span style="font:13px .AppleSystemUIFont; color:#000000;">GDPR compliant</span></p>
+    <button id="rapidweaver_privacy_message_dismiss_button">OK</button>
+</div>
+
+<script src="../../../rw_common/assets/message.js"></script>
+</body>
+</html>

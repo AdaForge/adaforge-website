@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string></string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict/>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>1-FileSystems</string>
+				<string>2-Graphical-Engines</string>
+				<string>3-I002FO</string>
+				<string>4-Massive-002F002F-isms</string>
+				<string>5-Network</string>
+				<string>6-Neural-Engines</string>
+				<string>7-OS-Systems</string>
+				<string>8-Other-Libs</string>
+				<string>9-Security</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Pages</string>
+</dict>
+</plist>

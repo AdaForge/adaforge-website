@@ -1,0 +1,863 @@
+<!doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1" />
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/resources/Scripts/StatCounter.js"></script>
+
+<div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10688383/0/3a95e712/1/"
+alt="web analytics"></a></div>
+<!-- End of StatCounter Code for Default Guide -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="(c) William Franck" />
+		<meta name="description" content="AdaForge is the home of the brave Ada developer programming in the Ada language source code and searching free quality Open Source software libraries" />
+		<meta name="keywords" content="ada programming language source code software library libraries osx linux freebsd real-time free quality opensource open-source adaforge" />
+		<meta name="description" content="Ada Open Source Code and Tools - Software for a complex world - Libraries per Functional Domains" />
+		<meta name="robots" content="index, follow" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.adaforge.org/resources/large.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.adaforge.org/resources/medium.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_large.png" sizes="64x64" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_medium.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.adaforge.org/resources/Ada_1983-2022_3D_Coin-152.png" />
+<link rel="icon" type="image/png" href="https://www.adaforge.org/resources/favicon_small.png" sizes="16x16" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AdaForge2022">
+	<meta name="twitter:creator" content="@AdaForge2022">
+	<meta name="twitter:title" content="Ada Forge Software resources">
+	<meta name="twitter:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta name="twitter:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta name="twitter:url" content="https://www.adaforge.org/Libraries/AppDomains/index.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Ada Forge - Home">
+	<meta property="og:title" content="Ada Forge Software resources">
+	<meta property="og:description" content="Ada 2022 — The Reliable Language for a Complex World. When your software really has to work, choose Ada ! or be lost with C, C++, Go, Rust, …">
+	<meta property="og:image" content="https://www.adaforge.org/resources/Ada-5-3D-Coins-2022-tweet.jpg">
+	<meta property="og:url" content="https://www.adaforge.org/Libraries/AppDomains/index.html"> <title>Developers Forge for Open Source Ada Code and Tools - Functional Domains</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/colourtag.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/flexslider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ec5on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ec6on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ec9on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/rimage.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/ssoff.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/sslide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/sidenone.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/olight60.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontfjalla.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/title32.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontdakotaspan.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/bts46.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/bt20.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontfjallanav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/nav16.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontquestrialside.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontquestrialheader.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/fontquestrialcontent.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Endeavor2/css/font16.css" />
+		 <style type="text/css" media="all">#feature {background-image: url("../../resources/Banner/Ada-5-3D-Coins-2022-SourceCode.jpg")}
+
+
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 3426px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+h2 {
+margin-top: 40px;
+}
+
+h3 {
+margin-top: 40px;
+}
+
+hr {
+margin-top: 40px;
+height:4px;
+}
+
+
+li {list-style-type: circle;
+	margin-left: 2em;
+	padding: 0;
+}
+
+li li {list-style-type: disc;
+    display: list-item;
+    color: #009000;
+    padding: 0;
+    font-weight: bold;
+}
+
+li li li {list-style-type: square;
+    display: list-item;
+    color: #0000ff;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+ul ul ul {
+    background: #f0f0f0;
+}
+
+
+
+
+</style>
+    <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/html5shiv.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/javascript.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/function.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../rw_common/themes/Endeavor2/scripts/jquery.flexslider.js"></script>
+    <script>
+			 function toggle(id) {
+div_el = document.getElementById(id);
+img_el = document.getElementById('img'+id);
+if (div_el.style.display != 'none') {
+div_el.style.display='none';
+img_el.src = '../../resources/FreeMind/show.png';
+}
+else {
+div_el.style.display='block';
+img_el.src = '../../resources/FreeMind/hide.png';
+};
+};
+ 
+		</script> 		<link rel='stylesheet' type='text/css' media='all' href='../../rw_common/plugins/stacks/stacks.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page21.css' />
+        <script type='text/javascript' charset='utf-8' src='../../rw_common/plugins/stacks/jquery-2.2.4.min.js'></script>
+        
+        <link rel="stylesheet" href="../../rw_common/plugins/stacks/font-awesome.min.css">
+        
+		
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page21.js'></script>
+        <meta name="formatter" content="Stacks v4.2.4 (6029)" >
+		<meta class="stacks4 stack version" id="com.stacks4stacks.stacks.imagemapperarea" name="ImageMapper Area" content="">
+		<meta class="stacks4 stack version" id="info.extracontent.extracontent" name="ExtraContent" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.stacks4stacks.stacks.imagemapper" name="ImageMapper" content="2.0.0">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.anchor" name="Link Anchor" content="3.1.1">
+		<meta class="stacks4 stack version" id="com.joeworkman.stacks.responsive" name="Resp 2 Column" content="1.6.6">
+		
+ <link rel="stylesheet" type="text/css" media="all" href="../../resources/FreeMind/freemind2html.css" />
+<link rel="stylesheet" type="text/css" href="../../rw_common/assets/message.css" />
+<link rel="stylesheet" type="text/css" href="../../rw_common/assets/global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hwrap">
+            <header class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div id="headwrap">
+			
+					<div id="titlelogo">
+							<a href="https://www.adaforge.org/">				
+							<div id="logo"></div>	
+							<h1>Ada Forge - Home</h1></a>
+							<h2>Software for a complex world</h2>
+					</div>
+						
+						
+						<div id="mwrap">
+							<div id="lt"></div>
+							<div id="lm"></div>
+							<div id="lb"></div>
+						</div>
+						
+						
+						<div id="nwrap">
+							<div id="menuBtn"></div>
+							<nav><ul class="navigation"><li><a href="../../News/" rel="">News</a></li><li  id="currentAncestor"><a href="../../Libraries/" rel="" class="currentAncestor">Libraries</a><ul class="navigation"><li id="current"><a href="./" rel="" id="current">App Domains</a></li><li><a href="../../Libraries/ServiceLibs/" rel="">Service Libs</a></li><li><a href="../../Libraries/SystemLibs/" rel="">System Libs</a></li><li><a href="../../Libraries/Hardware-Kernels/" rel="">Hardware & Kernels</a></li></ul></li><li><a href="../../DevTools/" rel="">Dev Tools</a><ul class="navigation"><li><a href="../../DevTools/DevToolsDesign/" rel="">Design</a></li><li><a href="../../DevTools/DevToolsSources/" rel="">Sources</a></li><li><a href="../../DevTools/DevToolsBuild/" rel="">Build</a></li><li><a href="../../DevTools/DevToolsTest/" rel="">Test</a></li><li><a href="../../DevTools/DevToolsDevOps/" rel="">DevOps</a></li><li><a href="../../DevTools/Translators/" rel="">Translate</a></li></ul></li><li><a href="../../Thematics/" rel="">Thematics</a></li><li><a href="../../OtherResources/" rel="">Other resources</a><ul class="navigation"><li><a href="../../OtherResources/Learn/" rel="">Learn</a></li><li><a href="../../OtherResources/Communities/" rel="">Communities</a></li><li><a href="../../OtherResources/Forums-Chats/" rel="">Forums &Chat</a></li><li><a href="../../OtherResources/OtherAdaResources/" rel="">Ada Resources</a></li><li><a href="../../OtherResources/PublicRepos/" rel="">Public Repos</a></li><li><a href="../../OtherResources/OSI-Licenses/" rel="">FOSS Licenses</a></li><li><a href="../../OtherResources/ProjectStructure/" rel="">AdaForge GPR</a></li><li><a href="../../OtherResources/Advocacy/" rel="">Advocacy</a></li><li><a href="../../OtherResources/Popularize/" rel="">Popularize</a></li><li><a href="../../OtherResources/BenchMarking/" rel="">Benchmarking</a></li><li><a href="../../OtherResources/CodeContests/" rel="">Code Contest</a></li><li><a href="../../OtherResources/AboutUs/" rel="">About US</a></li></ul></li><li><a href="../../Goodies/" rel="">Goodies</a><ul class="navigation"><li><a href="../../Goodies/AdaGoldCoin/" rel="">Ada Gold Coin</a></li><li><a href="../../Goodies/LadyAda/" rel="">Lady Ada</a></li><li><a href="../../Goodies/Ada_Logo/" rel="">Ada Language Logo</a></li></ul></li><li><a href="../../contact-form/" rel="">Contact</a></li></ul></nav>						
+						</div>
+				</div>
+			</header>
+            <div class="banner video_banner">
+                <div id="feature">
+                    <div id="extraContainer11">
+                        <div class="videoWrapper">
+                        </div>
+                    </div>
+                    <div id="extraContainer1">
+                    </div>
+                    <div class="banner-text">
+                    </div>
+                    <div id="extraContainer9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="container">
+            <div id="extraContainer7">
+            </div>
+            <div id="extraContainer8">
+            </div>
+            <section>
+								
+								<div id="padding">
+<div id='stacks_out_587' class='stacks_top'><div id='stacks_in_587' class=''><div id="myExtraContent9"><div id='stacks_out_614' class='stacks_out'><div id='stacks_in_614' class='stacks_in html_stack'>Functional Domains</div></div></div><div id='stacks_out_695' class='stacks_out'><div id='stacks_in_695' class='stacks_in com_stacks4stacks_stacks_imagemapper_stack'>
+
+
+
+
+<img src="../../resources/SoftwareCategories/Apps.png" alt="My Image">
+
+
+
+<map id="imagemap_stacks_in_695" name="imagemap_stacks_in_695">
+
+
+
+
+
+
+	<area shape=rect coords="659,12,853,127" href="UserTools/">
+	<area shape=rect coords="1,12,643,127" href="#AppDomains">
+
+
+
+
+</map>
+</div></div><div id='stacks_out_680' class='stacks_out'><div id='stacks_in_680' class='stacks_in text_stack'>Libraries are prefixed by a logo relative to the given <em><a href="../../OtherResources/OSI-Licenses/" title="OSI Licenses">OpenSource License</a></em>.<br /><strong>ALR</strong>: Component available through the <a href="https://alire.ada.dev" target="_blank" title="Ada LIbrary REpository">ALIRE</a> crates (component) manager and repository.</div></div><div id='stacks_out_683' class='stacks_out'><div id='stacks_in_683' class='stacks_in text_stack'><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the arrow <span style="font:12px .AppleSystemUIFont; ">➚</span> to go to the section beneath with some more details.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Click on the earth symbol <span style="font:12px AppleColorEmoji; ">🌎</span> to go to the mentioned site.<br /><span style="font:12px AppleColorEmoji; ">ℹ️</span> Hover on, or Click on the little page symbol <span style="font:12px AppleColorEmoji; ">📄</span> to read a short description.<br /></div></div><a id="AppDomains" name="AppDomains" class="anchor">&nbsp;</a>  
+<div id='stacks_out_700' class='stacks_out'><div id='stacks_in_700' class='stacks_in html_stack'>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 3444 7832" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="3444" height="7832" xlink:href="../../resources/SoftwareCategories/Sub/APPS.png"></image>
+<a xlink:href="#IoT" xlink:title="#IoT"><rect x="780" y="218" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/max-home-automation/" target="_blank" xlink:title="https://sourceforge.net/projects/max-home-automation/"><rect x="2636" y="247" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9282C24C-D581-422F-8E31-D623C4F592ED/note.html" xlink:title="MAX home automation is a GTK+ application to manage ELV/eQ-3 MAX! cubes. A cube is a gateway to a network of radiator thermostats, shutter contacts etc. Radiator and wall-mounted thermostat schedule can be edited uploaded, stored into a file and restored from there. Wall-mounted thermostat temperature graphs are indicated on a separate page sorted by the installation room. HTTP server is provided for integration with HTTP-enabled controls. E.g. thermostats can be queried and controlled remotely via HTTP GET-queries.&#10;Components:&#10;GTK+&#10;HTTP server&#10;On-line graphs&#10;MQTT broker&#10;ODBC datalogging&#10;SQLite datalogging"><rect x="2604" y="247" width="45" height="45"/></a>
+<a xlink:href="#Model" xlink:title="#Model"><rect x="792" y="581" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/globe3d/" target="_blank" xlink:title="https://sourceforge.net/projects/globe3d/"><rect x="2090" y="688" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/461C57AD-B095-4DD0-BB5B-4CFEFCCC4B4F/note.html" xlink:title="GLOBE_3D: GL Object Based Engine for 3D. GLOBE_3D is a free, open-source, real-time 3D Engine written in Ada, based on OpenGL. Up-to-date GL bindings - portal rendering - binary space partition - object I/O - tools for importing - and more...&#10;More information on... http://globe3d.sf.net&#10;Features&#10;Real-time rendering&#10;Full eye movements and rotations (&quot;6D&quot;)&#10;Displays combinations of colours, materials, textures&#10;Multitexturing&#10;Transparency&#10;Portal rendering&#10;Binary space partition (BSP)&#10;Collision detection&#10;Input-output of 3D objects&#10;Screenshots (.bmp) and video captures (.avi)"><rect x="2058" y="688" width="45" height="45"/></a>
+<a xlink:href="#Simulators" xlink:title="#Simulators"><rect x="812" y="4106" width="45" height="45"/></a>
+<a xlink:href="https://en.wikipedia.org/wiki/List_of_HDL_simulators" target="_blank" xlink:title="https://en.wikipedia.org/wiki/List_of_HDL_simulators"><rect x="1308" y="4102" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/ghdl-updates/" target="_blank" xlink:title="https://sourceforge.net/projects/ghdl-updates/"><rect x="2448" y="4135" width="45" height="45"/></a>
+<a xlink:href="#Syntax-Analyser" xlink:title="#Syntax-Analyser"><rect x="842" y="4528" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/aflex" target="_blank" xlink:title="https://alire.ada.dev/crates/aflex"><rect x="2630" y="4361" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/E862D1C7-FA70-41B2-A381-8AEB483DA90D/note.html" xlink:title="An Ada Lexical Analyzer Generator &mdash; [&quot;parser&quot;,&quot;generator&quot;,&quot;grammar&quot;]"><rect x="2598" y="4361" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/ayacc" target="_blank" xlink:title="https://alire.ada.dev/crates/ayacc"><rect x="2630" y="4531" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B650B551-9EF9-4B94-BDAF-97F8064E99F8/note.html" xlink:title="An Ada LARL(1) parser generator &mdash;  [&quot;parser&quot;, &quot;generator&quot;, &quot;grammar&quot;]"><rect x="2598" y="4531" width="45" height="45"/></a>
+<a xlink:href="#Robotics" xlink:title="#Robotics"><rect x="798" y="6131" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/evdev" target="_blank" xlink:title="https://alire.ada.dev/crates/evdev"><rect x="2194" y="4953" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/8412B6BA-363D-49EE-8C6E-BA6473F9F8FC/note.html" xlink:title="Ada 2012 library for input and force-feedback using Linux' evdev API &mdash;  [&quot;evdev&quot;, &quot;force-feedback&quot;]"><rect x="2162" y="4953" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/pygamer_bsp" target="_blank" xlink:title="https://alire.ada.dev/crates/pygamer_bsp"><rect x="2194" y="5099" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2C7589F8-199F-4A71-A0FA-611B8603D158/note.html" xlink:title="Board Support Package for the AdaFruit PyGamer &mdash;  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;bsp&quot;]"><rect x="2162" y="5099" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/adabots" target="_blank" xlink:title="https://alire.ada.dev/crates/adabots"><rect x="2170" y="5405" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D6632F24-F140-4DCA-9CA5-B120C7038B25/note.html" xlink:title="Learn Ada by programming Minecraft robots &mdash;  [&quot;learn&quot;, &quot;ada&quot;, &quot;minecraft&quot;, &quot;computercraft&quot;, &quot;robots&quot;, &quot;teach&quot;, &quot;children&quot;]"><rect x="2138" y="5405" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/eagle_lander" target="_blank" xlink:title="https://alire.ada.dev/crates/eagle_lander"><rect x="2170" y="5575" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/D4267EEC-9AFF-4E3E-B32C-6EE962D81579/note.html" xlink:title="Apollo 11 lunar lander simulator &mdash;  [&quot;simulator&quot;, &quot;game&quot;, &quot;gtk&quot;]"><rect x="2138" y="5575" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/geste" target="_blank" xlink:title="https://alire.ada.dev/crates/geste"><rect x="2170" y="5745" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/FE53D008-EBB5-4178-8423-0CA885F50472/note.html" xlink:title="GEneric Sprite and Tile Engine &mdash;  [&quot;game&quot;, &quot;nostd&quot;, &quot;rendering&quot;, &quot;sprite&quot;]"><rect x="2138" y="5745" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/geste_examples" target="_blank" xlink:title="https://alire.ada.dev/crates/geste_examples"><rect x="2170" y="5915" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/B89CAC79-18EA-4C25-8D60-7BF35B655444/note.html" xlink:title="Example for the GESTE game engine &mdash; 0"><rect x="2138" y="5915" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/hangman" target="_blank" xlink:title="https://alire.ada.dev/crates/hangman"><rect x="2170" y="6085" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/5FD172CA-C000-4201-BBCB-E87F8A8AE38A/note.html" xlink:title="Hangman game for the console &mdash; 0"><rect x="2138" y="6085" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/mandelbrot_ascii" target="_blank" xlink:title="https://alire.ada.dev/crates/mandelbrot_ascii"><rect x="2170" y="6255" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/2992E03D-9AE6-4C06-9FD3-F432FB880617/note.html" xlink:title="Mandelbrot renderer using Unicode glyphs &mdash; 0"><rect x="2138" y="6255" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/play_2048" target="_blank" xlink:title="https://alire.ada.dev/crates/play_2048"><rect x="2170" y="6425" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/7F44FFF4-3743-4D2D-A63D-447A5E09EE0D/note.html" xlink:title="2048 game: merge tiles with the same number until you add up to 2048 &mdash; [&quot;game&quot;, &quot;puzzle&quot;, &quot;cross-platform&quot;, &quot;sfml&quot;]"><rect x="2138" y="6425" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/pygamer_simulator" target="_blank" xlink:title="https://alire.ada.dev/crates/pygamer_simulator"><rect x="2170" y="6595" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/37F41794-B724-485A-B9F6-6892A5723D7A/note.html" xlink:title="SDL simulator of the AdaFruit PyGamer console &mdash;  [&quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;simulator&quot;]"><rect x="2138" y="6595" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/shoot_n_loot" target="_blank" xlink:title="https://alire.ada.dev/crates/shoot_n_loot"><rect x="2170" y="6765" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/494FE12D-AB9A-4016-8D39-1A82B65F42B3/note.html" xlink:title="Platform game for the AdaFruit PyGamer console &mdash;  [&quot;pygamer&quot;, &quot;game&quot;, &quot;simulator&quot;]"><rect x="2138" y="6765" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/tiled_code_gen" target="_blank" xlink:title="https://alire.ada.dev/crates/tiled_code_gen"><rect x="2170" y="6935" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/7287F5AD-9C53-463A-BBFE-422E8565034B/note.html" xlink:title="Generate GESTE data from Tiled maps and tilesets &mdash;  [&quot;geste&quot;, &quot;gamedev&quot;, &quot;game&quot;, &quot;tiled&quot;]"><rect x="2138" y="6935" width="45" height="45"/></a>
+<a xlink:href="https://github.com/AlexanderC2/TrainWorld" target="_blank" xlink:title="https://github.com/AlexanderC2/TrainWorld"><rect x="2138" y="7149" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/virtapu" target="_blank" xlink:title="https://alire.ada.dev/crates/virtapu"><rect x="2170" y="7319" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/89460E5A-C4BB-4108-AB28-3BFA8B71F09D/note.html" xlink:title="A virtual Audio Processing Unit to simulate 8-bit era game sounds &mdash;  [&quot;nostd&quot;, &quot;audio&quot;, &quot;synth&quot;, &quot;game&quot;]"><rect x="2138" y="7319" width="45" height="45"/></a>
+<a xlink:href="#Graphs" xlink:title="#Graphs"><rect x="796" y="7649" width="45" height="45"/></a>
+<a xlink:href="#Robotics" xlink:title="#Robotics"><rect x="806" y="1088" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/agpl" target="_blank" xlink:title="https://alire.ada.dev/crates/agpl"><rect x="2256" y="923" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/6EDA46B8-07C5-46C8-B299-2EE15FABE461/note.html" xlink:title="Ada General Purpose Library with a robotics flavor &mdash; 0"><rect x="2224" y="923" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/rclada" target="_blank" xlink:title="https://alire.ada.dev/crates/rclada"><rect x="2256" y="1093" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/187B3AFD-0F45-4160-9A45-BE4AC90A1B65/note.html" xlink:title="ROS2 Ada Client Library &mdash;  [&quot;ros&quot;, &quot;robotics&quot;, &quot;client&quot;]"><rect x="2224" y="1093" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/rclada_examples" target="_blank" xlink:title="https://alire.ada.dev/crates/rclada_examples"><rect x="2256" y="1263" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/947B9B1E-6A9E-40F5-8971-4844FBEE53B8/note.html" xlink:title="ROS2 Ada Client Library - Examples &mdash;  [&quot;ros&quot;, &quot;robotics&quot;, &quot;client&quot;]"><rect x="2224" y="1263" width="45" height="45"/></a>
+<a xlink:href="#Science" xlink:title="#Science"><rect x="800" y="2675" width="45" height="45"/></a>
+<a xlink:href="#DNA" xlink:title="#DNA"><rect x="1246" y="1506" width="45" height="45"/></a>
+<a xlink:href="#Earth" xlink:title="#Earth"><rect x="1248" y="1690" width="45" height="45"/></a>
+<a xlink:href="#Human" xlink:title="#Human"><rect x="1256" y="1874" width="45" height="45"/></a>
+<a xlink:href="#Math" xlink:title="#Math"><rect x="1248" y="2512" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/gnatcoll" target="_blank" xlink:title="https://alire.ada.dev/crates/gnatcoll"><rect x="2300" y="2204" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/E4F51F11-D737-4271-8F2C-4434BDBB1190/note.html" xlink:title="GNAT Components Collection - Core packages &mdash;  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]"><rect x="2268" y="2204" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/intervalarithmeticforada/" target="_blank" xlink:title="https://sourceforge.net/projects/intervalarithmeticforada/"><rect x="2244" y="2427" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/simple_components" target="_blank" xlink:title="https://alire.ada.dev/crates/simple_components"><rect x="2544" y="2597" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/591BD6F3-6933-4641-8EF2-31DD308E667E/note.html" xlink:title="Simple Components - A collection of support packages &mdash; 0&#10;The Simple components for Ada library provides implementations of smart pointers for automatically collected objects (using reference counting), object persistence, unbounded and bounded arrays of smart pointers, generic unbounded arrays of private objects and plain pointers, generic sets, maps, B-trees, directed graphs, directed weighted graphs, stacks, and storage pools. It also includes table management, string editing, IEEE 754 support, and infix expression parsing tools. Implementations of some lock-free shared data structures are provided.&#10;Features:&#10;B-trees in-memory and externally held&#10;Chebyshev series&#10;Doubly-linked webs and lists&#10;Lock-free blackboards&#10;Graphs (directed, weighted, acyclic, trees)&#10;Events (plain, pulse, array of)&#10;HTTP implementation, socket-select based for massive connections number&#10;Lock-free FIFO&#10;IEEE 754 portable encoding and decoding&#10;Multiple connection TCP servers&#10;Protable mutexes&#10;Reference counted objects and handles to&#10;ODBC bindings&#10;SQLite3 bindings&#10;Table-driven parsers&#10;Persistency layer, supporting objects with dependencies&#10;Storage pools implementations&#10;Sets and maps&#10;Stacks&#10;Streams implementations, String-backed, in-memory streams&#10;Unbounded arrays and unbounded arrays of pointers&#10;Tables for Ada and Strings Edit for Ada libraries are included&#10;Examples (full Ada 95 expression parser, calculator etc)&#10;Ada 95, 2005, 2012 compliant&#10;MQTT stack and full broker implementation&#10;ASN.1 implementation, no code generator used&#10;LDAP client and server&#10;X.509 certificates&#10;MODBUS stack&#10;JSON parser&#10;Interprocess RPC, memory pools, mutexes, events"><rect x="2512" y="2597" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/mathpaqs/" target="_blank" xlink:title="https://sourceforge.net/projects/mathpaqs/"><rect x="2386" y="2982" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/61892D30-1AF7-453D-A92C-A19AB653FEA0/note.html" xlink:title="Various mathematical packages including algebra, finite elements, random variables, probability dependency models, unlimited integers. Pure Ada, fully portable.&#10;More information on... http://mathpaqs.sf.net"><rect x="2354" y="2982" width="45" height="45"/></a>
+<a xlink:href="#Physics" xlink:title="#Physics"><rect x="1258" y="3255" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/unitsofmeasurementforada/" target="_blank" xlink:title="https://sourceforge.net/projects/unitsofmeasurementforada/"><rect x="2340" y="3200" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/FF5C9D9E-B01B-4C7A-945C-8899E819E14C/note.html" xlink:title="The library provides an implementation of dimensioned values for Ada. Unit checks are made at run-time, if not optimized out by the compiler. SI and irregular measurement units are supported. Shifted units like degrees Celsius are supported too. Conversions from and back to strings are provided for all various irregular units. An extensive set of GTK widgets for dealing with dimensioned values is included, though use of GTK is not mandatory for the rest of the library."><rect x="2308" y="3200" width="45" height="45"/></a>
+<a xlink:href="https://alire.ada.dev/crates/si_units" target="_blank" xlink:title="https://alire.ada.dev/crates/si_units"><rect x="2290" y="3370" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/E2A03A52-2345-4F9D-981F-12F9951E5070/note.html" xlink:title="Pretty print physical values in properly scaled metric (SI) units. &mdash;  [&quot;utilities&quot;, &quot;formatting&quot;]"><rect x="2258" y="3370" width="45" height="45"/></a>
+<a xlink:href="#Fuzzy-Machine-Learning" xlink:title="#Fuzzy-Machine-Learning"><rect x="1318" y="3689" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/fuzzyml/" target="_blank" xlink:title="https://sourceforge.net/projects/fuzzyml/"><rect x="2738" y="3633" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/E31BFF20-A3EC-4FC5-90F4-9C64679FFD4B/note.html" xlink:title="Fuzzy machine learning framework is a library and a GUI front-end for machine learning using intuitionistic fuzzy data. The approach is based on the intuitionistic fuzzy sets and the possibility theory. Further characteristics are fuzzy features and classes; numeric, enumeration features and features based on linguistic variables; user-defined features; derived and evaluated features; classifiers as features for building hierarchical systems; automatic refinement in case of dependent features; incremental learning; fuzzy control language support; object-oriented software design with extensible objects and automatic garbage collection; generic data base support through ODBC or SQLite; text I/O and HTML output; an advanced graphical user interface based on GTK+; and examples of use."><rect x="2706" y="3633" width="45" height="45"/></a>
+<a xlink:href="https://sourceforge.net/projects/fuzzysetsforada/" target="_blank" xlink:title="https://sourceforge.net/projects/fuzzysetsforada/"><rect x="2738" y="3851" width="45" height="45"/></a>
+<a xlink:href="../../resources/SoftwareLibs/APPS/AdaForge-d13c1a28bc7a709b9fe403c63b6dd897-assets/9245485A-5BDD-4A03-A5D6-F090664DA409/note.html" xlink:title="Fuzzy sets for Ada is a library providing implementations of confidence factors with the operations not, and, or, xor, +, and *, classical fuzzy sets with the set-theoretic operations and the operations of the possibility theory, intuitionistic fuzzy sets with the operations on them, fuzzy logic based on the intuitionistic fuzzy sets and the possibility theory; fuzzy numbers, both integer and floating-point with conventional arithmetical operations, and linguistic variables and sets of linguistic variables with operations on them. String-oriented I/O is supported. A rich set of GTK+ GUI widgets is provided."><rect x="2706" y="3851" width="45" height="45"/></a>
+</svg>
+</div>
+</div>
+
+<br/>
+
+<div id="outlineDiv">
+<hr><h1 id="APPS---Functional-Domain">APPS - Functional Domain</h1>
+<hr><h2 id="IoT">IoT</h2>
+<h3 id="Home-Automation">Home Automation</h3>
+<ul>
+<li>ELV/eQ-3 MAX! cubes
+<ul>
+<li>…
+<ul>
+<li>
+<p>MAX! home automation GTK GUI<br />
+Link: <a href="https://sourceforge.net/projects/max-home-automation/" target="_blank">sourceforge.net/projects/max-home-automation/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</p>
+<p>MAX home automation is a GTK+ application to manage ELV/eQ-3 MAX! cubes. A cube is a gateway to a network of radiator thermostats, shutter contacts etc. Radiator and wall-mounted thermostat schedule can be edited uploaded, stored into a file and restored from there. Wall-mounted thermostat temperature graphs are indicated on a separate page sorted by the installation room. HTTP server is provided for integration with HTTP-enabled controls. E.g. thermostats can be queried and controlled remotely via HTTP GET-queries.<br />
+Components:<br />
+GTK+<br />
+HTTP server<br />
+On-line graphs<br />
+MQTT broker<br />
+ODBC datalogging<br />
+SQLite datalogging</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Model">Model</h2>
+<h3 id="3D-CAD">3D CAD</h3>
+<h3 id="3D">3D</h3>
+<ul>
+<li>…
+<ul>
+<li>…
+<ul>
+<li>
+<p>Globe-3D<br />
+Link: <a href="https://sourceforge.net/projects/globe3d/" target="_blank">sourceforge.net/projects/globe3d/</a><br />
+LastCheck: 24 juil. 2020<br />
+Author: gdemont,rodkay<br />
+Copyright: SICS<br />
+Repository: SourceForge</p>
+<p>GLOBE_3D: GL Object Based Engine for 3D. GLOBE_3D is a free, open-source, real-time 3D Engine written in Ada, based on OpenGL. Up-to-date GL bindings - portal rendering - binary space partition - object I/O - tools for importing - and more...<br />
+More information on... <a href="http://globe3d.sf.net/" target="_blank">http://globe3d.sf.net</a><br />
+Features<br />
+Real-time rendering<br />
+Full eye movements and rotations (&quot;6D&quot;)<br />
+Displays combinations of colours, materials, textures<br />
+Multitexturing<br />
+Transparency<br />
+Portal rendering<br />
+Binary space partition (BSP)<br />
+Collision detection<br />
+Input-output of 3D objects<br />
+Screenshots (.bmp) and video captures (.avi)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Robotics">Robotics</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>robotics
+<ul>
+<li>
+<p>Agpl<br />
+Link: <a href="https://alire.ada.dev/crates/agpl" target="_blank">alire.ada.dev/crates/agpl</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Ada General Purpose Library with a robotics flavor — 0</p>
+</li>
+<li>
+<p>Rclada<br />
+Link: <a href="https://alire.ada.dev/crates/rclada" target="_blank">alire.ada.dev/crates/rclada</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>ROS2 Ada Client Library —  [&quot;ros&quot;, &quot;robotics&quot;, &quot;client&quot;]</p>
+</li>
+<li>
+<p>Rclada_examples<br />
+Link: <a href="https://alire.ada.dev/crates/rclada_examples" target="_blank">alire.ada.dev/crates/rclada_examples</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>ROS2 Ada Client Library - Examples —  [&quot;ros&quot;, &quot;robotics&quot;, &quot;client&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Science">Science</h2>
+<h3 id="DNA">DNA</h3>
+<h3 id="Earth">Earth</h3>
+<h3 id="Human">Human</h3>
+<h3 id="Math">Math</h3>
+<ul>
+<li>
+<p>FFT</p>
+</li>
+<li>
+<p>Geometry</p>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Gnatcoll<br />
+Link: <a href="https://alire.ada.dev/crates/gnatcoll" target="_blank">alire.ada.dev/crates/gnatcoll</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GNAT Components Collection - Core packages —  [&quot;gnatcoll&quot;, &quot;json&quot;, &quot;email&quot;, &quot;refcount&quot;, &quot;projects&quot;, &quot;gpr&quot;, &quot;vfs&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Intervals</p>
+<ul>
+<li>…
+<ul>
+<li>Interval Arithmetics<br />
+Link: <a href="https://sourceforge.net/projects/intervalarithmeticforada/" target="_blank">sourceforge.net/projects/intervalarithmeticforada/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Chebyshev Ploynomials</p>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Simple_components<br />
+Link: <a href="https://alire.ada.dev/crates/simple_components" target="_blank">alire.ada.dev/crates/simple_components</a><br />
+LastCheck: 29 janv. 2022 à 16:22<br />
+Author: dmitry-kazakov</p>
+<p>Simple Components - A collection of support packages — 0<br />
+The Simple components for Ada library provides implementations of smart pointers for automatically collected objects (using reference counting), object persistence, unbounded and bounded arrays of smart pointers, generic unbounded arrays of private objects and plain pointers, generic sets, maps, B-trees, directed graphs, directed weighted graphs, stacks, and storage pools. It also includes table management, string editing, IEEE 754 support, and infix expression parsing tools. Implementations of some lock-free shared data structures are provided.<br />
+Features:<br />
+B-trees in-memory and externally held<br />
+Chebyshev series<br />
+Doubly-linked webs and lists<br />
+Lock-free blackboards<br />
+Graphs (directed, weighted, acyclic, trees)<br />
+Events (plain, pulse, array of)<br />
+HTTP implementation, socket-select based for massive connections number<br />
+Lock-free FIFO<br />
+IEEE 754 portable encoding and decoding<br />
+Multiple connection TCP servers<br />
+Protable mutexes<br />
+Reference counted objects and handles to<br />
+ODBC bindings<br />
+SQLite3 bindings<br />
+Table-driven parsers<br />
+Persistency layer, supporting objects with dependencies<br />
+Storage pools implementations<br />
+Sets and maps<br />
+Stacks<br />
+Streams implementations, String-backed, in-memory streams<br />
+Unbounded arrays and unbounded arrays of pointers<br />
+Tables for Ada and Strings Edit for Ada libraries are included<br />
+Examples (full Ada 95 expression parser, calculator etc)<br />
+Ada 95, 2005, 2012 compliant<br />
+MQTT stack and full broker implementation<br />
+ASN.1 implementation, no code generator used<br />
+LDAP client and server<br />
+X.509 certificates<br />
+MODBUS stack<br />
+JSON parser<br />
+Interprocess RPC, memory pools, mutexes, events</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Splines</p>
+<ul>
+<li>…</li>
+</ul>
+</li>
+<li>
+<p>Math Package</p>
+<ul>
+<li>…
+<ul>
+<li>
+<p>MathPaq<br />
+Link: <a href="https://sourceforge.net/projects/mathpaqs/" target="_blank">sourceforge.net/projects/mathpaqs/</a><br />
+LastCheck: 14 déc. 2020<br />
+Author: gdemont<br />
+Copyright: Stephen L. Moshier<br />
+Repository: SourceForge</p>
+<p>Various mathematical packages including algebra, finite elements, random variables, probability dependency models, unlimited integers. Pure Ada, fully portable.<br />
+More information on... http://mathpaqs.sf.net</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Physics">Physics</h3>
+<ul>
+<li>
+<p>Convert</p>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Units of measurements<br />
+Link: <a href="https://sourceforge.net/projects/unitsofmeasurementforada/" target="_blank">sourceforge.net/projects/unitsofmeasurementforada/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</p>
+<p>The library provides an implementation of dimensioned values for Ada. Unit checks are made at run-time, if not optimized out by the compiler. SI and irregular measurement units are supported. Shifted units like degrees Celsius are supported too. Conversions from and back to strings are provided for all various irregular units. An extensive set of GTK widgets for dealing with dimensioned values is included, though use of GTK is not mandatory for the rest of the library.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Units</p>
+<ul>
+<li>…
+<ul>
+<li>
+<p>Si_units<br />
+Link: <a href="https://alire.ada.dev/crates/si_units" target="_blank">alire.ada.dev/crates/si_units</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Jellix</p>
+<p>Pretty print physical values in properly scaled metric (SI) units. —  [&quot;utilities&quot;, &quot;formatting&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Fuzzy-machine-learning">Fuzzy machine learning</h3>
+<ul>
+<li>…
+<ul>
+<li>…
+<ul>
+<li>
+<p>GUI front-end for fuzzy machine learning<br />
+Link: <a href="https://sourceforge.net/projects/fuzzyml/" target="_blank">sourceforge.net/projects/fuzzyml/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</p>
+<p>Fuzzy machine learning framework is a library and a GUI front-end for machine learning using intuitionistic fuzzy data. The approach is based on the intuitionistic fuzzy sets and the possibility theory. Further characteristics are fuzzy features and classes; numeric, enumeration features and features based on linguistic variables; user-defined features; derived and evaluated features; classifiers as features for building hierarchical systems; automatic refinement in case of dependent features; incremental learning; fuzzy control language support; object-oriented software design with extensible objects and automatic garbage collection; generic data base support through ODBC or SQLite; text I/O and HTML output; an advanced graphical user interface based on GTK+; and examples of use.</p>
+</li>
+<li>
+<p>Fuzzy Sets, logic, numbers<br />
+Link: <a href="https://sourceforge.net/projects/fuzzysetsforada/" target="_blank">sourceforge.net/projects/fuzzysetsforada/</a><br />
+LastCheck: 29 janv. 2022<br />
+Author: dmitry-kazakov<br />
+Copyright: Dmitry Kazakov<br />
+Repository: SourceForge</p>
+<p>Fuzzy sets for Ada is a library providing implementations of confidence factors with the operations not, and, or, xor, +, and *, classical fuzzy sets with the set-theoretic operations and the operations of the possibility theory, intuitionistic fuzzy sets with the operations on them, fuzzy logic based on the intuitionistic fuzzy sets and the possibility theory; fuzzy numbers, both integer and floating-point with conventional arithmetical operations, and linguistic variables and sets of linguistic variables with operations on them. String-oriented I/O is supported. A rich set of GTK+ GUI widgets is provided.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Simulators">Simulators</h2>
+<h3 id="VHDL-simulator">VHDL simulator</h3>
+<p>Link: <a href="https://en.wikipedia.org/wiki/List_of_HDL_simulators" target="_blank">en.wikipedia.org/wiki/List_of_HDL_simulators</a></p>
+<ul>
+<li>…
+<ul>
+<li>…
+<ul>
+<li>ghdl-updates<br />
+Link: <a href="https://sourceforge.net/projects/ghdl-updates/" target="_blank">sourceforge.net/projects/ghdl-updates/</a><br />
+LastCheck: 4 oct. 2015<br />
+Author: briandrummond,tgingold<br />
+Copyright: Brian Drummond<br />
+Repository: SourceForge</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Syntax-Analyser">Syntax Analyser</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>FLex / Yacc
+<ul>
+<li>
+<p>Aflex<br />
+Link: <a href="https://alire.ada.dev/crates/aflex" target="_blank">alire.ada.dev/crates/aflex</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>An Ada Lexical Analyzer Generator — [&quot;parser&quot;,&quot;generator&quot;,&quot;grammar&quot;]</p>
+</li>
+<li>
+<p>Ayacc<br />
+Link: <a href="https://alire.ada.dev/crates/ayacc" target="_blank">alire.ada.dev/crates/ayacc</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: stcarrez</p>
+<p>An Ada LARL(1) parser generator —  [&quot;parser&quot;, &quot;generator&quot;, &quot;grammar&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>ANTLR</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Gaming">Gaming</h2>
+<h3 id="…">…</h3>
+<ul>
+<li>…
+<ul>
+<li>
+<p>utilities</p>
+<ul>
+<li>
+<p>Evdev<br />
+Link: <a href="https://alire.ada.dev/crates/evdev" target="_blank">alire.ada.dev/crates/evdev</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: onox</p>
+<p>Ada 2012 library for input and force-feedback using Linux' evdev API —  [&quot;evdev&quot;, &quot;force-feedback&quot;]</p>
+</li>
+<li>
+<p>Pygamer_bsp<br />
+Link: <a href="https://alire.ada.dev/crates/pygamer_bsp" target="_blank">alire.ada.dev/crates/pygamer_bsp</a><br />
+Author: Fabien-Chouteau</p>
+<p>Board Support Package for the AdaFruit PyGamer —  [&quot;embedded&quot;, &quot;nostd&quot;, &quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;bsp&quot;]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Framework</p>
+</li>
+<li>
+<p>game</p>
+<ul>
+<li>
+<p>Adabots<br />
+Link: <a href="https://alire.ada.dev/crates/adabots" target="_blank">alire.ada.dev/crates/adabots</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: TamaMcGlinn</p>
+<p>Learn Ada by programming Minecraft robots —  [&quot;learn&quot;, &quot;ada&quot;, &quot;minecraft&quot;, &quot;computercraft&quot;, &quot;robots&quot;, &quot;teach&quot;, &quot;children&quot;]</p>
+</li>
+<li>
+<p>Eagle_lander<br />
+Link: <a href="https://alire.ada.dev/crates/eagle_lander" target="_blank">alire.ada.dev/crates/eagle_lander</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Apollo 11 lunar lander simulator —  [&quot;simulator&quot;, &quot;game&quot;, &quot;gtk&quot;]</p>
+</li>
+<li>
+<p>Geste<br />
+Link: <a href="https://alire.ada.dev/crates/geste" target="_blank">alire.ada.dev/crates/geste</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>GEneric Sprite and Tile Engine —  [&quot;game&quot;, &quot;nostd&quot;, &quot;rendering&quot;, &quot;sprite&quot;]</p>
+</li>
+<li>
+<p>Geste_examples<br />
+Link: <a href="https://alire.ada.dev/crates/geste_examples" target="_blank">alire.ada.dev/crates/geste_examples</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Example for the GESTE game engine — 0</p>
+</li>
+<li>
+<p>Hangman<br />
+Link: <a href="https://alire.ada.dev/crates/hangman" target="_blank">alire.ada.dev/crates/hangman</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Hangman game for the console — 0</p>
+</li>
+<li>
+<p>Mandelbrot_ascii<br />
+Link: <a href="https://alire.ada.dev/crates/mandelbrot_ascii" target="_blank">alire.ada.dev/crates/mandelbrot_ascii</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mosteo</p>
+<p>Mandelbrot renderer using Unicode glyphs — 0</p>
+</li>
+<li>
+<p>Play_2048<br />
+Link: <a href="https://alire.ada.dev/crates/play_2048" target="_blank">alire.ada.dev/crates/play_2048</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: mgrojo</p>
+<p>2048 game: merge tiles with the same number until you add up to 2048 — [&quot;game&quot;, &quot;puzzle&quot;, &quot;cross-platform&quot;, &quot;sfml&quot;]</p>
+</li>
+<li>
+<p>Pygamer_simulator<br />
+Link: <a href="https://alire.ada.dev/crates/pygamer_simulator" target="_blank">alire.ada.dev/crates/pygamer_simulator</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>SDL simulator of the AdaFruit PyGamer console —  [&quot;pygamer&quot;, &quot;adafruit&quot;, &quot;game&quot;, &quot;console&quot;, &quot;simulator&quot;]</p>
+</li>
+<li>
+<p>Shoot_n_loot<br />
+Link: <a href="https://alire.ada.dev/crates/shoot_n_loot" target="_blank">alire.ada.dev/crates/shoot_n_loot</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Platform game for the AdaFruit PyGamer console —  [&quot;pygamer&quot;, &quot;game&quot;, &quot;simulator&quot;]</p>
+</li>
+<li>
+<p>Tiled_code_gen<br />
+Link: <a href="https://alire.ada.dev/crates/tiled_code_gen" target="_blank">alire.ada.dev/crates/tiled_code_gen</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>Generate GESTE data from Tiled maps and tilesets —  [&quot;geste&quot;, &quot;gamedev&quot;, &quot;game&quot;, &quot;tiled&quot;]</p>
+</li>
+<li>
+<p>TrainWorld<br />
+Link: <a href="https://github.com/AlexanderC2/TrainWorld" target="_blank">github.com/AlexanderC2/TrainWorld</a><br />
+LastCheck: 29 mars 2013<br />
+Author: AlexanderC2<br />
+Copyright: Julian Schutsch<br />
+Repository: GitHub</p>
+</li>
+<li>
+<p>Virtapu<br />
+Link: <a href="https://alire.ada.dev/crates/virtapu" target="_blank">alire.ada.dev/crates/virtapu</a><br />
+LastCheck: 26 janv. 2022 à 16:22<br />
+Author: Fabien-Chouteau</p>
+<p>A virtual Audio Processing Unit to simulate 8-bit era game sounds —  [&quot;nostd&quot;, &quot;audio&quot;, &quot;synth&quot;, &quot;game&quot;]</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr><h2 id="Graphs">Graphs</h2>
+<h3 id="GraphViz">GraphViz</h3>
+<ul>
+<li>…</li>
+</ul>
+<h3 id="PlantUML">PlantUML</h3>
+<ul>
+<li>…</li>
+</ul>
+
+</div>
+
+</div></div><div id="myExtraContent6"><div id='stacks_out_692' class='stacks_out'><div id='stacks_in_692' class='stacks_in com_joeworkman_stacks_responsive_stack'><div class="jwresp_wrapper"><div class='jwresp_col jwresp2_col1' id="jwresp_col1_stacks_in_692"> <div id='stacks_out_665' class='stacks_out'><div id='stacks_in_665' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../sitemap/" title="Site Map">Site Map</a></p></div></div></div><div class='jwresp_col jwresp2_col2' id="jwresp_col2_stacks_in_692"> <div id='stacks_out_668' class='stacks_out'><div id='stacks_in_668' class='stacks_in text_stack'><p style="text-align:center;"><a href="../../OtherResources/AboutUs/" title="About US">About Us</a></p></div></div></div></div>
+
+</div></div></div></div></div>
+</div>
+								
+							</section>
+            <div id="asidewrap">
+                <aside>
+								<div id="sidecontent">
+									<div id="sideTitle"></div>	
+									<br />	
+									
+								</div>	
+							</aside>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="ecwrap">
+            </div>
+            <div id="ec2wrap">
+                <div id="extraContainer2">
+                </div>
+            </div>
+            <div id="ec3wrap">
+                <div id="extraContainer3">
+                </div>
+            </div>
+            <div id="ec4wrap">
+                <div id="extraContainer4">
+                </div>
+            </div>
+            <div id="ec5wrap">
+                <div id="extraContainer5">
+                </div>
+            </div>
+            <div id="ec6wrap">
+                <div id="extraContainer6">
+                </div>
+            </div>
+            <div id="extraContainer10">
+            </div>
+        </div>
+        <footer>		
+			<div id="footer">&copy; 2015-2022 William J. FRANCK <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":co";var _rwObsfuscatedHref3 = "nta";var _rwObsfuscatedHref4 = "ct@";var _rwObsfuscatedHref5 = "ada";var _rwObsfuscatedHref6 = "for";var _rwObsfuscatedHref7 = "ge.";var _rwObsfuscatedHref8 = "org";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; document.getElementById("rw_email_contact").href = _rwObsfuscatedHref;</script></div>		
+				<div id="socialicons">
+				<div id="socialicons1"></div>
+			</div>		
+		</footer>
+    </div>
+    <a href="#" class="scrollup">Scroll</a> 
+<script src="../../rw_common/assets/global.js"></script>
+<div id="rapidweaver_privacy_message">
+    <p><span style="font:13px .AppleSystemUIFont; color:#000000;">GDPR compliant</span></p>
+    <button id="rapidweaver_privacy_message_dismiss_button">OK</button>
+</div>
+
+<script src="../../rw_common/assets/message.js"></script>
+</body>
+</html>
